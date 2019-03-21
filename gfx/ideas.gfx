@@ -1,0 +1,32 @@
+spriteTypes = {	
+
+	### Temps, fill empty slots in the UI ###
+	### DDS files intentionally don't exist to take advantage of a UI bug and not appear in the interface ###
+	spriteType = {
+		name = "GFX_idea_temp_1"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_temp_2"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_temp_3"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_temp_4"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_temp_5"
+		texturefile = "gfx/interface/thisdoesnotexist.dds"
+	}
+	
+	# General
+	
+	spriteType = {
+		name = "GFX_idea_presidental_republic"
+		texturefile = "gfx/interface/ideas/presidental_republic.dds"
+	}
+}

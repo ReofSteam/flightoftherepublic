@@ -1,0 +1,31 @@
+ideas = {
+
+	country = {
+		absolutist_monarchy = {
+		picture = very_british_problem		
+			modifier = {
+			}
+		}
+		
+		presidental_republic = {
+		picture = GFX_idea_presidental_republic
+			modifier = {
+			}
+		}
+		parliamentary_republic = {
+		picture = very_british_problem
+			modifier = {
+			}
+		}
+		constitutional_monarchy = {
+		picture = very_british_problem
+			modifier = {
+			}
+		}
+		socialist_republic = {
+		picture = very_british_problem
+			modifier = {
+			}
+		}	
+	}
+}	
