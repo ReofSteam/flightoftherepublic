@@ -41,25 +41,31 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
+			popularity = 55
 		}
 
 		fascism = {
-			popularity = 30
+			popularity = 20
 		}
 		
 		communism = {
-			popularity = 50
+			popularity = 20
 		}
 	}
+
+	ruling_party = democratic
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
+
 create_country_leader = {
-	name = "Kost Levytsky"
+	name = "Serhiy Yefremov"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/RUS/dude.tga"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = liberalism
 	traits = {
 		
 	}

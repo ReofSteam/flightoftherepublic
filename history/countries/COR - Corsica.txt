@@ -1,4 +1,4 @@
-﻿capital = 9851 
+﻿capital = 3838 
 
 oob = "COR_1936"
 
