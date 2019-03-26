@@ -127,6 +127,7 @@ set_politics = {
 create_faction = Empire
 add_to_faction = ENG
 add_to_faction = CAN
+add_to_faction = USA
 add_to_faction = NZL
 add_to_faction = SAF
 

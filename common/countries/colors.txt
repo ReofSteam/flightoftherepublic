@@ -16,6 +16,10 @@ RUS = {
 	color = rgb { 35  137  22 }
 	color_ui = rgb { 35  137  22 }
 }
+RUE = {
+	color = rgb { 224  180  35 }
+	color_ui = rgb { 224  180  35 }
+}
 SWE = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }

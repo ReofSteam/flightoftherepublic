@@ -1,6 +1,6 @@
-﻿capital = 408 
+﻿capital = 236
 
-oob = "SSR_1936"
+oob = "RUE_1936"
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -39,48 +39,41 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 10 #shared between all parties, should add to 100
+			popularity = 11 
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 59
 		}
 		
 		communism = {
-			popularity = 88
+			popularity = 30
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_faction = Proletarian-Bloc
-add_to_faction = SOV
-add_to_faction = MON
-add_to_faction = TAN
-
 
 add_ideas = {
-	trotskyite_plot
-	home_of_revolution
 }
 
 create_country_leader = {
-	name = "Leon Trotsky"
+	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "gfx/leaders/RUS/dude.tga"
 	expire = "1953.3.1"
-	ideology = leninism
+	ideology = stalinism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Konstantin Rodzaevsky"
+	name = "Nikolai II Aleksandrovich"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "gfx/leaders/RUS/dude.tga"
 	expire = "1953.3.1"
@@ -91,11 +84,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
+	name = "Nikolai Nekrasov"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
 	picture = "gfx/leaders/RUS/dude.tga"
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = liberalism
 	traits = {
 		
 	}
