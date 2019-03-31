@@ -59,6 +59,7 @@ set_politics = {
 
 
 add_ideas = {
+          presidental_republic
 }
 
 create_country_leader = {
@@ -86,7 +87,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nikolai Nekrasov"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "gfx/leaders/RUS/dude.tga"
+	picture = "gfx/leaders/RUS/Nikolai_Nekrasov_RUS.tga"
 	expire = "1953.3.1"
 	ideology = liberalism
 	traits = {

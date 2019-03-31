@@ -91,11 +91,14 @@ if = {
 	}
 	else = {
 		puppet = MAL
-		puppet = CAN
-		puppet = NZL
+		puppet = USA
 	}
 }
-
+create_faction = seven_seas_pact
+add_to_faction = ENG
+add_to_faction = SWE
+add_to_faction = COR
+add_to_faction = CAN
 
 
 
@@ -124,16 +127,6 @@ set_politics = {
 
 
 
-create_faction = Empire
-add_to_faction = ENG
-add_to_faction = CAN
-add_to_faction = USA
-add_to_faction = NZL
-add_to_faction = SAF
-
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
-add_to_faction = MAL
 
 #give_guarantee = CZE
 

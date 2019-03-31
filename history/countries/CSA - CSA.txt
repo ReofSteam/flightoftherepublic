@@ -63,12 +63,13 @@ set_politics = {
 }
 
 add_ideas = {
+            presidental_republic
 }
 
 create_country_leader = {
 	name = "James V. Allred"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_USA_William_Dudley_Pelley.dds"
+	picture = "gfx/leaders/TEX/Allred_TEX.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {

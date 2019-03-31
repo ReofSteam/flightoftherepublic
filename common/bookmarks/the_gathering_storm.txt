@@ -104,9 +104,41 @@ bookmarks = {
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
+		
+		"VOL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
 
+			}
+		}
+		"CSA"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
 
-		# minors from DLC ####
+			}
+		}
+		"VIN"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}		
+
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
