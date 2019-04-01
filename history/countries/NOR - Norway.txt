@@ -128,7 +128,7 @@ set_stability = 0.7
 set_politics = {
 
 	parties = {
-		democratic = { 
+		neutrality = { 
 			popularity = 96
 		}
 
@@ -141,10 +141,10 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.10.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 1939.1.1 = {
@@ -152,7 +152,7 @@ set_politics = {
 
 		parties = {
 			democratic = { 
-				popularity = 84
+				popularity = 12
 			}
 
 			fascism = {
@@ -164,14 +164,14 @@ set_politics = {
 			}
 
 			neutrality = {
-				popularity = 12
+				popularity = 84
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1936.10.19"
 		election_frequency = 36
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 
@@ -203,6 +203,17 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
 	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf V"
+	desc = "POLITICS_GUSTAF_V_DESC"
+	picture = "NOR_Gustaf_V.dds"
+	expire = "1965.1.1"
+	ideology = despotism
 	traits = {
 		#
 	}

@@ -9,6 +9,17 @@ if = {
 	}
 }
 
+puppet = NOR
+NOR = {
+	set_party_name = { 
+	    ideology = neutrality 
+	    long_name = NOR_sweden_neutrality_party_long
+	    name = NOR_sweden_neutrality_party
+	}
+	set_cosmetic_tag = NOR_SWENOR #Union of Sweden-Norway
+}
+set_cosmetic_tag = SWE_SWENOR #Union of Sweden-Norway
+
 set_research_slots = 3
 
 add_ideas = {
@@ -145,11 +156,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 75
+			popularity = 14
 		}
 
 		neutrality = {
-			popularity  = 14
+			popularity  = 75
 		}
 
 		communism = {
@@ -162,21 +173,21 @@ set_politics = {
 		
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.9.18"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 1939.1.1 = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			neutrality = { 
 				popularity = 85
 			}
 
-			neutrality = {
+			democratic = {
 				popularity  = 12
 			}
 
@@ -190,10 +201,10 @@ set_politics = {
 			
 		}
 		
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1936.9.20"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 
@@ -202,7 +213,16 @@ set_stability = 0.9
 
 
 
-
+create_country_leader = {
+	name = "Axel Pehrsson-Bramstorp"
+	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
 create_country_leader = {
 	name = "Per Albin Hansson"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
@@ -236,12 +256,14 @@ create_country_leader = {
 	}
 }
 
+
+
 create_country_leader = {
-	name = "Axel Pehrsson-Bramstorp"
-	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	name = "Gustaf V"
+	desc = "POLITICS_GUSTAF_V_DESC"
+	picture = "SWE_Gustaf_V.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = despotism
 	traits = {
 		#
 	}
