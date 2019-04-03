@@ -1,0 +1,37 @@
+#
+# Lombardy-Veneto
+# Made by Hannah
+# Tag: LOM
+#
+
+### Country Name ###
+LOM_democratic:0 "Republic of Lombardy-Veneto"
+LOM_democratic_DEF:0 "the Republic of Lombardy-Veneto"
+LOM_democratic_ADJ:0 "Lombardy-Venetian"
+LOM_communism:0 "Lombardy-Venetian Commune"
+LOM_communism_DEF:0 "the Lombardy-Venetian Commune"
+LOM_communism_ADJ:0 "Lombardy-Venetian"
+LOM_fascism:0 "Kingdom of Lombardy-Veneto"
+LOM_fascism_DEF:0 "the Kingdom of Lombardy-Veneto"
+LOM_fascism_ADJ:0 "Lombardy-Venetian"
+LOM_neutrality:0 "Kingdom of Lombardy-Veneto"
+LOM_neutrality_DEF:0 "the Kingdom of Lombardy-Veneto"
+LOM_neutrality_ADJ:0 "Lombardy-Venetian"
+
+### Focus ###
+
+### Ideas ###
+
+### Political Parties ###
+LOM_democratic_party:0 "PDI"
+LOM_democratic_party_long:0 "Partito Democratico Italiano"
+LOM_communism_party:0 "PLMR"
+LOM_communism_party_long:0 "Partito dei Lavoratori della Manica Rossa"
+LOM_fascism_party:0 "PNF"
+LOM_fascism_party_long:0 "Partito Nazionale Fascista"
+LOM_neutrality_party:0 "Asburgo-Lorena"
+LOM_neutrality_party_long:0 "Famiglia degli Asburgo-Lorena"
+
+### Leaders ###
+POLITICS_FELICE_I_DESC:0 "Felice d'Asburgo-Lorena is the son of the Blessed Carlo. It is said that the day he was born was very joyious, the sky was clear and everyone cheered as Felice was born into the hands of the Pope! It is also said that he was born in the Venice Canal, but no proof of this has been found."
+POLITICS_BENITO_MUSSOLINI_DESC:0 ""

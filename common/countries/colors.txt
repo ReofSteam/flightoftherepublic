@@ -478,10 +478,66 @@ ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
+
+
+#FOTR nations
+COR = {
+	color = rgb { 76  97  121 }
+	color_ui = rgb { 76  97  121 }
+}
+RUS = {
+	color = rgb { 35  137  22}
+	color_ui = rgb { 35  137  22}
+}
+RUE = {
+	color = rgb {  224  180  35 }
+	color_ui = rgb { 224  180  35 }
+}
+ALA = {
+	color = rgb {  67  123  237 }
+	color_ui = rgb {  67  123  237 }
+}
+FLR = {
+	color = rgb { 67  123  237 }
+	color_ui = rgb { 67  123  237 }
+}
+LUS = {
+	color = rgb { 67  123  237 }
+	color_ui = rgb { 67  123  237 }
+}
+MSS = {
+	color = rgb { 67  123  237 }
+	color_ui = rgb { 67  123  237 }
+}
+ROR = {
+	color = rgb { 225  244  53 }
+	color_ui = rgb { 225  244  53 }
+}
+NRM = {
+	color = rgb { 111  71  71 }
+	color_ui = rgb { 111  71  71 }
+}
+LOM = {
+	color = rgb { 122 168 119}
+	color_ui = rgb { 122 168 119}
+}
+VOL = {
+	color = rgb { 201  56  93 }
+	color_ui = rgb { 201  56  93 }
+}
 CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
 }
+
+USB = {
+	color = rgb { 167  123  237 }
+	color_ui = rgb { 167  123  237 }
+}
+
+
+#CIVIL WAR
+
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
