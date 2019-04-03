@@ -9,6 +9,7 @@
  french_alliance:0 "French Alliance"
  continental_allieds:0 "Continental Allieds"
  seven_seas_pact:0 "The Seven Seas Pact"
+ comunist_international:0 "Third International"
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
  FACTION_NAME_DEMOCRATIC_3:0 "The $LEADER_COUNTRY_ADJ$ Concordat"

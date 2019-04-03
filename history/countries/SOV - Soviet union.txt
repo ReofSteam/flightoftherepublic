@@ -57,10 +57,11 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = Proletarian-Bloc
+create_faction = communist_international
 add_to_faction = SOV
 add_to_faction = MON
 add_to_faction = TAN
+add_to_faction = DAN
 
 
 add_ideas = {
