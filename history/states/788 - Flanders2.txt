@@ -1,0 +1,23 @@
+state={
+	id=788
+	name="STATE_788"
+	manpower = 1415800
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			1910 1
+		}
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		13218 13220 13223 13224 
+	}
+}

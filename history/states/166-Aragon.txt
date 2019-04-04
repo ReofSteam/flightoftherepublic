@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = SPR
+		owner = SPB
 		victory_points = {
 			3816 3
 		}
@@ -27,6 +27,8 @@ state={
 			industrial_complex = 1
 			air_base = 3
 		}
+		add_core_of = SPB
+		add_core_of = SPM
 		add_core_of = SPR
 	}
 

@@ -31,7 +31,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 51
+			popularity = 43
 		}
 
 		fascism = {
@@ -41,10 +41,24 @@ set_politics = {
 		communism = {
 			popularity = 12
 		}
+
+		neutrality = {
+			popularity = 8
+		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Paul V. McNutt"
+	desc = "POLITICS_PAUL_V_MCNUTT_DESC"
+	picture = "GLR_Paul_McNutt.dds"
+	expire = "1947.1.1"
+	ideology = liberalism
+	traits = {
+	}
 }
