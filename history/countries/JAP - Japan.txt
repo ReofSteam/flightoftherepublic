@@ -59,7 +59,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "gfx/leaders/JAP/Hirohito_JAP.tga"
 	expire = "1989.1.1"
-	ideology = conservative
+	ideology = conservatism
 	traits = {
 	}
 }
