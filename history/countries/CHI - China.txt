@@ -205,15 +205,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 50
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 25
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 25
 			#banned = no #default is no
 		}
 		
@@ -222,20 +222,19 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Chiang Kai-Shek"
+	name = "Zhou Enlai"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Chiang_Kai_Shek.dds"
+	picture = "gfx/leaders/CHI/Zhou_Enlai_CHI.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = socialism
 	traits = {
-		generallissimo
 	}
 }
 
