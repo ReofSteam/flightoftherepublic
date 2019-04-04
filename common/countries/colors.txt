@@ -522,8 +522,8 @@ LOM = {
 	color_ui = rgb { 122 168 119}
 }
 VOL = {
-	color = rgb { 201  56  93 }
-	color_ui = rgb { 201  56  93 }
+	color = rgb { 30 197 116 }
+	color_ui = rgb { 30 197 116 }
 }
 CSA = {
 	color = rgb { 145 163 176  }
