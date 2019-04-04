@@ -24,6 +24,7 @@
  ENG_neutrality_ADJ:0 "British"
  ENG_communism_ADJ:0 "British"
  NRM_fascism:0 "Duchy of Normandy"
+ PAP_fascism:0 "Papal State"
  SOV_fascism:0 "Russian Empire"
  SOV_fascism_DEF:0 "the Russian Empire"
  SOV_democratic:0 "Russian Federation"

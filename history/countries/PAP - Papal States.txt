@@ -38,7 +38,7 @@ set_politics = {
 
 	parties = {
 		neutrality = { 
-			popularity = 100
+			popularity = 0
 		}
 
 		democratic = {
@@ -46,7 +46,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		communism = {
@@ -54,7 +54,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1932.2.6"
 	election_frequency = 60
 	elections_allowed = no
@@ -64,11 +64,11 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Pius XI"
+	name = "Julius IV"
 	desc = "POLITICS_PIUS_XI_DESC"
-	picture = "gfx/leaders/PAP/PAP_Pius_XI.dds"
+	picture = "gfx/leaders/PAP/Alfredo_Ildefonso_Schuster_PAP"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = falangism
 	traits = {
 		
 	}
