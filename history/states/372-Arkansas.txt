@@ -12,15 +12,13 @@ state={
 
 
 	history={
-		owner = TRB
+		owner = CSA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		add_core_of = UMS
-		add_core_of = TRB
+		add_core_of = CSA
 		add_claim_by = USA
-		add_claim_by = CSA
 		victory_points = {
 			12489 1 
 		}

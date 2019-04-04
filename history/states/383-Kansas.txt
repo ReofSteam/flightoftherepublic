@@ -16,8 +16,8 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = UMS
 		add_core_of = TRB
+		add_core_of = UMS
 		add_claim_by = USA
 		1939.1.1 = {
 			buildings = {
