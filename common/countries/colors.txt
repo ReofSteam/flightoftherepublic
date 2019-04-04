@@ -534,7 +534,10 @@ USB = {
 	color = rgb { 167  123  237 }
 	color_ui = rgb { 167  123  237 }
 }
-
+PAP = {
+	color = rgb { 203 195 105 }
+	color_ui = rgb { 203 195 105 }
+}
 
 #CIVIL WAR
 
