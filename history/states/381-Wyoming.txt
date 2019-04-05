@@ -6,11 +6,12 @@ state={
 	state_category = rural
 	
 	history={
-		owner = USA
+		owner = UMS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = USA
+		add_core_of = UMS
+		add_claim_by = USA
 	}
 
 	provinces={

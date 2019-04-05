@@ -20,6 +20,7 @@ state={
 			}
 		}
 		add_core_of = MSS
+		add_claim_by = USA
 	}
 
 	provinces={

@@ -1,0 +1,25 @@
+state={
+	id=788
+	name="STATE_788"
+	manpower = 1415800
+	
+	state_category = rural
+
+	history={
+		victory_points = { 3576 1 }
+		victory_points = {
+			9536 3
+		}
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FRA
+		add_core_of = BEL
+
+	}
+
+	provinces={
+		3576 6446 9536 13081
+	}
+}

@@ -10,12 +10,13 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = GLR
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
 		}
-		add_core_of = USA
+		add_core_of = GLR
+		add_claim_by = USA
 		victory_points = {
 			12357 5 
 		}

@@ -262,8 +262,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 8 64 129 }
+	color_ui = rgb { 8 64 129 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
@@ -494,20 +494,20 @@ RUE = {
 	color_ui = rgb { 224  180  35 }
 }
 ALA = {
-	color = rgb {  67  123  237 }
-	color_ui = rgb {  67  123  237 }
+	color = rgb { 214 96 77 }
+	color_ui = rgb { 214 96 77 }
 }
 FLR = {
-	color = rgb { 67  123  237 }
-	color_ui = rgb { 67  123  237 }
+	color = rgb { 223 194 125 }
+	color_ui = rgb { 223 194 125 }
 }
 LUS = {
-	color = rgb { 67  123  237 }
-	color_ui = rgb { 67  123  237 }
+	color = rgb { 168 221 181 }
+	color_ui = rgb { 168 221 181 }
 }
 MSS = {
-	color = rgb { 67  123  237 }
-	color_ui = rgb { 67  123  237 }
+	color = rgb { 254 217 118 }
+	color_ui = rgb { 254 217 118 }
 }
 ROR = {
 	color = rgb { 225  244  53 }
@@ -522,21 +522,45 @@ LOM = {
 	color_ui = rgb { 122 168 119}
 }
 VOL = {
-	color = rgb { 201  56  93 }
-	color_ui = rgb { 201  56  93 }
+	color = rgb { 30 197 116 }
+	color_ui = rgb { 30 197 116 }
 }
 CSA = {
-	color = rgb { 145 163 176  }
-	color_ui = rgb { 186 205 219 }
+	color = rgb { 67 123 237 }
+	color_ui = rgb { 67 123 237 }
 }
 
 USB = {
-	color = rgb { 167  123  237 }
-	color_ui = rgb { 167  123  237 }
+	color = rgb { 255 237 160 }
+	color_ui = rgb { 255 237 160 }
 }
 PAP = {
 	color = rgb { 203 195 105 }
 	color_ui = rgb { 203 195 105 }
+}
+GLR = {
+	color = rgb { 253 141 60 }
+	color_ui = rgb { 253 141 60 }
+}
+TRB = {
+	color = rgb { 252 205 229 }
+	color_ui = rgb { 252 205 229 }
+}
+UMS = {
+	color = rgb { 65 171 93 }
+	color_ui = rgb { 65 171 93 }
+}
+HAW = {
+	color = rgb { 205 18 27 }
+	color_ui = rgb { 205 18 27 }
+}
+SPB = {
+	color = rgb { 255 139 89 }
+	color_ui = rgb { 255 139 89 }
+}
+SPM = {
+	color = rgb { 155 255 255 }
+	color_ui = rgb { 155 255 255 }
 }
 
 #CIVIL WAR
