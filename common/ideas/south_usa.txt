@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+		memories_of_the_slavery = {
+			picture = very_british_problem		
+			modifier = {
+				fascism_drift = 0.01
+				stability_factor = -0.01
+			}
+			available = {
+				OR = {
+					tag = ALA
+					tag = FLR
+					tag = LUS
+					tag = MSS
+				}
+			}
+		}
+	}
+}	
+#test

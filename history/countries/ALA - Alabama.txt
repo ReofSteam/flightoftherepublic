@@ -54,11 +54,7 @@ set_politics = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
+	memories_of_the_slavery	
 }
 
 

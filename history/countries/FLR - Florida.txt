@@ -54,6 +54,7 @@ set_politics = {
 }
 
 add_ideas = {
+	memories_of_the_slavery
 }
 
 create_faction = Confederacy
