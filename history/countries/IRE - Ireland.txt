@@ -61,22 +61,25 @@ set_convoys = 10
 }
 
 set_politics = {
-
 	parties = {
+		neutrality = { 
+			popularity = 65
+		}
+
 		democratic = { 
-			popularity = 98
+			popularity = 29
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 6
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 0
 		}
 	}
-	
-	ruling_party = democratic
+		
+	ruling_party = neutrality
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
@@ -86,23 +89,27 @@ set_politics = {
 	set_politics = {
 
 		parties = {
+			neutrality = { 
+				popularity = 54
+			}
+
 			democratic = { 
-				popularity = 98
+				popularity = 26
 			}
 
 			fascism = {
-				popularity = 1
+				popularity = 13
 			}
 			
 			communism = {
-				popularity = 1
+				popularity = 7
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1938.6.17"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 create_country_leader = {
@@ -139,11 +146,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Norton"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Michael I"
+	desc = "POLITICS_MICHAEL_I_DESC"
+	picture = "gfx/leaders/IRE/IRE_Michael_I.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = despotism
 	traits = {
 		#
 	}

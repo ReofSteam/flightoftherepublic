@@ -38,7 +38,7 @@ set_politics = {
 			popularity = 19
 		}
 
-		fascism = {
+		neutrality = {
 			popularity = 51
 		}
 		
@@ -64,13 +64,24 @@ add_to_faction = LUS
 add_to_faction = MSS
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	name = "Fred P. Cone"
+	desc = "POLITICS_FRED_P_CONE_DESC"
+	picture = "gfx/leaders/FLR/FLR_Fred_Cone.dds"
+	expire = "1947.1.1"
+	ideology = oligarchism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Fred P. Cone"
+	desc = "POLITICS_FRED_P_CONE_DESC"
+	picture = "gfx/leaders/FLR/FLR_Fred_Cone.dds"
 	expire = "1947.1.1"
 	ideology = liberalism
 	traits = {
-		dislikes_germany
+		
 	}
 }
 
