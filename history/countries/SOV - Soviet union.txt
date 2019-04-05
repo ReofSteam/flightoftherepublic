@@ -62,6 +62,7 @@ add_to_faction = SOV
 add_to_faction = MON
 add_to_faction = TAN
 add_to_faction = DEN
+add_to_faction = ELS
 
 
 add_ideas = {
