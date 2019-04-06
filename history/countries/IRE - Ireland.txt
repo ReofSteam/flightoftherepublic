@@ -150,7 +150,7 @@ create_country_leader = {
 	desc = "POLITICS_MICHAEL_I_DESC"
 	picture = "gfx/leaders/IRE/IRE_Michael_I.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = oligarchism 
 	traits = {
 		#
 	}
