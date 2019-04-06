@@ -35,7 +35,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 37
+			popularity = 0
 		}
 		
 		communism = {
@@ -43,11 +43,11 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 8
+			popularity = 45
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -56,9 +56,20 @@ set_politics = {
 create_country_leader = {
 	name = "Paul V. McNutt"
 	desc = "POLITICS_PAUL_V_MCNUTT_DESC"
-	picture = "GLR_Paul_McNutt.dds"
+	picture = "gfx/leaders/GLR/GLR_Paul_McNutt.dds"
 	expire = "1947.1.1"
 	ideology = liberalism
 	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lone Feather"
+	desc = "POLITICS_LONE_FEATHER_DESC"
+	picture = "gfx/leaders/TRB/TRB_Lone_Feather.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
 	}
 }
