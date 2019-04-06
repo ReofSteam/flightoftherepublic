@@ -563,8 +563,9 @@
  MAN_fascism_party:0 "MX"
  MAN_fascism_party_long:0 "Manzhōuguó Xiéhehuì"
  #############################
- POLITICS_VIKTORIA_LUISE_DESC:0 "The 15th President of the HRR, and the first female democratic elected head of state in the world. Came from the former noble house of Hohenzollern of Prussia, served in the Reichstag for 2 terms and spent the first half of her life as a suffragist. The "Duchess" as she was known, is a staunch defender of both conservative liberalism and feminism"
- POLITICS_FELICE_I_DESC:0 "Felice d'Asburgo-Lorena is the son of the Blessed Carlo. It is said that the day he was born was very joyious, the sky was clear and everyone cheered as Felice was born into the hands of the Pope! It is also said that he was born in the Venice Canal, but no proof of this has been found."
+ POLITICS_VIKTORIA_LUISE_DESC:0 "§Y15th President of the HRR§!. The first female democratic elected head of state in the world. Came from the former noble house of Hohenzollern of Prussia, served in the Reichstag for 2 terms and spent the first half of her life as a suffragist. The "Duchess" as she was known, is a staunch defender of both conservative liberalism and feminism"
+ POLITICS_FELICE_I_DESC:0 "§YViceroy of Lombardy-Venetian§!. Felice d'Asburgo-Lorena is the son of the Blessed Carlo. It is said that the day he was born was very joyious, the sky was clear and everyone cheered as Felice was born into the hands of the Pope! It is also said that he was born in the Venice Canal, but no proof of this has been found."
+ POLITICS_PRINCE_GEORGE_NORMANDY_DESC:0 "§YViceroy of the Duchy of Normandy§!. Prince Georges of Windsors, Duke of Kent and Commander-in-Chief of the Normandy Army, in line for the throne, aviator hooligan, womaniser and many more"
  LOM_democratic_party:0 "PDI"
  LOM_democratic_party_long:0 "Partito Democratico Italiano"
  LOM_communism_party:0 "PLMR"

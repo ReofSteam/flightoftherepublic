@@ -193,7 +193,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 60
 		}
 		
 		communism = {
@@ -201,11 +201,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 53
+			popularity = 13
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
@@ -223,13 +223,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Salvador Abascal"
+	name = "Alfonso XIII"
 	desc = "POLITICS_SALVADOR_ABASCAL_DESC"
-	picture = "GFX_Portrait_MEX_Salvador_Abascal"
+	picture = "gfx/leaders/MEX/Alfonso_XIII_MEX.tga"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
-		fascist_militia_leader
 	}
 }
 

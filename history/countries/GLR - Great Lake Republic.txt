@@ -68,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_LONE_FEATHER_DESC"
 	picture = "gfx/leaders/TRB/TRB_Lone_Feather.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = oligarchism
 	traits = {
 		#
 	}
