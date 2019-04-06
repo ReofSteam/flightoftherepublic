@@ -38,7 +38,7 @@ set_politics = {
 			popularity = 19
 		}
 
-		fascism = {
+		neutrality = {
 			popularity = 51
 		}
 		
@@ -51,4 +51,15 @@ set_politics = {
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Lone Feather"
+	desc = "POLITICS_LONE_FEATHER_DESC"
+	picture = "gfx/leaders/TRB/TRB_Lone_Feather.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
 }

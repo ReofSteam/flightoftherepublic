@@ -41,6 +41,9 @@ set_politics = {
 			popularity = 2
 			#banned = no #default is no
 		}
+		neutrality = {
+			popularity = 68
+		}
 	}
 	
 	ruling_party = neutrality
