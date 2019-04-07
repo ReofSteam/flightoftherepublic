@@ -14,9 +14,11 @@ state={
 	history={
 		owner = SPM
 		add_core_of = MOR
-		add_claim_by = SPB
 		add_core_of = SPM
+		add_claim_by = SPB
 		add_claim_by = SPR
+		add_claim_by = CAT
+		add_claim_by = FRA
 		victory_points = {
 			9945 5 
 		}
