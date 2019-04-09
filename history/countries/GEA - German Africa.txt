@@ -57,29 +57,40 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "gfx/leaders/GEA/GEA_Adolf_Hitler.tga"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = despotism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "GFX_AST_eric_campbell"
+	name = "Governor-General Adolf Hitler"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "gfx/leaders/GEA/GEA_Adolf_Hitler.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = nazism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Richard Dixon"
-	desc = "POLITICS_RICHARD_DIXON_DESC"
-	picture = "GFX_AST_richard_dixon"
+	name = "Governor-General Adolf Hitler"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "gfx/leaders/GEA/GEA_Adolf_Hitler.tga"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Ernst Thälmann"
+	desc = "POLITICS_ERNST_THALMANN_DESC"
+	picture = "gfx/leaders/GEA/GEA_Ernst_Thalmann.tga"
+	expire = "1965.1.1"
+	ideology = marxism
 	traits = {
 		#
 	}
