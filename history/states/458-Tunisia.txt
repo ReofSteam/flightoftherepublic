@@ -9,7 +9,8 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = GEA
+		add_core_of = GEA
 		add_core_of = TUN
 		add_claim_by = FRA
 		victory_points = {

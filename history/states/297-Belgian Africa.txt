@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = BEL
+		owner = BEA
 		add_core_of = EQG
 		add_claim_by = FRA
 		victory_points = {

@@ -715,3 +715,17 @@
  BAL_UNIFIED_democratic_DEF:0 "the United Baltic Federation"
  BAL_UNIFIED_communism:0 "Union of Baltic Republics"
  BAL_UNIFIED_communism_DEF:0 "the Union of Baltic Republics"
+
+ #Belgian Africa
+ BEA_fascism:0 "New Belgium"
+ BEA_democratic:0 "New Belgium"
+ BEA_neutrality:0 "New Belgium"
+ BEA_communism:0 "New Belgium"
+ BEA_subject:1 "$OVERLORDADJ$ Africa"
+
+ #German Africa
+ GEA_fascism:0 "New Germany"
+ GEA_democratic:0 "New Germany"
+ GEA_neutrality:0 "New Germany"
+ GEA_communism:0 "New Germany"
+ GEA_subject:1 "$OVERLORDADJ$ Africa"

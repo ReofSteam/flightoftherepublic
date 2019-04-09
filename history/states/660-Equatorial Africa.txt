@@ -9,7 +9,7 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		owner = BEL
+		owner = BEA
 		add_core_of = CAR
 		add_claim_by = FRA
 		victory_points = {

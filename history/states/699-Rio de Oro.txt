@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = BEL
+		owner = GEA
 		add_core_of = WES
 		add_claim_by = FRA
 		buildings = {
