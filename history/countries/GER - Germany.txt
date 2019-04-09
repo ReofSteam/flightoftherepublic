@@ -65,7 +65,7 @@ set_politics = {
 
 }
 
-create_faction = continental_allieds
+create_faction = continental_allies
 add_to_faction = GER
 add_to_faction = FRA
 add_to_faction = AST
