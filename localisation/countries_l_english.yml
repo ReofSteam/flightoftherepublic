@@ -2331,7 +2331,7 @@
  MSS_neutrality_ADJ:0 "Mississippian"
  MSS_communism_ADJ:0 "Mississippian"
 
- #Spain Basque
+ #Basque
  SPB_fascism:0 "Traditionalist Front"
  SPB_fascism_DEF:0 "the Traditionalist Front"
  SPB_democratic:0 "Left Traditionalist Front"
@@ -2345,7 +2345,7 @@
  SPB_neutrality_ADJ:0 "Spanish"
  SPB_communism_ADJ:0 "Spanish"
 
- #Spain Morocco
+ #Nashari
 
  SPM_fascism:0 "Nationalist Nashari"
  SPM_fascism_DEF:0 "Nationalist Nashari"
@@ -2355,7 +2355,22 @@
  SPM_neutrality_DEF:0 "the Nashari Emirite
  SPM_communism:0 "Nashari S.R."
  SPM_communism_DEF:0 "the Nashari Socialist Republic"
- SPM_fascism_ADJ:0 "Nashari"
- SPM_democratic_ADJ:0 "Nashari"
- SPM_neutrality_ADJ:0 "Nashari"
- SPM_communism_ADJ:0 "Nashari"
+ SPM_fascism_ADJ:0 "Spanish"
+ SPM_democratic_ADJ:0 "Spanish"
+ SPM_neutrality_ADJ:0 "Spanish"
+ SPM_communism_ADJ:0 "Spanish"
+
+ #Lerroux
+
+ CAT_fascism:0 "Nationalist Lerroux"
+ CAT_fascism_DEF:0 "Nationalist Lerroux"
+ CAT_democratic:0 "Lerroux"
+ CAT_democratic_DEF:0 "Lerroux"
+ CAT_neutrality:0 "Lerroux Emirite"
+ CAT_neutrality_DEF:0 "the Lerroux Emirite
+ CAT_communism:0 "Lerroux S.R."
+ CAT_communism_DEF:0 "the Lerroux Socialist Republic"
+ CAT_fascism_ADJ:0 "Spanish"
+ CAT_democratic_ADJ:0 "Spanish"
+ CAT_neutrality_ADJ:0 "Spanish"
+ CAT_communism_ADJ:0 "Spanish"
