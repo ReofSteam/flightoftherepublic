@@ -6,8 +6,9 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = FRA
+		owner = BEL
 		add_core_of = GNA
+		add_claim_by = FRA
 		victory_points = {
 			1909 1 
 		}
