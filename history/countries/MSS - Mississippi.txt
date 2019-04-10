@@ -59,13 +59,12 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
+	name = "Martin Sennet Conner"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	picture = "gfx/leaders/MSS/Martin_Sennet_Conner_MSS.tga"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = centrism
 	traits = {
-		dislikes_germany
 	}
 }
 

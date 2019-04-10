@@ -59,13 +59,12 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
+	name = "Bibb Graves"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	picture = "gfx/leaders/ALA/Bibb_Graves.tga"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = oligarchism
 	traits = {
-		dislikes_germany
 	}
 }
 
