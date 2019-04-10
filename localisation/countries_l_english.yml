@@ -2333,20 +2333,20 @@
  SPB_neutrality_ADJ:0 "Spanish"
  SPB_communism_ADJ:0 "Spanish"
 
- #Nazari
+ #Andalusia
 
- SPM_fascism:0 "Nationalist Nazari"
- SPM_fascism_DEF:0 "Nationalist Nazari"
- SPM_democratic:0 "Nazari"
- SPM_democratic_DEF:0 "Nazari"
- SPM_neutrality:0 "Nazari Emirite"
- SPM_neutrality_DEF:0 "the Nazari Emirite
- SPM_communism:0 "Nazari S.R."
- SPM_communism_DEF:0 "the Nazari Socialist Republic"
- SPM_fascism_ADJ:0 "Spanish"
- SPM_democratic_ADJ:0 "Spanish"
- SPM_neutrality_ADJ:0 "Spanish"
- SPM_communism_ADJ:0 "Spanish"
+ SPM_fascism:0 "Andalusian Empire"
+ SPM_fascism_DEF:0 "Andalusian Empire"
+ SPM_democratic:0 "Andalusian Republic"
+ SPM_democratic_DEF:0 "Andalusian Republic"
+ SPM_neutrality:0 "Andalusian Emirite"
+ SPM_neutrality_DEF:0 "the Andalusian Emirite
+ SPM_communism:0 "Andalusian S.R."
+ SPM_communism_DEF:0 "the Andalusian Socialist Republic"
+ SPM_fascism_ADJ:0 "Andalusian"
+ SPM_democratic_ADJ:0 "Andalusian"
+ SPM_neutrality_ADJ:0 "Andalusian"
+ SPM_communism_ADJ:0 "Andalusian"
 
  #Lerroux
 
