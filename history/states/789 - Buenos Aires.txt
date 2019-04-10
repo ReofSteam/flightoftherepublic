@@ -1,0 +1,29 @@
+state={
+	id=789
+	name="STATE_789"
+	manpower = 1415800
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			12364 10 
+		}
+		owner = URG
+		buildings = {
+			infrastructure = 2
+			12364 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = URG
+		add_core_of = ARG
+
+	}
+
+	provinces={
+		1449 8187 8238 10515 10943 11007 12351 12364 12453 12964 
+	}
+}

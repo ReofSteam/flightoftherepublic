@@ -10,8 +10,9 @@ state={
 	}
 
 	history={
+		add_core_of = COL
 		add_core_of = GYA
-		owner = ENG
+		owner = COL
 		victory_points = {
 			4982 1
 		}
