@@ -19,6 +19,8 @@ set_technology = {
 	fuel_refining = 1
 }
 
+puppet = BEA #Belgian Africa
+
 1939.1.1 = {
 	add_ideas = {
 		limited_conscription

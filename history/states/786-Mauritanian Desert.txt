@@ -7,8 +7,10 @@ state={
 	impassable = yes
 
 	history={
-		owner = FRA
+		owner = GEA
+		add_core_of = GEA
 		add_core_of = MRT
+		add_claim_by = FRA
 		buildings = {
 			infrastructure = 0
 		}

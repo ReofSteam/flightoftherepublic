@@ -7,7 +7,7 @@
  FACTION_NAME_GER_none:0 "Axis"
  FACTION_NAME_IDEOLOGY_DEFAULT:0 "Supporters of $IDEOLOGY$"
  french_alliance:0 "French Alliance"
- continental_allieds:0 "Continental Allieds"
+ continental_allies:0 "Continental Allies"
  seven_seas_pact:0 "The Seven Seas Pact"
  communist_international:0 "Third International"
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"

@@ -2,6 +2,7 @@
 
 oob = "LIT_1936"
 
+set_cosmetic_tag = BAL_UNIFIED
 set_research_slots = 3
 
 add_ideas = {

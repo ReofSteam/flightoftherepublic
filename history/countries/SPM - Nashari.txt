@@ -61,20 +61,20 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 47
+		neutrality = { 
+			popularity = 100
 		}
 
 		fascism = {
-			popularity = 46
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 7
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -167,19 +167,19 @@ set_stability = 0.5
 
 		parties = {
 			democratic = { 
-				popularity = 22
+				popularity = 100
 			}
 
 			fascism = {
-				popularity = 76
+				popularity = 0
 			}
 			
 			communism = {
-				popularity = 2
+				popularity = 0
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = neutrality
 		last_election = "1934.3.26"
 		election_frequency = 60
 		elections_allowed = no
@@ -223,11 +223,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	name = "Mohammed min eind Nazari"
+	desc = "POLITICS_MOHAMMED_NAZARI_DESC"
+	picture = "gfx/leaders/SPM/SPM_Mohammed_Nazari.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = despotism
 	traits = {
 		#
 	}
