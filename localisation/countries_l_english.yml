@@ -543,8 +543,8 @@
  JAP_democratic_ADJ:0 "Japanese"
  JAP_neutrality_ADJ:0 "Japanese"
  JAP_communism_ADJ:0 "Japanese"
- MEX_fascism:1 "Mexican Junta"
- MEX_fascism_DEF:1 "the Mexican Junta"
+ MEX_fascism:1 "Viceroyalty of Mexico"
+ MEX_fascism_DEF:1 "the Viceroyalty of Mexico"
  MEX_democratic:0 "United Mexican States"
  MEX_democratic_DEF:0 "the United Mexican States"
  MEX_neutrality:0 "Viceroyalty of Mexico"
@@ -750,8 +750,8 @@
  AST_fascism_DEF:0 "Centralist Australia"
  AST_democratic:0 "Australia"
  AST_democratic_DEF:0 "Australia"
- AST_neutrality:0 "Australia"
- AST_neutrality_DEF:0 "Australia"
+ AST_neutrality:0 "Deustch-Autralien"
+ AST_neutrality_DEF:0 "Deustch-Autralien"
  AST_communism:0 "Australian People's Republic"
  AST_communism_DEF:0 "the Australian People's Republic"
  AST_fascism_ADJ:0 "Australian"
@@ -2207,6 +2207,9 @@
  NIR_democratic_ADJ:0 "Northern Irish"
  NIR_neutrality_ADJ:1 "Ulster"
  NIR_communism_ADJ:1 "North Irish"
+ 
+ 
+ UPK_democratic:0 "Kingdom of La Plata"
  
  LOM_democratic:0 "Republic of Lombardy-Veneto"
  LOM_democratic_DEF:0 "the Republic of Lombardy-Veneto"
