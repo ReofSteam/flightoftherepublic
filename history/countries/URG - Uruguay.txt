@@ -40,7 +40,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Alfonso I & Margarita I"
-	desc = "POLITICS_GABRIEL_TERRA_DESC"
+	desc = "POLITICS_DIARCHY_DESC"
 	picture = "gfx/leaders/URG/Diarchy.tga"
 	expire = "1965.1.1"
 	ideology = liberalism

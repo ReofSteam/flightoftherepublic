@@ -75,7 +75,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Governor-General Lord Kennedy"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	desc = "POLITICS_LORD_KENNEDY_DESC"
 	picture = "gfx/leaders/USA/Joe_Kennedy_USA.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

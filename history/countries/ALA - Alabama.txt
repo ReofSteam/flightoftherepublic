@@ -60,8 +60,8 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Bibb Graves"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "gfx/leaders/ALA/Bibb_Graves.tga"
+	desc = "POLITICS_BIBB_GRAVES_DESC"
+	picture = "gfx/leaders/ALA/Bibb_Graves_ALA.tga"
 	expire = "1947.1.1"
 	ideology = oligarchism
 	traits = {

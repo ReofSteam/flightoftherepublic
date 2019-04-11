@@ -56,7 +56,6 @@ set_convoys = 800
 puppet = MAL
 puppet = USA
 puppet = NRM
-puppet = GLR
 puppet = LBA
 		
 create_faction = seven_seas_pact
@@ -65,7 +64,6 @@ add_to_faction = SWE
 add_to_faction = USA
 add_to_faction = COR
 add_to_faction = CAN
-add_to_faction = GLR
 add_to_faction = LBA
 
 

@@ -72,7 +72,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Leon Trotsky"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	desc = "POLITICS_LEON_TROTSKY_DESC"
 	picture = "gfx/leaders/SOV/Leon_Trotsky_SOV.tga"
 	expire = "1953.3.1"
 	ideology = leninism
