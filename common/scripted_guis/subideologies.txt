@@ -1,0 +1,48 @@
+scripted_gui = {
+
+	subideologies_button_ui = {
+		context_type = top_bar
+		window_name = "subideologies_ui_button"
+		
+		visisble = {
+			always = yes		
+		}
+
+		properties = {
+			
+		}
+		effects = {
+			subideologies_button_click = {
+				if = {
+					limit = {
+						has_country_flag = subideologies_hasideology					
+					}
+					clr_country_flag = subideologies_hasideology
+					else = {
+						set_country_flag = subideologies_hasideology					
+					}				
+				}
+			}
+		}
+	}
+
+	subideologies_window_ui = {
+		context_type = top_bar
+		window_name = "subideologies_ui_window"
+		parent_window_token = "subideologies_ui_button"
+
+		properties = {
+			
+		}
+		visible = {
+			has_country_flag = subideologies_hasideology		
+		}
+		effects = {
+			subideologies_window_close_button_click = {
+				clr_country_flag = subideologies_hasideology
+			}
+		}
+	}
+	
+}
+
