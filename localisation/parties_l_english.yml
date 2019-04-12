@@ -586,10 +586,13 @@
  ### SUBIDEOLOGIES ###
   subideologies_open:0 "Open Subideologies"
   subideologies_close:0 "Close Subideologies"
+  subideologies_country:0 "General Assembly of §Y[ROOT.GetName]§!"
+  subideologies_country_overlord:0 "General Assembly of §Y[?OVERLORD.GetName]§!"
+  
   GER_subideologies_liberal:0 "§YSocial Liberal§!: German Liberal Alliance\n§BSocial Conservatism§!: Republican-Liberal Union"
   GER_subideologies_commie:0 "§RMarxism§!: KPD"
-  generic_subideologies_liberal:0 "§YSocial Liberal§!: [ROOT.GetAdjective] Liberal Party\n§YSocial Conservatism§!: [ROOT.GetAdjective] Conservative Party\n§YSocialism§!: [ROOT.GetAdjective] Socialist Party\n\n§LNazism§!: National Socialist Workers' Party of [ROOT.GetName]\n§LNational Corporatism§!: [ROOT.GetAdjective] National Corporatists\n§LFalangism§!: [ROOT.GetAdjective] Falanage Party\n§LRexism§!: [ROOT.GetAdjective] Rexist Party"
+  generic_subideologies_liberal:0 "§YSocial Liberal§!: [ROOT.GetAdjective] Liberal Party\n§YSocial Conservatism§!: [ROOT.GetAdjective] Conservative Party\n§YSocialism§!: [ROOT.GetAdjective] Socialist Party\n"
   generic_subideologies_commie:0 "§RMarxism§!: Communist Party of [ROOT.GetName]\n§RLeninism§!: [ROOT.GetAdjective] Leninist Party\n§RRevolutionary Socialism§!: [ROOT.GetAdjective] Stalinist Party\n§RAnarchism§!: International League of Anarchists"
   generic_subideologies_natcop:0 "§LNazism§!: National Socialist Workers' Party of [ROOT.GetName]\n§LNational Corporatism§!: [ROOT.GetAdjective] National Corporatists\n§LFalangism§!: [ROOT.GetAdjective] Falanage Party\n§LRexism§!: [ROOT.GetAdjective] Rexist Party"
-  generic_subideologies_authdem:0 ""
+  generic_subideologies_authdem:0 "§DDespotism§!: Royal Family of [ROOT.GetName]\n§gOligarchism§!:"
   

@@ -96,6 +96,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Governor-General Sir George Stewart Symes"
+	desc = ""
+	picture = "gfx/leaders/LBA/LBA_Stewart_Symes.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Ettore Bastico"
 	desc = ""
 	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
@@ -106,9 +116,29 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Governor-General Sir George Stewart Symes"
+	desc = ""
+	picture = "gfx/leaders/LBA/LBA_Stewart_Symes.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Idris Senussi"
 	desc = ""
 	picture = "Portrait_Arabia_Generic_land_3.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Governor-General Sir George Stewart Symes"
+	desc = ""
+	picture = "gfx/leaders/LBA/LBA_Stewart_Symes.dds"
 	ideology = despotism
 	traits = {
 		#
