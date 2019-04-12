@@ -22,18 +22,18 @@ defined_text = {
 		trigger = {
 			is_puppet = no
 		}
-		localization_key = "Viewing your own parties"
+		localization_key = "General Assembly of §Y[ROOT.GetName]§!"
 	}
 	text = {
 		trigger = {
 			is_puppet = yes
 		}
-		localization_key = "Viewing parties of [?OVERLORD.GetName] (your master)"
+		localization_key = "General Assembly of §Y[OVERLORD.GetName]§!"
 	}
 }
 
 defined_text = {
-	name = SUBIDEOLOGIES_LIST
+	name = SUBIDEOLOGIES_LIBERAL
 	text = {
 		trigger = {
 			OR = {
@@ -41,7 +41,7 @@ defined_text = {
 				tag = FRA
 			}
 		}
-		localization_key = "FRA_subideologies_list"
+		localization_key = "FRA_subideologies_liberal"
 	}
 	text = {
 		trigger = {
@@ -50,7 +50,7 @@ defined_text = {
 				tag = GER
 			}
 		}
-		localization_key = "GER_subideologies_list"
+		localization_key = "GER_subideologies_liberal"
 	}
 	text = {
 		trigger = {
@@ -59,7 +59,7 @@ defined_text = {
 				tag = ENG
 			}
 		}
-		localization_key = "ENG_subideologies_list"
+		localization_key = "ENG_subideologies_liberal"
 	}
 	text = {
 		trigger = {
@@ -72,6 +72,138 @@ defined_text = {
 				is_puppet = no
 			}
 		}
-		localization_key = "generic_subideologies_list"
+		localization_key = "generic_subideologies_liberal"
+	}
+}
+
+defined_text = {
+	name = SUBIDEOLOGIES_COMMIE
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = FRA
+				tag = FRA
+			}
+		}
+		localization_key = "FRA_subideologies_commie"
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = GER
+				tag = GER
+			}
+		}
+		localization_key = "GER_subideologies_commie"
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = ENG
+				tag = ENG
+			}
+		}
+		localization_key = "ENG_subideologies_commie"
+	}
+	text = {
+		trigger = {
+			AND = {
+				NOT = {
+					tag = FRA
+					tag = GER
+					tag = ENG
+				}
+				is_puppet = no
+			}
+		}
+		localization_key = "generic_subideologies_commie"
+	}
+}
+
+defined_text = {
+	name = SUBIDEOLOGIES_NATCOP
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = FRA
+				tag = FRA
+			}
+		}
+		localization_key = "FRA_subideologies_natcop"
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = GER
+				tag = GER
+			}
+		}
+		localization_key = "GER_subideologies_natcop"
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = ENG
+				tag = ENG
+			}
+		}
+		localization_key = "ENG_subideologies_natcop"
+	}
+	text = {
+		trigger = {
+			AND = {
+				NOT = {
+					tag = FRA
+					tag = GER
+					tag = ENG
+				}
+				is_puppet = no
+			}
+		}
+		localization_key = "generic_subideologies_natcop"
+	}
+}
+
+defined_text = {
+	name = SUBIDEOLOGIES_AUTHDEM
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = FRA
+				tag = FRA
+			}
+		}
+		localization_key = "FRA_subideologies_authdem"
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = GER
+				tag = GER
+			}
+		}
+		localization_key = "GER_subideologies_authdem"
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = ENG
+				tag = ENG
+			}
+		}
+		localization_key = "ENG_subideologies_authdem"
+	}
+	text = {
+		trigger = {
+			AND = {
+				NOT = {
+					tag = FRA
+					tag = GER
+					tag = ENG
+				}
+				is_puppet = no
+			}
+		}
+		localization_key = "generic_subideologies_authdem"
 	}
 }
