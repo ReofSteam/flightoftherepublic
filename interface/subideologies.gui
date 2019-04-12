@@ -2,40 +2,43 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "subideologies_ui_button"
-		position = { x = 50%% y = 0 }
-		size = { width = 100% height= 92 }
+		position = { x=-65 y=-360 }	
+		show_position = { x=-65 y =-360 }
+		size = { width=270 height=280 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		orientation = center_right
+		origo = center_right
+		fade_time = 200
+		fade_type = linear
 		buttonType = { 
 			name = "subideologies_button"
-			quadTextureSprite = "GFX_button_123x34"
-			position = { x = 135 y = 0 }
+			quadTextureSprite = "GFX_button_221x34"
+			position = {x=14 y=6}
+			font = "hoi_16mbs"
+			maxWidth = 270
+			maxHeight = 32
+			format = center
 			shortcut = "shift+s"
-			pdx_tooltip = "[SUBIDEOLOGIES_OPEN]"
+			buttonText = "[SUBIDEOLOGIES_OPEN]"
 			clicksound = click_ok 
 			oversound = ui_menu_over
-		}
-		instantTextboxType = {
-			name = "label"
-			position = { x = 135 y = 0 }
-			font = "hoi_16mbs"
-			text = "Subideologies"
-			maxWidth = 135
-			maxHeight = 40
-			format = center
 		}
 	}
 	containerWindowType = {
 		name = "subideologies_ui_window"
-		position = { x = 30%% y = 25%% }
-		size = { width = 527 height = 315 }
-		moveable = yes
-		click_to_front = yes
-		#orientation= center		
+		position = { x = 535 y = 78 }	
+		show_position = { x = 535 y = 78 }
+		size = { width= 549 height=620 }
+		clipping = yes
+		show_sound = open_sub_window
+		verticalScrollbar = "right_vertical_slider"		
 		buttonType = { 
 			name = "subideologies_window_close_button"
 			quadTextureSprite = "GFX_closebutton"
-			position = { x = 10 y = 10 }
+			position = { x = 505 y = 14 }
 			shortcut = "ESCAPE"
-			pdx_tooltip = "[SUBIDEOLOGIES_CLOSE_OPEN]"
+			pdx_tooltip = "[SUBIDEOLOGIES_OPEN]"
 			clicksound = click_ok 
 			oversound = ui_menu_over
 		}
@@ -43,68 +46,97 @@ guiTypes = {
 			name = "Background"		
 			spriteType ="GFX_tiled_bg"
 		}
-
-		#Democratic
 		instantTextboxType = {
-			name = "label"
-			position = { x = 10 y = 50 }
-			font = "hoi_16mbs"
-			text = "[subideologies_conservatism]"
-			maxWidth = 100%%
-			maxHeight = 20
-			format = center
+			name = "label_country"
+			position = {x = 50 y = 15}
+			font = "hoi_32mbs"
+			text = "[SUBIDEOLOGIES_COUNTRY]"
+			maxWidth = 527
+			maxHeight = 315
+			format = left
 		}
-
-		instantTextboxType = {
-			name = "label"
-			position = { x = 10 y = 70 }
-			font = "hoi_16mbs"
-			text = "[subideologies_liberalism]"
-			maxWidth = 100%%
-			maxHeight = 20
-			format = center
+		containerWindowType = {
+			name = "subideologies_ui_window_democratic"
+			verticalScrollbar = "right_vertical_slider"		
+			background = {
+				name = "Background"		
+				spriteType ="GFX_tiled_bg"
+			}
+			position = { x = 20 y = 50 }	
+			show_position = { x = 20 y = 50 }
+			size = { width= 549 height=100 }
+			instantTextboxType = {
+				name = "label_liberal"
+				position = {x = 20 y = 20}
+				font = "hoi_32mbs"
+				text = "[SUBIDEOLOGIES_LIBERAL]"
+				maxWidth = 527
+				maxHeight = 315
+				format = left
+			}
 		}
+		containerWindowType = {
+			name = "subideologies_ui_window_commie"
+			verticalScrollbar = "right_vertical_slider"		
+			background = {
+				name = "Background"		
+				spriteType ="GFX_tiled_bg"
+			}
+			position = { x = 20 y = 155 }	
+			show_position = { x = 20 y = 155 }
+			size = { width= 549 height=100 }
 
-		instantTextboxType = {
-			name = "label"
-			position = { x = 10 y = 90 }
-			font = "hoi_16mbs"
-			text = "[subideologies_socialism]"
-			maxWidth = 100%%
-			maxHeight = 20
-			format = center
+			instantTextboxType = {
+				name = "label_commie"
+				position = { x = 20 y = 20 }
+				font = "hoi_16mbs"
+				text = "[SUBIDEOLOGIES_COMMIE]"
+				maxWidth = 527
+				maxHeight = 315
+				format = left
+			}
 		}
+		containerWindowType = {
+			name = "subideologies_ui_window_natcop"
+			verticalScrollbar = "right_vertical_slider"		
+			background = {
+				name = "Background"		
+				spriteType ="GFX_tiled_bg"
+			}
+			position = { x = 20 y = 260 }	
+			show_position = { x = 20 y = 155 }
+			size = { width= 549 height=100 }
 
-		#Communism
-
-		instantTextboxType = {
-			name = "label"
-			position = { x = 10 y = 110 }
-			font = "hoi_16mbs"
-			text = "[subideologies_marxism]"
-			maxWidth = 100%%
-			maxHeight = 20
-			format = center
+			instantTextboxType = {
+				name = "label_natcop"
+				position = { x = 20 y = 20 }
+				font = "hoi_16mbs"
+				text = "[SUBIDEOLOGIES_NATCOP]"
+				maxWidth = 527
+				maxHeight = 315
+				format = left
+			}
 		}
+		containerWindowType = {
+			name = "subideologies_ui_window_authdem"
+			verticalScrollbar = "right_vertical_slider"		
+			background = {
+				name = "Background"		
+				spriteType ="GFX_tiled_bg"
+			}
+			position = { x = 20 y = 365 }	
+			show_position = { x = 20 y = 155 }
+			size = { width= 549 height=100 }
 
-		instantTextboxType = {
-			name = "label"
-			position = { x = 10 y = 130 }
-			font = "hoi_16mbs"
-			text = "[subideologies_leninism]"
-			maxWidth = 100%%
-			maxHeight = 20
-			format = center
-		}
-
-		instantTextboxType = {
-			name = "label"
-			position = { x = 10 y = 150 }
-			font = "hoi_16mbs"
-			text = "[subideologies_stalinism]"
-			maxWidth = 100%%
-			maxHeight = 20
-			format = center
+			instantTextboxType = {
+				name = "label_authdem"
+				position = { x = 20 y = 20 }
+				font = "hoi_16mbs"
+				text = "[SUBIDEOLOGIES_AUTHDEM]"
+				maxWidth = 527
+				maxHeight = 315
+				format = left
+			}
 		}
 	}
 }
