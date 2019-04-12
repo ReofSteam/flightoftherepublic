@@ -9,7 +9,6 @@ guiTypes = {
 		hide_animation_type = accelerated
 		orientation = center_right
 		origo = center_right
-
 		fade_time = 200
 		fade_type = linear
 		buttonType = { 
@@ -28,15 +27,16 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "subideologies_ui_window"
-		size = { width = 527 height = 315 }
-		moveable = yes
-		click_to_front = yes
-		orientation= center
+		position = { x = 535 y = 78 }	
+		show_position = { x = 535 y = 78 }
+		size = { width= 549 height=620 }
+		clipping = yes
+		show_sound = open_sub_window
 		verticalScrollbar = "right_vertical_slider"		
 		buttonType = { 
 			name = "subideologies_window_close_button"
 			quadTextureSprite = "GFX_closebutton"
-			position = { x = 10 y = 10 }
+			position = { x = 505 y = 14 }
 			shortcut = "ESCAPE"
 			pdx_tooltip = "[SUBIDEOLOGIES_OPEN]"
 			clicksound = click_ok 
