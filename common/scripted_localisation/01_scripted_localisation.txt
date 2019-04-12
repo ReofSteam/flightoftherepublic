@@ -1,0 +1,77 @@
+defined_text = {
+	name = SUBIDEOLOGIES_OPEN
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = subideologies_hasideology
+			}
+		}
+		localization_key = "subideologies_open"
+	}
+	text = {
+		trigger = {
+			has_country_flag = subideologies_hasideology
+		}
+		localization_key = "subideologies_close"
+	}
+}
+
+defined_text = {
+	name = SUBIDEOLOGIES_COUNTRY
+	text = {
+		trigger = {
+			is_puppet = no
+		}
+		localization_key = "Viewing your own parties"
+	}
+	text = {
+		trigger = {
+			is_puppet = yes
+		}
+		localization_key = "Viewing parties of [?OVERLORD.GetName] (your master)"
+	}
+}
+
+defined_text = {
+	name = SUBIDEOLOGIES_LIST
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = FRA
+				tag = FRA
+			}
+		}
+		localization_key = "FRA_subideologies_list"
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = GER
+				tag = GER
+			}
+		}
+		localization_key = "GER_subideologies_list"
+	}
+	text = {
+		trigger = {
+			OR = {
+				is_puppet_of = ENG
+				tag = ENG
+			}
+		}
+		localization_key = "ENG_subideologies_list"
+	}
+	text = {
+		trigger = {
+			AND = {
+				NOT = {
+					tag = FRA
+					tag = GER
+					tag = ENG
+				}
+				is_puppet = no
+			}
+		}
+		localization_key = "generic_subideologies_list"
+	}
+}

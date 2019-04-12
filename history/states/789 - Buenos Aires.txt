@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = URG
 		add_core_of = ARG
+		add_core_of = CHL
 
 	}
 

@@ -1,10 +1,38 @@
 scripted_gui = {
 
 	subideologies_button_ui = {
-		context_type = top_bar
+		context_type = player_context
+		parent_window_token = politics_tab
 		window_name = "subideologies_ui_button"
 		
-		visisble = {
+		visible = {
+			always = yes		
+		}
+
+		properties = {
+			
+		}
+		effects = {
+			subideologies_button_click = {
+				if = {
+					limit = {
+						has_country_flag = subideologies_hasideology					
+					}
+					clr_country_flag = subideologies_hasideology
+					else = {
+						set_country_flag = subideologies_hasideology					
+					}				
+				}
+			}
+		}
+	}
+
+	subideologies_button_ui = {
+		context_type = selected_country_view 
+		parent_window_token = diplomacy_tab 
+		window_name = "subideologies_ui_button"
+		
+		visible = {
 			always = yes		
 		}
 
@@ -27,9 +55,8 @@ scripted_gui = {
 	}
 
 	subideologies_window_ui = {
-		context_type = top_bar
+		context_type = player_context
 		window_name = "subideologies_ui_window"
-		parent_window_token = "subideologies_ui_button"
 
 		properties = {
 			

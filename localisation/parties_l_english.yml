@@ -581,3 +581,11 @@
  LOM_fascism_party_long:0 "Partito Nazionale Fascista"
  LOM_neutrality_party:0 "Asburgo-Lorena"
  LOM_neutrality_party_long:0 "Famiglia degli Asburgo-Lorena"
+
+
+ ### SUBIDEOLOGIES ###
+  subideologies_open:0 "Open Subideologies"
+  subideologies_close:0 "Close Subideologies"
+  GER_subideologies_list:0 "§Y[ROOT.GetName]§! has the following parties in their nation:\n§YSocial Liberal§!: German Liberal Alliance\n§BSocial Conservatism§!: Republican-Liberal Union\n§RMarxism§!: KPD"
+  generic_subideologies_list:0 "§Y[ROOT.GetName]§! has the following parties in their nation:\n§YSocial Liberal§!: [ROOT.GetAdjective] Liberal Party\n§YSocial Conservatism§!: [ROOT.GetAdjective] Conservative Party\n§YSocialism§!: [ROOT.GetAdjective] Socialist Party\n§RMarxism§!: Communist Party of [ROOT.GetName]\n§RLeninism§!: [ROOT.GetAdjective] Leninist Party\n§RStalinism§!: [ROOT.GetAdjective] Stalinist Party\n§RAnti-Revisionism§!: Anti-Revisionists of [ROOT.GetName]\n§RAnarcho-Communism§!: International League of Anarchists\n§LNazism§!: National Socialist Workers' Party of [ROOT.GetName]\n§LNational Corporatism§!: [ROOT.GetAdjective] National Corporatists\n§LFalangism§!: [ROOT.GetAdjective] Falanage Party\n§LRexism§!: [ROOT.GetAdjective] Rexist Party"
+  
