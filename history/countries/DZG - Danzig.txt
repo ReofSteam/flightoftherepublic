@@ -73,8 +73,8 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Heinrich Sahm"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "gfx/leaders/DZG/Heinrich_Sahm.tga"
+	desc = "POLITICS_HEINRICH_SAHM_DESC"
+	picture = "gfx/leaders/DZG/DZG_Heinrich_Sahm.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {

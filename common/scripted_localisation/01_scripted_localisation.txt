@@ -22,13 +22,13 @@ defined_text = {
 		trigger = {
 			is_puppet = no
 		}
-		localization_key = "General Assembly of §Y[ROOT.GetName]§!"
+		localization_key = "subideologies_country"
 	}
 	text = {
 		trigger = {
 			is_puppet = yes
 		}
-		localization_key = "General Assembly of §Y[OVERLORD.GetName]§!"
+		localization_key = "subideologies_country_overlord"
 	}
 }
 
@@ -69,7 +69,6 @@ defined_text = {
 					tag = GER
 					tag = ENG
 				}
-				is_puppet = no
 			}
 		}
 		localization_key = "generic_subideologies_liberal"

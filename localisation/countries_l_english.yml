@@ -2408,3 +2408,17 @@
  BEA_communism:0 "New Belgium"
  BEA_communism_DEF:0 "New Belgium"
  BEA_communism_ADJ:0 "Belgian"
+
+ #DZG - Freistaat Danzig
+ DZG_fascism:0 "Free City of Danzig"
+ DZG_fascism_DEF:0 "Free City of Danzig"
+ DZG_fascism_ADJ:0 "German"
+ DZG_democratic:0 "Free City of Danzig"
+ DZG_democratic_DEF:0 "Free City of Danzig"
+ DZG_democratic_ADJ:0 "German"
+ DZG_neutrality:0 "Free City of Danzig"
+ DZG_neutrality_DEF:0 "Free City of Danzig"
+ DZG_neutrality_ADJ:0 "German"
+ DZG_communism:0 "Free Commune of Danzig"
+ DZG_communism_DEF:0 "Free Commune of Danzig"
+ DZG_communism_ADJ:0 "German"
