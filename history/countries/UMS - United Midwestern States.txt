@@ -28,27 +28,36 @@ set_technology = {
 
 
 
-set_convoys = 400
+set_convoys = 0
 
 
 set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 19
+			popularity = 59
 		}
 
 		fascism = {
-			popularity = 51
+			popularity = 21
 		}
 		
 		communism = {
-			popularity = 30
+			popularity = 20
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
+}
+create_country_leader = {
+	name = "Charles R. Mabey"
+	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	picture = "gfx/leaders/UMS/Charles_R_Mabey_UMS.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
 }
