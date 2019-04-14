@@ -1,4 +1,4 @@
-﻿capital = 367
+﻿capital = 388
 
 oob = "UMS_1936"
 # Starting tech

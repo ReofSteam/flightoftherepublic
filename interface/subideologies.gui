@@ -2,15 +2,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "subideologies_ui_button"
-		position = { x=-65 y=-360 }	
-		show_position = { x=-65 y =-360 }
+		position = { x = 205 y = 5 }
 		size = { width=270 height=280 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		orientation = center_right
-		origo = center_right
-		fade_time = 200
-		fade_type = linear
 		buttonType = { 
 			name = "subideologies_button"
 			quadTextureSprite = "GFX_button_221x34"
