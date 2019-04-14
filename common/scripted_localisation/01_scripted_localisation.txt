@@ -120,7 +120,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = SUBIDEOLOGIES_NATCOP
+	name = SUBIDEOLOGIES_NATCORP
 	text = {
 		trigger = {
 			OR = {
@@ -128,7 +128,7 @@ defined_text = {
 				tag = FRA
 			}
 		}
-		localization_key = "FRA_subideologies_natcop"
+		localization_key = "FRA_subideologies_natcorp"
 	}
 	text = {
 		trigger = {
@@ -146,7 +146,7 @@ defined_text = {
 				tag = ENG
 			}
 		}
-		localization_key = "ENG_subideologies_natcop"
+		localization_key = "ENG_subideologies_natcorp"
 	}
 	text = {
 		trigger = {
@@ -159,7 +159,7 @@ defined_text = {
 				is_puppet = no
 			}
 		}
-		localization_key = "generic_subideologies_natcop"
+		localization_key = "generic_subideologies_natcorp"
 	}
 }
 

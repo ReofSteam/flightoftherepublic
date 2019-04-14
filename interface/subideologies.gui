@@ -100,7 +100,7 @@ guiTypes = {
 				name = "label_natcop"
 				position = {x = 20 y = 10}
 				font = "hoi_32mbs"
-				text = "[SUBIDEOLOGIES_NATCOP]"
+				text = "[SUBIDEOLOGIES_NATCORP]"
 				maxWidth = 527
 				maxHeight = 50
 				format = left
