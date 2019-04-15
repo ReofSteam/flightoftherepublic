@@ -137,7 +137,7 @@ defined_text = {
 				tag = GER
 			}
 		}
-		localization_key = "GER_subideologies_natcop"
+		localization_key = "GER_subideologies_natcorp"
 	}
 	text = {
 		trigger = {
