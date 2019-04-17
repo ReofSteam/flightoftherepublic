@@ -26,7 +26,7 @@ ideologies = {
 		color = { 0 0 255 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = yes
+			can_declare_war_on_same_ideology = no
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = no
@@ -42,6 +42,8 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		modifiers = {
+			join_faction_tension = 1
+			justify_war_goal_time = 1
 		}
 		can_be_boosted = no
 		faction_modifiers = {
@@ -87,7 +89,7 @@ ideologies = {
 		ai_communist = yes # uses the commie AI behaviour
 		
 		rules = {
-			can_declare_war_on_same_ideology = yes
+			can_declare_war_on_same_ideology = no
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = no
@@ -96,8 +98,9 @@ ideologies = {
 			can_guarantee_other_ideologies = no
 			can_create_factions = no			
 		}
-		
 		modifiers = {
+			join_faction_tension = 1
+			justify_war_goal_time = 1
 		}
 		can_be_boosted = no
 		
@@ -138,7 +141,7 @@ ideologies = {
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
-			can_declare_war_on_same_ideology = yes
+			can_declare_war_on_same_ideology = no
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = no
@@ -147,8 +150,9 @@ ideologies = {
 			can_guarantee_other_ideologies = no
 			can_create_factions = no	
 		}
-		
 		modifiers = {
+			join_faction_tension = 1
+			justify_war_goal_time = 1
 		}
 		can_be_boosted = no
 
@@ -187,7 +191,7 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		rules = {
-			can_declare_war_on_same_ideology = yes
+			can_declare_war_on_same_ideology = no
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = no
@@ -198,7 +202,8 @@ ideologies = {
 		}
 		
 		modifiers = {
-
+			join_faction_tension = 1
+			justify_war_goal_time = 1
 		}
 		
 		faction_modifiers = {

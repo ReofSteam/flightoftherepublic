@@ -57,6 +57,8 @@ puppet = MAL
 puppet = USA
 puppet = NRM
 puppet = LBA
+puppet = NMB
+puppet = NAT
 		
 create_faction = seven_seas_pact
 add_to_faction = ENG

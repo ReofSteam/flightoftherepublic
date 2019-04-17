@@ -29,6 +29,7 @@ scripted_gui = {
 	subideologies_window_ui = {
 		context_type = player_context
 		window_name = "subideologies_ui_window"
+		parent_window_token = politics_tab
 
 		properties = {
 			

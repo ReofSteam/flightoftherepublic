@@ -702,6 +702,13 @@
  GEA_GER_subject_DEF:1 "the Deutsch-Afrika"
  GEA_GER_subject_ADJ:1 "German"
 
+ ZUL_subject:0 "$OVERLORDADJ$ ZuluLand"
+ ZUL_subject_DEF:0 "the $OVERLORDADJ$ ZuluLand"
+ ZUL_subject_ADJ:0 "$OVERLORDADJ$"
+ ZUL_GER_subject:1 "Deutsch-Südostafrika"
+ ZUL_GER_subject_DEF:1 "the Deutsch-Südostafrika"
+ ZUL_GER_subject_ADJ:1 "German"
+
  #British Colonies
  MAL_UK_democratic:0 "British Malaya"
  MAL_UK_democratic_DEF:0 "British Malaya"
@@ -765,3 +772,50 @@
  LBA_subject:1 "$OVERLORDADJ$ Libya"
  LBA_subject_DEF:1 "the $OVERLORDADJ$ Libya"
  LBA_subject_ADJ:1 "$OVERLORDADJ$"
+
+ NMB_subject:0 "$OVERLORDADJ$ Nambia"
+ NMB_subject_DEF:0 "the $OVERLORDADJ$ Nambia"
+ NMB_subject_ADJ:0 "$OVERLORDADJ$"
+
+ NMB_ENG_subject:1 "$OVERLORDADJ$ South Africa"
+ NMB_ENG_subject_DEF:1 "the $OVERLORDADJ$ South Africa"
+ NMB_ENG_subject_ADJ:1 "$OVERLORDADJ$"
+
+ NAT_subject:0 "$OVERLORDADJ$ Natal"
+ NAT_subject_DEF:0 "the $OVERLORDADJ$ Natal"
+ NAT_subject_ADJ:0 "$OVERLORDADJ$"
+
+
+ # Dutch Colonies #
+
+ SAF_subject:0 "$OVERLORDADJ$ South Africa"
+ SAF_subject_DEF:0 "the $OVERLORDADJ$ South Africa"
+ SAF_subject_ADJ:0 "$OVERLORDADJ$"
+
+ SAF_HOL_subject:1 "Kaapkolonie"
+ SAF_HOL_subject_DEF:1 "the Kaapkolonie"
+ SAF_HOL_subject_ADJ:1 "$OVERLORDADJ$"
+
+ # Swedish Colonies #
+
+ SEA_subject:0 "$OVERLORDADJ$ Africa"
+ SEA_subject_DEF:0 "the $OVERLORDADJ$ Africa"
+ SEA_subject_ADJ:0 "$OVERLORDADJ$"
+
+ SEA_SWE_subject:1 "New Sweden"
+ SEA_SWE_subject_DEF:1 "New Sweden"
+ SEA_SWE_subject_ADJ:1 "$OVERLORDADJ$"
+
+ #Verenigde Republieke van Suid-Afrika#
+ VRSA_fascism:0 "Verenigde Republieke"
+ VRSA_fascism_DEF:0 "the Verenigde Republieke van Suid-Afrika"
+ VRSA_fascism_ADJ:0 "Boer"
+ VRSA_democratic:0 "Verenigde Republieke"
+ VRSA_democratic_DEF:0 "Verenigde Republieke van Suid-Afrika"
+ VRSA_democratic_ADJ:0 "Boer"
+ VRSA_neutrality:0 "Verenigde Republieke"
+ VRSA_neutrality_DEF:0 "the Verenigde Republieke van Suid-Afrika"
+ VRSA_neutrality_ADJ:0 "Boer"
+ VRSA_communism:0 "Verenigde Republieke"
+ VRSA_communism_DEF:0 "the Verenigde Republieke van Suid-Afrika"
+ VRSA_communism_ADJ:0 "Boer"

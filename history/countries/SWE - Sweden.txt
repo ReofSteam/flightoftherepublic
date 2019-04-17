@@ -10,6 +10,7 @@ if = {
 }
 
 puppet = NOR
+puppet = SEA
 NOR = {
 	set_party_name = { 
 	    ideology = neutrality 
@@ -17,6 +18,14 @@ NOR = {
 	    name = NOR_sweden_neutrality_party
 	}
 	set_cosmetic_tag = NOR_SWENOR #Union of Sweden-Norway
+}
+SEA = {
+	set_party_name = { 
+	    ideology = neutrality 
+	    long_name = NOR_sweden_neutrality_party_long
+	    name = NOR_sweden_neutrality_party
+	}
+	set_cosmetic_tag = SEA_SWE #Union of Sweden-Norway
 }
 set_cosmetic_tag = SWE_SWENOR #Union of Sweden-Norway
 
