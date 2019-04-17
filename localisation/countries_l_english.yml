@@ -2410,17 +2410,17 @@
  BEA_communism_ADJ:0 "Belgian"
 
  #SEA - Belgian Sweden
- SEA_fascism:0 "New Sweden"
- SEA_fascism_DEF:0 "New Sweden"
+ SEA_fascism:0 "Nordnamibia"
+ SEA_fascism_DEF:0 "the Nordnamibia"
  SEA_fascism_ADJ:0 "Swedish"
- SEA_democratic:0 "New Sweden"
- SEA_democratic_DEF:0 "New Sweden"
+ SEA_democratic:0 "Nordnamibia"
+ SEA_democratic_DEF:0 "the Nordnamibia"
  SEA_democratic_ADJ:0 "Swedish"
- SEA_neutrality:0 "New Sweden"
- SEA_neutrality_DEF:0 "New Sweden"
+ SEA_neutrality:0 "Nordnamibia"
+ SEA_neutrality_DEF:0 "the Nordnamibia"
  SEA_neutrality_ADJ:0 "Swedish"
- SEA_communism:0 "New Sweden"
- SEA_communism_DEF:0 "New Sweden"
+ SEA_communism:0 "Nordnamibia"
+ SEA_communism_DEF:0 "the Nordnamibia"
  SEA_communism_ADJ:0 "Swedish"
 
  #DZG - Freistaat Danzig

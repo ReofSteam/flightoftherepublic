@@ -823,3 +823,17 @@
  VRSA_communism:0 "Verenigde Republieke"
  VRSA_communism_DEF:0 "the Verenigde Republieke van Suid-Afrika"
  VRSA_communism_ADJ:0 "Boer"
+
+ #Teutonic Order#
+ TEUTONIC_fascism:0 "Teutonic Order"
+ TEUTONIC_fascism_DEF:0 "the Teutonic Order"
+ TEUTONIC_fascism_ADJ:0 "Teutonic"
+ TEUTONIC_democratic:0 "Teutonic Order"
+ TEUTONIC_democratic_DEF:0 "Teutonic Order"
+ TEUTONIC_democratic_ADJ:0 "Teutonic"
+ TEUTONIC_neutrality:0 "Teutonic Order"
+ TEUTONIC_neutrality_DEF:0 "the Teutonic Order"
+ TEUTONIC_neutrality_ADJ:0 "Teutonic"
+ TEUTONIC_communism:0 "Teutonic Order"
+ TEUTONIC_communism_DEF:0 "the Teutonic Order"
+ TEUTONIC_communism_ADJ:0 "Teutonic"

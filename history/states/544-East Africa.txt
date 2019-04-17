@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 	history={
-		owner = BEA
+		owner = POR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,11 +21,11 @@ state={
 		victory_points = {
 			8245 1 
 		}
-		add_core_of = BEA
+		add_claim_by = BEA
 		add_core_of = MZB
 	}
 
 	provinces={
-		2123 2159 2180 2193 2202 2217 5164 5177 5212 8245 10972 12971 
+		2123 2159 2180 2202 2217 5164 10972 12971 
 	}
 }

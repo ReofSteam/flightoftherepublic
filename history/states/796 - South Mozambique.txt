@@ -1,0 +1,16 @@
+state={
+	id=796
+	name="STATE_796"
+	manpower = 45050
+	
+	state_category = city
+	history={
+		owner = POR
+		add_core_of = MZB
+		add_claim_by = BEA
+	}
+
+	provinces={
+		5177 5212 8245
+	}
+}
