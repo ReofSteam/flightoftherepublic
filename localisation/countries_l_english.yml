@@ -2409,6 +2409,20 @@
  BEA_communism_DEF:0 "New Belgium"
  BEA_communism_ADJ:0 "Belgian"
 
+ #SEA - Belgian Sweden
+ SEA_fascism:0 "New Sweden"
+ SEA_fascism_DEF:0 "New Sweden"
+ SEA_fascism_ADJ:0 "Swedish"
+ SEA_democratic:0 "New Sweden"
+ SEA_democratic_DEF:0 "New Sweden"
+ SEA_democratic_ADJ:0 "Swedish"
+ SEA_neutrality:0 "New Sweden"
+ SEA_neutrality_DEF:0 "New Sweden"
+ SEA_neutrality_ADJ:0 "Swedish"
+ SEA_communism:0 "New Sweden"
+ SEA_communism_DEF:0 "New Sweden"
+ SEA_communism_ADJ:0 "Swedish"
+
  #DZG - Freistaat Danzig
  DZG_fascism:0 "Free City of Danzig"
  DZG_fascism_DEF:0 "Free City of Danzig"
@@ -2422,10 +2436,39 @@
  DZG_communism:0 "Free Commune of Danzig"
  DZG_communism_DEF:0 "Free Commune of Danzig"
  DZG_communism_ADJ:0 "German"
- 
+
  #NFL - Newfoundland
  NFL_fascism:0 "Dominion of Newfoundland"
  NFL_fascism_DEF:0 "the Dominion of Newfoundland"
  NFL_neutrality:0 "Dominion of Newfoundland"
  NFL_democratic:0 "Free State of Newfoundland"
  NFL_communism:0 "Canadian Revolutionary Front"
+
+ #ZUL - Zululand
+ ZUL_fascism:0 "Zulu Empire"
+ ZUL_fascism_DEF:0 "the Zulu Empire"
+ ZUL_fascism_ADJ:0 "Zulu"
+ ZUL_democratic:0 "Zululand"
+ ZUL_democratic_DEF:0 "Zululand"
+ ZUL_democratic_ADJ:0 "Zulu"
+ ZUL_neutrality:0 "Kingdom of Zululand"
+ ZUL_neutrality_DEF:0 "the Kingdom of Zululand"
+ ZUL_neutrality_ADJ:0 "Zulu"
+ ZUL_communism:0 "Zulu Commune"
+ ZUL_communism_DEF:0 "the Zulu Commune"
+ ZUL_communism_ADJ:0 "Zulu"
+
+ #NAT - Natal
+ NAT_fascism:0 "Natalian Empire"
+ NAT_fascism_DEF:0 "the Natalian Empire"
+ NAT_fascism_ADJ:0 "Natalian"
+ NAT_democratic:0 "Natalian Republic"
+ NAT_democratic_DEF:0 "Natalian Republic"
+ NAT_democratic_ADJ:0 "Natalian"
+ NAT_neutrality:0 "Kingdom of Natal"
+ NAT_neutrality_DEF:0 "the Kingdom of Natal"
+ NAT_neutrality_ADJ:0 "Natalian"
+ NAT_communism:0 "Natalian Commune"
+ NAT_communism_DEF:0 "the Natalian Commune"
+ NAT_communism_ADJ:0 "Natalian"
+

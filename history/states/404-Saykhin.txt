@@ -3,12 +3,14 @@ state={
 	name="STATE_404"
 
 	history={
-		owner = RUS
-		add_core_of = KAZ
+		owner = RUE
 		buildings = {
 			infrastructure = 1
 
 		}
+		add_core_of = KAZ
+		add_core_of = SOV
+		add_core_of = RUE
 		add_core_of = RUS
 
 	}

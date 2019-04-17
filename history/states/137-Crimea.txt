@@ -30,6 +30,8 @@ state={
 				coastal_bunker = 1
 			}
 		}
+		add_core_of = SOV
+		add_core_of = RUE
 		add_core_of = RUS
 		1939.1.1 = {
 			buildings = {

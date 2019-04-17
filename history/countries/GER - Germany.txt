@@ -74,6 +74,7 @@ add_to_faction = POL
 
 puppet = GEA #Deutsch-Afrika
 puppet = AST #Deutsch-Australien
+puppet = ZUL #Königreich Zululand
 
 
 add_ideas = {
