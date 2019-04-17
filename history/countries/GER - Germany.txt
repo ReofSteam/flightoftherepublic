@@ -68,9 +68,9 @@ set_politics = {
 create_faction = continental_allies
 add_to_faction = GER
 add_to_faction = FRA
-add_to_faction = AST
+add_to_faction = UKR
 add_to_faction = POL
-add_to_faction = GEA
+
 
 puppet = GEA #Deutsch-Afrika
 puppet = AST #Deutsch-Australien

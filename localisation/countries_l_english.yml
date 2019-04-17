@@ -2382,17 +2382,17 @@
  SPR_communism_ADJ:0 "Castillian"
 
  #GEA - German Africa
- GEA_fascism:0 "New Germany"
- GEA_fascism_DEF:0 "New Germany"
+ GEA_fascism:0 "Deustch-Westafrika"
+ GEA_fascism_DEF:0 "Deustch-Westafrika"
  GEA_fascism_ADJ:0 "German"
- GEA_democratic:0 "New Germany"
- GEA_democratic_DEF:0 "New Germany"
+ GEA_democratic:0 "Deustch-Westafrika"
+ GEA_democratic_DEF:0 "Deustch-Westafrika"
  GEA_democratic_ADJ:0 "German"
- GEA_neutrality:0 "New Germany"
- GEA_neutrality_DEF:0 "New Germany"
+ GEA_neutrality:0 "Deustch-Westafrika"
+ GEA_neutrality_DEF:0 "Deustch-Westafrika"
  GEA_neutrality_ADJ:0 "German"
- GEA_communism:0 "New Germany"
- GEA_communism_DEF:0 "New Germany"
+ GEA_communism:0 "Deustch-Westafrika"
+ GEA_communism_DEF:0 "Deustch-Westafrika"
  GEA_communism_ADJ:0 "German"
 
  #BEA - Belgian Africa
@@ -2437,6 +2437,13 @@
  DZG_communism_DEF:0 "Free Commune of Danzig"
  DZG_communism_ADJ:0 "German"
 
+ #NFL - Newfoundland
+ NFL_fascism:0 "Dominion of Newfoundland"
+ NFL_fascism_DEF:0 "the Dominion of Newfoundland"
+ NFL_neutrality:0 "Dominion of Newfoundland"
+ NFL_democratic:0 "Free State of Newfoundland"
+ NFL_communism:0 "Canadian Revolutionary Front"
+
  #ZUL - Zululand
  ZUL_fascism:0 "Zulu Empire"
  ZUL_fascism_DEF:0 "the Zulu Empire"
@@ -2464,3 +2471,4 @@
  NAT_communism:0 "Natalian Commune"
  NAT_communism_DEF:0 "the Natalian Commune"
  NAT_communism_ADJ:0 "Natalian"
+

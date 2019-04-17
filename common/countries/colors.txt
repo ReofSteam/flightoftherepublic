@@ -141,6 +141,10 @@ CAN = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
 }
+NFL = {
+	color = rgb { 39 48 119 }
+	color_ui = rgb { 51 62 155 }
+}
 CHI = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }

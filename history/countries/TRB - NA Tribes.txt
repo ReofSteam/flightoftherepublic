@@ -28,7 +28,7 @@ set_technology = {
 
 
 
-set_convoys = 400
+set_convoys = 0
 
 
 set_politics = {
@@ -51,4 +51,14 @@ set_politics = {
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "United Tribal Council"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "gfx/leaders/TRB/United_Tribal_Council_TRB.tga"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+	}
 }
