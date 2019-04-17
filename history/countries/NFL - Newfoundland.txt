@@ -57,9 +57,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Imperial Regency Council"
+	name = "Governor Sir Humphrey Thomas Walwyn"
 	desc = "POLITICS_ADRIEN_ARCAND_DESC"
-	picture = "gfx/leaders/CAN/Imperial_Regency_Council_CAN.tga"
+	picture = "gfx/leaders/NFL/governor.tga"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
