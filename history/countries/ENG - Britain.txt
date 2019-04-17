@@ -1,4 +1,4 @@
-﻿capital = 126
+﻿﻿capital = 126
 
 set_oob = "ENG_1936"
 
@@ -57,16 +57,16 @@ puppet = MAL
 puppet = USA
 puppet = NRM
 puppet = LBA
+puppet = NFL
 puppet = NMB
 puppet = NAT
+puppet = COG
 		
 create_faction = seven_seas_pact
 add_to_faction = ENG
 add_to_faction = SWE
-add_to_faction = USA
 add_to_faction = COR
 add_to_faction = CAN
-add_to_faction = LBA
 
 
 
