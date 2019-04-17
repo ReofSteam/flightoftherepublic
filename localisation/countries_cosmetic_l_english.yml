@@ -785,6 +785,10 @@
  NAT_subject_DEF:0 "the $OVERLORDADJ$ Natal"
  NAT_subject_ADJ:0 "$OVERLORDADJ$"
 
+ COG_ENG_subject:1 "$OVERLORDADJ$ Congoland"
+ COG_ENG_subject_DEF:1 "the $OVERLORDADJ$ Congoland"
+ COG_ENG_subject_ADJ:1 "$OVERLORDADJ$"
+
 
  # Dutch Colonies #
 
