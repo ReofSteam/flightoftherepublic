@@ -6,15 +6,12 @@ state={
 	state_category = city
 	history={
 		owner = SEA 
-		victory_points = {
-			12921 1
-		}
 		add_core_of = SEA
 		add_core_of = SAF
 		add_core_of = NMB
 	}
 
 	provinces={
-		8136 10957 10978 12519 12921 13217
+		8136 10957 10978 12519 13218 13219 13220 13221 13222
 	}
 }

@@ -1,0 +1,16 @@
+state={
+	id=806
+	name="STATE_805"
+	manpower = 60000
+	
+	state_category = rural
+	history={
+		owner = NMB
+		add_core_of = NMB
+		add_core_of = SAF
+	}
+
+	provinces={
+		13225
+	}
+}

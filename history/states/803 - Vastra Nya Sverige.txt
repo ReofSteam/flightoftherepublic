@@ -1,0 +1,17 @@
+state={
+	id=803
+	name="STATE_803"
+	manpower = 11301
+	
+	state_category = desert
+	history={
+		owner = SEA
+		add_core_of = SEA
+		add_core_of = BOT
+		add_claim_by = ZIM
+	}
+
+	provinces={
+		13217 13223 13224
+	}
+}

@@ -1,0 +1,15 @@
+state={
+	id=801
+	name="STATE_801"
+	manpower = 141301
+	
+	state_category = city
+	history={
+		owner = ZIM
+		add_core_of = ZIM
+	}
+
+	provinces={
+		10668 10697
+	}
+}
