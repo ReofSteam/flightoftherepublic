@@ -710,6 +710,10 @@
  ALG_GER_subject_DEF:1 "the Deutsch-Algerien"
  ALG_GER_subject_ADJ:1 "$OVERLORDADJ$"
 
+ GEA_GER_subject:0 "Deustch-Westafrika"
+ GEA_GER_subject_DEF:0 "Deustch-Westafrika"
+ GEA_GER_subject_ADJ:0 "$OVERLORDADJ$"
+
  #British Colonies
  MAL_UK_democratic:0 "British Malaya"
  MAL_UK_democratic_DEF:0 "British Malaya"

@@ -1,0 +1,15 @@
+state={
+	id=798
+	name="STATE_798"
+	manpower = 119934
+	
+	state_category = city
+	history={
+		owner = SAF
+		add_core_of = SAF
+	}
+
+	provinces={
+		12547
+	}
+}

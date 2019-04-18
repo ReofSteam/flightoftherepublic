@@ -2,7 +2,7 @@
 state={
 	id=681
 	name="STATE_681" # Cape
-	manpower = 1637178
+	manpower = 451119
 
 	state_category = town
 
@@ -23,6 +23,6 @@ state={
 	}
 
 	provinces={
-		4528 4822 10415 10442 12419 12547 12589 12692 
+		12589
 	}
 }
