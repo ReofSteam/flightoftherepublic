@@ -695,13 +695,6 @@
  AST_GER_subject_DEF:1 "the Deutsch-Australien"
  AST_GER_subject_ADJ:1 "German"
 
- GEA_subject:0 "$OVERLORDADJ$ Africa"
- GEA_subject_DEF:0 "the $OVERLORDADJ$ Africa"
- GEA_subject_ADJ:0 "$OVERLORDADJ$"
- GEA_GER_subject:1 "Deutsch-Afrika"
- GEA_GER_subject_DEF:1 "the Deutsch-Afrika"
- GEA_GER_subject_ADJ:1 "German"
-
  ZUL_subject:0 "$OVERLORDADJ$ ZuluLand"
  ZUL_subject_DEF:0 "the $OVERLORDADJ$ ZuluLand"
  ZUL_subject_ADJ:0 "$OVERLORDADJ$"
@@ -823,17 +816,8 @@
  VRSA_communism:0 "Verenigde Republieke"
  VRSA_communism_DEF:0 "the Verenigde Republieke van Suid-Afrika"
  VRSA_communism_ADJ:0 "Boer"
-
- #Teutonic Order#
- TEUTONIC_fascism:0 "Teutonic Order"
- TEUTONIC_fascism_DEF:0 "the Teutonic Order"
- TEUTONIC_fascism_ADJ:0 "Teutonic"
- TEUTONIC_democratic:0 "Teutonic Order"
- TEUTONIC_democratic_DEF:0 "Teutonic Order"
- TEUTONIC_democratic_ADJ:0 "Teutonic"
- TEUTONIC_neutrality:0 "Teutonic Order"
- TEUTONIC_neutrality_DEF:0 "the Teutonic Order"
- TEUTONIC_neutrality_ADJ:0 "Teutonic"
- TEUTONIC_communism:0 "Teutonic Order"
- TEUTONIC_communism_DEF:0 "the Teutonic Order"
- TEUTONIC_communism_ADJ:0 "Teutonic"
+ 
+ #German Colonies
+ ALG_GER_subject:1 "Deutsch-Algerien"
+ ALG_GER_subject_DEF:1 "the Deutsch-Algerien"
+ ALG_GER_subject_ADJ:1 "$OVERLORDADJ$"

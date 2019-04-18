@@ -72,9 +72,10 @@ add_to_faction = UKR
 add_to_faction = POL
 
 
-puppet = GEA #Deutsch-Afrika
+puppet = GEA #Deutsch-WestAfrika
 puppet = AST #Deutsch-Australien
 puppet = ZUL #Königreich Zululand
+puppet = ALG #Deutsch-Algerien
 
 
 add_ideas = {

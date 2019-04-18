@@ -8,8 +8,7 @@ state={
 	impassable = yes
 
 	history={
-		owner = GEA
-		add_core_of = GEA
+		owner = ALG
 		add_core_of = ALG
 		add_claim_by = FRA
 		buildings = {
