@@ -34,10 +34,10 @@ set_politics = {
 	elections_allowed = no
 }
 create_country_leader = {
-	name = "Governor-General Adolf Friedrich"
-	desc = ""
-	picture = "gfx/leaders/GEA/Albert_Speer.tga"
-	ideology = despotism
+	name = "Governor-General Heinrich Köhler"
+	desc = "POLITICS_ADRIEN_ARCAND_DESC"
+	picture = "gfx/leaders/GEA/Heinrich_Kohler_GEA.tga"
+	ideology = centrism
 	traits = {
 		#
 	}
