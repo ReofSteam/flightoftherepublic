@@ -53,9 +53,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Governor-General Max Looff"
+	name = "Governor-General Rudolf Asmis"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "gfx/leaders/AST/Max_Looff_AST.tga"
+	picture = "gfx/leaders/AST/AST_Rudolf_Asmis.tga"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
