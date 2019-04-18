@@ -10,6 +10,8 @@ set_war_support = 0.1
 # DIPLOMACY #
 puppet = RAJ
 puppet = CUB
+puppet = BRM
+puppet = SRL
 
 
 #############

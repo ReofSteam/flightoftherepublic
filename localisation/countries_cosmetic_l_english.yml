@@ -832,7 +832,7 @@
  VRSA_communism_DEF:0 "the Verenigde Republieke van Suid-Afrika"
  VRSA_communism_ADJ:0 "Boer"
 
- #Canadian Colonies#
+ #Empire-Beyond-the-Seas#
 
 
  RAJ_subject:0 "$OVERLORDADJ$ India"
@@ -841,12 +841,20 @@
 
  RAJ_CAN_subject:1 "Regency of India"
  RAJ_CAN_subject_DEF:1 "the Regency of India"
- RAJ_CAN_subject_ADJ:1 "$OVERLORDADJ$"
-
+ RAJ_CAN_subject_ADJ:1 "Indian"
+ 
+ BRM_CAN_subject:1 "Regency of Burma"
+ BRM_CAN_subject_DEF:1 "the Regency of Burma"
+ BRM_CAN_subject_ADJ:1 "Burmese"
+ 
+ SRL_CAN_subject:1 "Regency of Ceylon"
+ SRL_CAN_subject_DEF:1 "the Regency of Ceylon"
+ SRL_CAN_subject_ADJ:1 "Ceylonese"
+ 
  CUB_subject:0 "$OVERLORDADJ$ Cuba"
  CUB_subject_DEF:0 "the $OVERLORDADJ$ Cuba"
  CUB_subject_ADJ:0 "$OVERLORDADJ$"
 
  CUB_CAN_subject:1 "Regency of Cuba"
  CUB_CAN_subject_DEF:1 "the Regency of Cuba"
- CUB_CAN_subject_ADJ:1 "$OVERLORDADJ$"
+ CUB_CAN_subject_ADJ:1 "Cuban"
