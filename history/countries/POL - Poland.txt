@@ -2,7 +2,6 @@
 
 oob = "POL_1936"
 set_research_slots = 3
-set_cosmetic_tag = TEUTONIC
 
 # Starting tech
 set_technology = {
