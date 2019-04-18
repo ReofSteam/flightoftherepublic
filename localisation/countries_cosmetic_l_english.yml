@@ -702,17 +702,17 @@
  ZUL_GER_subject_DEF:1 "the Deutsch-Südostafrika"
  ZUL_GER_subject_ADJ:1 "German"
 
+ RAJ_GER_subject:1 "Deutsch-Indien"
+ RAJ_GER_subject_DEF:1 "the Deutsch-Indien"
+ RAJ_GER_subject_ADJ:1 "German"
+
+ ALG_GER_subject:1 "Deutsch-Algerien"
+ ALG_GER_subject_DEF:1 "the Deutsch-Algerien"
+ ALG_GER_subject_ADJ:1 "$OVERLORDADJ$"
+
  #British Colonies
  MAL_UK_democratic:0 "British Malaya"
  MAL_UK_democratic_DEF:0 "British Malaya"
- 
- RAJ_UK_democratic:0 "British Raj"
- RAJ_UK_democratic_DEF:0 "the British Raj"
- RAJ_UK_neutrality:0 "British Raj"
- RAJ_UK_neutrality_DEF:0 "the British Raj"
- RAJ_UK_subject:0 "$OVERLORDADJ$ Raj"
- RAJ_UK_autonomy_dominion:0 "Dominion of India"
- RAJ_UK_autonomy_dominion_DEF:0 "the Dominion of India"
 
  CAN_UK_autonomy_dominion:0 "Dominion of Canada"
  CAN_UK_autonomy_colony:0 "Canadian Confederation"
@@ -782,7 +782,6 @@
  COG_ENG_subject_DEF:1 "the $OVERLORDADJ$ Congoland"
  COG_ENG_subject_ADJ:1 "$OVERLORDADJ$"
 
-
  # Dutch Colonies #
 
  SAF_subject:0 "$OVERLORDADJ$ South Africa"
@@ -793,15 +792,27 @@
  SAF_HOL_subject_DEF:1 "the Kaapkolonie"
  SAF_HOL_subject_ADJ:1 "$OVERLORDADJ$"
 
+ SEA_HOL_subject:1 "Noord Namibië Kolonie"
+ SEA_HOL_subject_DEF:1 "the Noord Namibië Kolonie"
+ SEA_HOL_subject_ADJ:1 "$OVERLORDADJ$"
+
+ NMB_HOL_subject:1 "Zuid-Namibië Kolonie"
+ NMB_HOL_subject_DEF:1 "the Zuid-Namibië Kolonie"
+ NMB_HOL_subject_ADJ:1 "$OVERLORDADJ$"
+
  # Swedish Colonies #
 
  SEA_subject:0 "$OVERLORDADJ$ Africa"
  SEA_subject_DEF:0 "the $OVERLORDADJ$ Africa"
  SEA_subject_ADJ:0 "$OVERLORDADJ$"
 
- SEA_SWE_subject:1 "New Sweden"
- SEA_SWE_subject_DEF:1 "New Sweden"
+ SEA_SWE_subject:1 "Nya Sverige"
+ SEA_SWE_subject_DEF:1 "Nya Sverige"
  SEA_SWE_subject_ADJ:1 "$OVERLORDADJ$"
+
+ RAJ_SWE_subject:1 "Nya Lappland"
+ RAJ_SWE_subject_DEF:1 "Nya Lappland"
+ RAJ_SWE_subject_ADJ:1 "Swedish"
 
  #Verenigde Republieke van Suid-Afrika#
  VRSA_fascism:0 "Verenigde Republieke"
@@ -816,8 +827,22 @@
  VRSA_communism:0 "Verenigde Republieke"
  VRSA_communism_DEF:0 "the Verenigde Republieke van Suid-Afrika"
  VRSA_communism_ADJ:0 "Boer"
- 
- #German Colonies
- ALG_GER_subject:1 "Deutsch-Algerien"
- ALG_GER_subject_DEF:1 "the Deutsch-Algerien"
- ALG_GER_subject_ADJ:1 "$OVERLORDADJ$"
+
+ #Canadian Colonies#
+
+
+ RAJ_subject:0 "$OVERLORDADJ$ India"
+ RAJ_subject_DEF:0 "the $OVERLORDADJ$ India"
+ RAJ_subject_ADJ:0 "$OVERLORDADJ$"
+
+ RAJ_CAN_subject:1 "Regency of India"
+ RAJ_CAN_subject_DEF:1 "the Regency of India"
+ RAJ_CAN_subject_ADJ:1 "$OVERLORDADJ$"
+
+ CUB_subject:0 "$OVERLORDADJ$ Cuba"
+ CUB_subject_DEF:0 "the $OVERLORDADJ$ Cuba"
+ CUB_subject_ADJ:0 "$OVERLORDADJ$"
+
+ CUB_CAN_subject:1 "Regency of Cuba"
+ CUB_CAN_subject_DEF:1 "the Regency of Cuba"
+ CUB_CAN_subject_ADJ:1 "$OVERLORDADJ$"
