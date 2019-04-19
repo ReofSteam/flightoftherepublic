@@ -84,7 +84,9 @@ add_ideas = {
 	limited_conscription
 }
 
+## DIPLOMACY ##
 #give_guarantee = CZE
+puppet = NZL
 
 create_country_leader = {
 	name = "Albert Lebrun"

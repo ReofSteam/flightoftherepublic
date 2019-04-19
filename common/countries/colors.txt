@@ -598,6 +598,14 @@ DZG = {
 	color = rgb { 140 29 42 }
 	color_ui = rgb { 140 29 42 }
 }
+BCA = {
+	color = rgb { 158 60 98 }
+	color_ui = rgb { 158 60 98 }
+}
+FCA = {
+	color = rgb { 61 158 137 }
+	color_ui = rgb { 61 158 137 }
+}
 
 #CIVIL WAR
 

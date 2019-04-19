@@ -1,0 +1,27 @@
+state={
+	id=807
+	name="STATE_807"
+	manpower = 60000
+	state_category = town
+	history={
+		owner = NZL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			7566 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7566 1 
+		}
+		add_core_of = NZL
+		add_core_of = BCA
+		add_core_of = FCA
+	}
+
+	provinces={
+		1501 1644 2166 2187 4505 4520 4648 7506 7525 7538 7566 10338 10350 10365 10378 12354 12367 12382
+	}
+}

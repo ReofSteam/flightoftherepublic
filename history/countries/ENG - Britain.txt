@@ -61,6 +61,7 @@ puppet = NFL
 puppet = NMB
 puppet = NAT
 puppet = COG
+puppet = BCA
 		
 create_faction = seven_seas_pact
 add_to_faction = ENG

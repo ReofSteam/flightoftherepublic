@@ -610,6 +610,11 @@
  COG_ENG_subject_DEF:1 "the $OVERLORDADJ$ Congoland"
  COG_ENG_subject_ADJ:1 "$OVERLORDADJ$"
 
+ BCA_subject:0 "$OVERLORDADJ$ Australia"
+ BCA_subject_DEF:0 "the $OVERLORDADJ$ Australia"
+ BCA_subject_ADJ:0 "$OVERLORDADJ$"
+
+
  # Dutch Colonies #
 
  SAF_subject:0 "$OVERLORDADJ$ South Africa"
@@ -658,7 +663,6 @@
 
  #Empire-Beyond-the-Seas#
 
-
  RAJ_subject:0 "$OVERLORDADJ$ India"
  RAJ_subject_DEF:0 "the $OVERLORDADJ$ India"
  RAJ_subject_ADJ:0 "$OVERLORDADJ$"
@@ -682,3 +686,8 @@
  CUB_CAN_subject:1 "Regency of Cuba"
  CUB_CAN_subject_DEF:1 "the Regency of Cuba"
  CUB_CAN_subject_ADJ:1 "Cuban"
+
+ #French Colonies#
+ NZL_FRA_subject:1 "Colonie française d'Australasie"
+ NZL_FRA_subject_DEF:1 "the Colonie française d'Australasie"
+ NZL_FRA_subject_ADJ:1 "$OVERLORDADJ$"
