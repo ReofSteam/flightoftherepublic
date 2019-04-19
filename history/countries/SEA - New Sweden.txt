@@ -1,7 +1,7 @@
-﻿capital = 792
+﻿capital = 802
 
 oob = "SEA_1936"
-set_stability = 0.8
+set_stability = 0.5
 set_war_support = 0.3
 # Starting tech
 set_technology = {
@@ -53,9 +53,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Gustaf V"
-	desc = "POLITICS_GUSTAF_V_DESC"
-	picture = "gfx/leaders/SWE/SWE_Gustaf_V.dds"
+	name = "Rickard Sandler"
+	desc = "POLITICS_RICKARD_SANDLER_DESC"
+	picture = "gfx/leaders/SWE/SWE_Rickard_Sandler.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

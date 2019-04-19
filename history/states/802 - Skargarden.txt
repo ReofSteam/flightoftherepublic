@@ -1,0 +1,18 @@
+state={
+	id=802
+	name="STATE_802"
+	manpower = 141301
+	
+	state_category = city
+	history={
+		owner = SEA
+		add_core_of = SEA
+		victory_points = {
+			12921 1
+		}
+	}
+
+	provinces={
+		12921
+	}
+}

@@ -54,31 +54,20 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Governor-General Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "gfx/leaders/GEA/GEA_Adolf_Hitler.tga"
+	name = "Governor-General Max Looff"
+	desc = "POLITICS_JOHN_CURTIN_DESC"
+	picture = "gfx/leaders/AST/Max_Looff_AST.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = centrism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Governor-General Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "gfx/leaders/GEA/GEA_Adolf_Hitler.tga"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Governor-General Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "gfx/leaders/GEA/GEA_Adolf_Hitler.tga"
+	name = "Governor-General Max Looff"
+	desc = "POLITICS_JOHN_CURTIN_DESC"
+	picture = "gfx/leaders/AST/Max_Looff_AST.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -87,11 +76,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Governor-General Ernst Thälmann"
-	desc = "POLITICS_ERNST_THALMANN_DESC"
-	picture = "gfx/leaders/GEA/GEA_Ernst_Thalmann.tga"
+	name = "Governor-General Max Looff"
+	desc = "POLITICS_JOHN_CURTIN_DESC"
+	picture = "gfx/leaders/AST/Max_Looff_AST.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
