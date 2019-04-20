@@ -10,6 +10,7 @@
  continental_allies:0 "Continental Allies"
  seven_seas_pact:0 "The Seven Seas Pact"
  communist_international:0 "Third International"
+ austria_empire:0 "Austrian Empire"
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
  FACTION_NAME_DEMOCRATIC_3:0 "The $LEADER_COUNTRY_ADJ$ Concordat"

@@ -1,0 +1,24 @@
+state = {
+	id=809
+	name="STATE_809"
+	manpower = 194611
+	
+	state_category = town
+	
+	resources={
+		steel=4 # was: 8
+	}
+	
+	history={
+		owner = MLT
+		buildings = {
+			5222 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MLT
+	}
+	provinces = {
+		5222 13226
+	}
+}
