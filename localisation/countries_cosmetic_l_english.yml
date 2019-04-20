@@ -688,6 +688,6 @@
  CUB_CAN_subject_ADJ:1 "Cuban"
 
  #French Colonies#
- NZL_FRA_subject:1 "Colonie française d'Australasie"
- NZL_FRA_subject_DEF:1 "the Colonie française d'Australasie"
+ NZL_FRA_subject:1 "French New Zeelandia"
+ NZL_FRA_subject_DEF:1 "the French New Zeelandia"
  NZL_FRA_subject_ADJ:1 "$OVERLORDADJ$"
