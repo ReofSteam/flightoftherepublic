@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = CHL
-		add_core_of = CHL
+		owner = PTG
+		add_core_of = PTG
 		buildings = {
 			infrastructure = 3
 			10953 = {

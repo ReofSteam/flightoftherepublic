@@ -606,6 +606,10 @@ FCA = {
 	color = rgb { 61 158 137 }
 	color_ui = rgb { 61 158 137 }
 }
+PTG = {
+	color = rgb { 12 82 140 }
+	color_ui = rgb { 12 82 140 }
+}
 
 #CIVIL WAR
 
