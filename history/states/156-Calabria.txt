@@ -23,6 +23,8 @@ state={
 			}
 		}
 		add_core_of = VOL
+		add_core_of = ITA
+		add_core_of = ROR
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

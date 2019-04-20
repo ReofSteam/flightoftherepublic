@@ -18,7 +18,7 @@ state={
 		}
 		add_core_of = NZL
 		add_core_of = BCA
-		add_core_of = FCA
+		add_core_of = AST
 	}
 
 	provinces={
