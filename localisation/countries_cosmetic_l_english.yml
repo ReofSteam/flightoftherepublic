@@ -522,9 +522,9 @@
  ZUL_subject:0 "$OVERLORDADJ$ ZuluLand"
  ZUL_subject_DEF:0 "the $OVERLORDADJ$ ZuluLand"
  ZUL_subject_ADJ:0 "$OVERLORDADJ$"
- ZUL_GER_subject:1 "Deutsch-Südostafrika"
- ZUL_GER_subject_DEF:1 "the Deutsch-Südostafrika"
- ZUL_GER_subject_ADJ:1 "German"
+ ZUL_GER_subject:1 "Königreich Zululand"
+ ZUL_GER_subject_DEF:1 "Königreich Zululand"
+ ZUL_GER_subject_ADJ:1 "Zulu"
 
  RAJ_GER_subject:1 "Deutsch-Indien"
  RAJ_GER_subject_DEF:1 "the Deutsch-Indien"
@@ -690,4 +690,4 @@
  #French Colonies#
  NZL_FRA_subject:1 "French New Zeelandia"
  NZL_FRA_subject_DEF:1 "the French New Zeelandia"
- NZL_FRA_subject_ADJ:1 "$OVERLORDADJ$"
+ NZL_FRA_subject_ADJ:1 "Zélandais"

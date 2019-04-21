@@ -54,7 +54,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Governor-General Max Looff"
+	name = "Resident-General Max Looff"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
 	picture = "gfx/leaders/AST/Max_Looff_AST.tga"
 	expire = "1965.1.1"
@@ -65,7 +65,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Governor-General Max Looff"
+	name = "Resident-General Max Looff"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
 	picture = "gfx/leaders/AST/Max_Looff_AST.tga"
 	expire = "1965.1.1"
@@ -76,7 +76,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Governor-General Max Looff"
+	name = "Resident-General Max Looff"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
 	picture = "gfx/leaders/AST/Max_Looff_AST.tga"
 	expire = "1965.1.1"

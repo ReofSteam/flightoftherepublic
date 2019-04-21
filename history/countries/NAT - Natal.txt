@@ -47,9 +47,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ettore Bastico"
+	name = "Governor Sir Patrick Duncan"
 	desc = ""
-	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
+	picture = "gfx/leaders/NAT/Patrick_Duncan_NAT.tga"
 	ideology = fascism_ideology
 	traits = {
 		#

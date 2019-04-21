@@ -13,11 +13,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 50
+			popularity = 20
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 60
 		}
 		
 		communism = {
@@ -26,11 +26,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 25
+			popularity = 15
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -47,19 +47,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Governor-General Sir George Stewart Symes"
+	name = "Governor Prince Arthur"
 	desc = ""
-	picture = "gfx/leaders/LBA/LBA_Stewart_Symes.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Governor-General Sir George Stewart Symes"
-	desc = ""
-	picture = "gfx/leaders/LBA/LBA_Stewart_Symes.dds"
+	picture = "gfx/leaders/NMB/Prince_Arthur_NMB.tga"
 	ideology = fascism_ideology
 	traits = {
 		#
