@@ -2,6 +2,11 @@
 
 oob = "AUS_1936"
 
+### DIPLOMACY ###
+create_faction = austria_empire
+add_to_faction = AUS
+austria_empire = LOM
+
 set_research_slots = 3
 
 set_technology = {

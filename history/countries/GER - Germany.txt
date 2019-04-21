@@ -70,7 +70,7 @@ add_to_faction = GER
 add_to_faction = FRA
 add_to_faction = UKR
 add_to_faction = POL
-
+add_to_faction = HOL
 
 puppet = GEA #Deutsch-WestAfrika
 puppet = AST #Deutsch-Australien
