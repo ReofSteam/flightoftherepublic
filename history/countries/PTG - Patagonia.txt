@@ -88,9 +88,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Governor Sir Audrey Hasburn"
+	name = "Governor Sir Wilfrid Jackson"
 	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+	picture = "gfx/leaders/PTG/Winfrid_Jackson.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
