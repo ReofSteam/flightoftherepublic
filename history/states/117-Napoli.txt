@@ -24,6 +24,8 @@ state={
 				naval_base = 6
 			}
 		}
+		add_core_of = ITA
+		add_core_of = ROR
 		add_core_of = VOL
 		1939.1.1 = {
 			buildings = {
