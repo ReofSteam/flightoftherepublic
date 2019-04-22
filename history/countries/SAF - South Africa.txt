@@ -34,11 +34,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 75
+			popularity = 25
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 10
 		}
 		
 		communism = {
@@ -46,7 +46,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
@@ -87,9 +87,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pixley Ka Isaka Seme"
+	name = "Bonifacius Cornelis de Jonge"
 	desc = "POLITICS_PIXLEY_SEME_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	picture = "gfx/leaders/SAF/BC_de_Jonge_SAF.tga"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {

@@ -106,7 +106,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Abdullah I"
 	desc = ""
-	picture = "gfx/leaders/JOR/Abdullah_I_JOR"
+	picture = "gfx/leaders/JOR/Abdullah_I_JOR.tga"
 	ideology = despotism
 	traits = {
 		#

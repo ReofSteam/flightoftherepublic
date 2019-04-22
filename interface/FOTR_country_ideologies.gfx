@@ -35,15 +35,15 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ideology_CHI_democratic_group"
-		texturefile = "gfx/politicalparties/kmt.tga"
+		texturefile = "gfx/politicalparties/kmt.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_RUS_democratic_group"
-		texturefile = "gfx/politicalparties/kadets.tga"
+		texturefile = "gfx/politicalparties/kadets.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_RUE_fascism_group"
-		texturefile = "gfx/politicalparties/pog.tga"
+		texturefile = "gfx/politicalparties/pog.dds"
 	}	
 	
 }
