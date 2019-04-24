@@ -5,7 +5,7 @@ oob = "AUS_1936"
 ### DIPLOMACY ###
 create_faction = austria_empire
 add_to_faction = AUS
-austria_empire = LOM
+add_to_faction = LOM
 
 set_research_slots = 3
 

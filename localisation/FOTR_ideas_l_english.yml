@@ -3,3 +3,23 @@
  parliamentary_republic:0 "Parliamentary Republic"
  socialist_republic:0 "Socialist Republic"
  memories_of_the_slavery:0 "Memories of the Slavery"
+
+
+ #decisions#
+ SWE_decisions:0 "Swedish Decisions"
+ SWE_integrate_norway:0 "Integrate Norway"
+ SWE_has_showed_dominance:0 "§Y[NOR.GetName]§W has the will to be integrated\n"
+ SWE_has_showed_dominance_notA1:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §G(currently: [?opinion@NOR])§W\n- §YGain more states §R(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §G(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
+ SWE_has_showed_dominance_notA2:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §R(currently: [?opinion@NOR])§W\n- §YGain more states §R(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §G(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
+ SWE_has_showed_dominance_notA3:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §R(currently: [?opinion@NOR])§W\n- §YGain more states §R(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §R(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
+ SWE_has_showed_dominance_notB1:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §G(currently: [?opinion@NOR])§W\n- §YGain more states §G(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §R(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
+ SWE_has_showed_dominance_notB2:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §R(currently: [?opinion@NOR])§W\n- §YGain more states §G(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §R(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
+ SWE_has_showed_dominance_notC1:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §R(currently: [?opinion@NOR])§W\n- §YGain more states §G(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §G(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
+ SWE_has_showed_dominance_error:0 "An error has occured"
+
+ #Diplomacy Tab
+ label_page1:0 "Great\nConfrontation"
+ label_page2:0 "Dirachy\nDilemma"
+ label_page3:0 "The Winter\nRevolution"
+ label_page4:0 "Heart of\nAmerica"
+ page1_confrontation_label:0 "The Great\n[ENG.GetAdjective]-[GER.GetAdjective]\nConfrontation"

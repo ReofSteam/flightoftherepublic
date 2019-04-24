@@ -494,17 +494,6 @@
  HOL_benelux_unified_democratic_DEF:0 "the Benelux Federation"
  HOL_benelux_unified_democratic_ADJ:0 "Benelux"
 
-
- #BALTIC STATES
- BAL_UNIFIED_fascism:0 "Empire of the Thunderous Wolves"
- BAL_UNIFIED_fascism_DEF:0 "the Empire of the Thunderous Wolves"
- BAL_UNIFIED_neutrality:0 "United Baltic Kingdom"
- BAL_UNIFIED_neutrality_DEF:0 "the United Baltic Kingdom"
- BAL_UNIFIED_democratic:0 "United Baltic Federation"
- BAL_UNIFIED_democratic_DEF:0 "the United Baltic Federation"
- BAL_UNIFIED_communism:0 "Union of Baltic Republics"
- BAL_UNIFIED_communism_DEF:0 "the Union of Baltic Republics"
-
  #Belgian Colonies
  BEA_subject:1 "$OVERLORDADJ$ Africa"
  BEA_subject_DEF:1 "the $OVERLORDADJ$ Africa"
@@ -691,3 +680,43 @@
  NZL_FRA_subject:1 "French New Zeelandia"
  NZL_FRA_subject_DEF:1 "the French New Zeelandia"
  NZL_FRA_subject_ADJ:1 "Zélandais"
+
+ #Cosmetic#
+
+ #Grand Duchy of Lithuania#
+ LIT_grand_fascism:0 "Grand Duchy of Lithuania"
+ LIT_grand_fascism_DEF:0 "the Grand Duchy of Lithuania"
+ LIT_grand_neutrality:0 "Grand Duchy of Lithuania"
+ LIT_grand_neutrality_DEF:0 "the Grand Duchy of Lithuania"
+ LIT_grand_democratic:0 "Lithuanian Federation"
+ LIT_grand_democratic_DEF:0 "the Lithuanian Federation"
+ LIT_grand_communism:0 "Union of Lithuania"
+ LIT_grand_communism_DEF:0 "the Union of Lithuania"
+
+ #BALTIC STATES
+ BAL_UNIFIED_fascism:0 "United Baltic State"
+ BAL_UNIFIED_fascism_DEF:0 "the United Baltic State"
+ BAL_UNIFIED_fascism_ADJ:0 "Baltic"
+ BAL_UNIFIED_neutrality:0 "United Baltic Kingdom"
+ BAL_UNIFIED_neutrality_DEF:0 "the United Baltic Kingdom"
+ BAL_UNIFIED_neutrality_ADJ:0 "Baltic"
+ BAL_UNIFIED_democratic:0 "United Baltic Federation"
+ BAL_UNIFIED_democratic_DEF:0 "the United Baltic Federation"
+ BAL_UNIFIED_democratic_ADJ:0 "Baltic"
+ BAL_UNIFIED_communism:0 "Union of Baltic Republics"
+ BAL_UNIFIED_communism_DEF:0 "the Union of Baltic Republics"
+ BAL_UNIFIED_communism_ADJ:0 "Baltic"
+
+ #Sweden-Norway#
+ SWE_norunified_fascism:0 "Kingdom of Sweden-Norway"
+ SWE_norunified_fascism_DEF:0 "the Unified Kingdoms of Sweden-Norway"
+ SWE_norunified_fascism_ADJ:0 "Swedish-Norwegian"
+ SWE_norunified_neutrality:0 "Kingdom of Sweden-Norway"
+ SWE_norunified_neutrality_DEF:0 "United Kingdoms of Sweden and Norway"
+ SWE_norunified_neutrality_ADJ:0 "Swedish-Norwegian"
+ SWE_norunified_democratic:0 "Sweden-Norway"
+ SWE_norunified_democratic_DEF:0 "Sweden-Norway"
+ SWE_norunified_democratic_ADJ:0 "Swedish-Norwegian"
+ SWE_norunified_communism:0 "People's Republics of Osholm" #Oslo + Stockholm = Osholm
+ SWE_norunified_communism_DEF:0 "the People's Republics of Osholm"
+ SWE_norunified_communism_ADJ:0 "Osholmian"

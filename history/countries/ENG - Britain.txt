@@ -134,8 +134,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Edward VIII"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "gfx/leaders/ENG/Edward_VIII_ENG.tga"
+	desc = "POLITICS_EDWARD_VIII_DESC"
+	picture = "GFX_Edward_VIII_ENG"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

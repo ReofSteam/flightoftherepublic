@@ -1,0 +1,301 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "fotr_diplomacy_button"
+		position = { x = 284 y = 38 }
+			
+		buttonType = {
+			name = "fotr_diplomacy_actual_button"
+			position = { x = 258 y = 0 }
+			quadTextureSprite ="GFX_topbar_diplomacy"
+			Orientation = "UPPER_LEFT"
+			shortcut = "d"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+	}
+	containerWindowType = {
+		name = "fotr_diplomacy_window"
+		size = { width= 100%% height=100%% }
+		position = { x=0 y=0}
+		background = {
+			name = "Background"		
+			spriteType ="GFX_tiled_bg"
+			position = { x=0 y=80}
+		}
+
+		buttonType = {
+			name = "fotr_diplomacy_empty"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_fotr_empty"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+			
+		buttonType = {
+			name = "fotr_diplomacy_page1_button"
+			position = { x = 20 y = 100 }
+			quadTextureSprite ="GFX_fotr_diplomacy_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			frame = 2
+			shortcut = "1"
+		}
+		instantTextboxType = {
+			name = "page1_label"
+			position = { x = 15 y = 100 }
+			font = "hoi_32mbs"
+			text = "[PAGE1_LABEL]"
+			format = center
+		}
+			
+		buttonType = {
+			name = "fotr_diplomacy_page2_button"
+			position = { x = 202 y = 100 }
+			quadTextureSprite ="GFX_fotr_diplomacy_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			frame = 2
+			shortcut = "2"
+		}
+		instantTextboxType = {
+			name = "page2_label"
+			position = { x = 197 y = 100 }
+			font = "hoi_32mbs"
+			text = "[PAGE2_LABEL]"
+			format = center
+		}
+			
+		buttonType = {
+			name = "fotr_diplomacy_page3_button"
+			position = { x = 384 y = 100 }
+			quadTextureSprite ="GFX_fotr_diplomacy_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			frame = 2
+			shortcut = "3"
+		}
+		instantTextboxType = {
+			name = "page3_label"
+			position = { x = 379 y = 100 }
+			font = "hoi_32mbs"
+			text = "[PAGE3_LABEL]"
+			format = center
+		}
+			
+		buttonType = {
+			name = "fotr_diplomacy_page4_button"
+			position = { x = 564 y = 100 }
+			quadTextureSprite ="GFX_fotr_diplomacy_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			frame = 2
+			shortcut = "4"
+		}
+		instantTextboxType = {
+			name = "page4_label"
+			position = { x = 559 y = 100 }
+			font = "hoi_32mbs"
+			text = "[PAGE4_LABEL]"
+			format = center
+		}
+		buttonType = {
+			name = "fotr_window_close_button"
+			position = { x = -48 y = 114 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+			scale = 1.1
+		}
+	}
+	containerWindowType = {
+		name = "fotr_diplomacy_page1"
+		size = { width= 98%% height=88%% }
+		position = { x=0 y=20}
+		background = {
+			name = "Background"		
+			spriteType ="GFX_tiled_bg"
+			position = { x=20 y=115}
+		}
+			
+		buttonType = {
+			name = "fotr_diplomacy_page1_active_button"
+			position = { x = 20 y = 80 }
+			quadTextureSprite ="GFX_fotr_diplomacy_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			frame = 1
+		}
+		instantTextboxType = {
+			name = "page1_active_label"
+			position = { x = -150 y = 90 }
+			font = "hoi_32mbs"
+			text = "[PAGE1_LABEL]"
+			maxWidth = 527
+			maxHeight = 50
+			format = center
+		}
+		instantTextboxType = {
+			name = "page1_confrontation_label"
+			position = { x = 500 y = 130 }
+			font = "hoi_36header"
+			text = "[PAGE1_BIGLABEL]"
+			maxWidth = 527
+			maxHeight = 50
+			format = center
+		}
+		iconType = {
+			name = "leader_eng"
+			position = { x = 588 y = 257 }
+		}
+		iconType = {
+			name = "flag_eng"
+			position = { x = 623 y = 516 }
+		}	
+		iconType = {
+			name = "flag_frame_eng"
+			position = { x = 602 y = 508 }
+			spriteType = "GFX_fotr_flag_frame"
+			alwaystransparent = yes
+		}		
+		
+		iconType = {
+			name = "leader_frame_eng"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 580 y = 250 }		
+			alwaystransparent = yes
+			size = { width= 100 height=25 }
+		}
+
+		instantTextboxType = {
+			name = "leader_name_eng"
+			position = { x = 588 y = 477 }
+			font = "hoi_18mbs"
+			text = "[BRITISH_LEADER]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+		iconType = {
+			name = "leader_ger"
+			position = { x = 788 y = 257 }
+		}
+		
+		iconType = {
+			name = "leader_frame_ger"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 780 y = 250 }		
+			allwaystransparent = yes
+		}
+
+		iconType = {
+			name = "flag_ger"
+			position = { x = 824 y = 516 }
+		}
+		iconType = {
+			name = "flag_frame_ger"
+			position = { x = 804 y = 508 }
+			spriteType = "GFX_fotr_flag_frame"
+			allwaystransparent = yes
+		}		
+		instantTextboxType = {
+			name = "leader_name_ger"
+			position = { x = 788 y = 477 }
+			font = "hoi_18mbs"
+			text = "[GERMAN_LEADER]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+	}
+	containerWindowType = {
+		name = "fotr_diplomacy_page2"
+		size = { width= 98%% height=88%% }
+		position = { x=0 y=20}
+		background = {
+			name = "Background"		
+			spriteType ="GFX_tiled_bg"
+			position = { x=20 y=115}
+		}
+			
+		buttonType = {
+			name = "fotr_diplomacy_page2_active_button"
+			position = { x = 202 y = 80 }
+			quadTextureSprite ="GFX_fotr_diplomacy_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			frame = 1
+		}
+		instantTextboxType = {
+			name = "page2_active_label"
+			position = { x = 30 y = 90 }
+			font = "hoi_32mbs"
+			text = "[PAGE2_LABEL]"
+			maxWidth = 527
+			maxHeight = 50
+			format = center
+		}
+
+	}
+	containerWindowType = {
+		name = "fotr_diplomacy_page3"
+		size = { width= 98%% height=88%% }
+		position = { x=0 y=20}
+		background = {
+			name = "Background"		
+			spriteType ="GFX_tiled_bg"
+			position = { x=20 y=115}
+		}
+			
+		buttonType = {
+			name = "fotr_diplomacy_page3_active_button"
+			position = { x = 384 y = 80 }
+			quadTextureSprite ="GFX_fotr_diplomacy_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			frame = 1
+		}
+		instantTextboxType = {
+			name = "page3_active_label"
+			position = { x = 210 y = 90 }
+			font = "hoi_32mbs"
+			text = "[PAGE3_LABEL]"
+			maxWidth = 527
+			maxHeight = 50
+			format = center
+		}
+	}
+	containerWindowType = {
+		name = "fotr_diplomacy_page4"
+		size = { width= 98%% height=88%% }
+		position = { x=0 y=20}
+		background = {
+			name = "Background"		
+			spriteType ="GFX_tiled_bg"
+			position = { x=20 y=115}
+		}
+			
+		buttonType = {
+			name = "fotr_diplomacy_page4_active_button"
+			position = { x = 564 y = 80 }
+			quadTextureSprite ="GFX_fotr_diplomacy_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			frame = 1
+		}
+		instantTextboxType = {
+			name = "page4_active_label"
+			position = { x = 390 y = 90 }
+			font = "hoi_32mbs"
+			text = "[PAGE4_LABEL]"
+			maxWidth = 527
+			maxHeight = 50
+			format = center
+		}
+	}
+}

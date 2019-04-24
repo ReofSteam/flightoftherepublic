@@ -11,9 +11,6 @@ bookmarks = {
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
 			}
@@ -22,9 +19,6 @@ bookmarks = {
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
 			}
 			focuses = {
 			}
@@ -33,9 +27,6 @@ bookmarks = {
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
 			}
 			focuses = {
 			}
@@ -52,8 +43,6 @@ bookmarks = {
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
 			}	
 			focuses = {
 			}		
@@ -62,9 +51,6 @@ bookmarks = {
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				state_shintoism
-				JAP_zaibatsus
-				JAP_militarism
 			}	
 			focuses = {
 			}			
@@ -73,8 +59,6 @@ bookmarks = {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				trotskyite_plot
-				home_of_revolution
 			}
 			focuses = {
 			}	
@@ -123,13 +107,8 @@ bookmarks = {
 			history = "CAN_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				CAN_great_depression_1
-				CAN_conscription_crisis
 			}
 			focuses = {
-				CAN_skewer_the_eagle
-				CAN_north_american_alliance
-				CAN_join_comintern
 			}
 		}
 		"RUE"={

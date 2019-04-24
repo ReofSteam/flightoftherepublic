@@ -1,0 +1,158 @@
+scripted_gui = {
+
+	fotr_diplomacy_button = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "fotr_diplomacy_button"
+		
+		visible = {
+			always = yes		
+		}
+
+		properties = {
+			
+		}
+		effects = {
+			fotr_diplomacy_actual_button_click = {
+				if = {
+					limit = {
+						has_country_flag = fotr_diplomacy_view					
+					}
+					clr_country_flag = fotr_diplomacy_view
+					clr_country_flag = fotr_diplomacy_page1
+					clr_country_flag = fotr_diplomacy_page2
+					clr_country_flag = fotr_diplomacy_page3
+					clr_country_flag = fotr_diplomacy_page4
+					else = {
+						set_country_flag = fotr_diplomacy_view
+						set_country_flag = fotr_diplomacy_page1			
+					}				
+				}
+			}
+		}
+	}
+	fotr_diplomacy_window = {
+		context_type = player_context
+		window_name = "fotr_diplomacy_window"
+
+		properties = {
+			
+		}
+		visible = {
+			has_country_flag = fotr_diplomacy_view		
+		}
+		effects = {
+			fotr_diplomacy_empty_click = {
+				clr_country_flag = fotr_diplomacy_view
+				clr_country_flag = fotr_diplomacy_page1
+				clr_country_flag = fotr_diplomacy_page2
+				clr_country_flag = fotr_diplomacy_page3
+				clr_country_flag = fotr_diplomacy_page4
+			}
+			fotr_window_close_button_click = {
+				clr_country_flag = fotr_diplomacy_view
+				clr_country_flag = fotr_diplomacy_page1
+				clr_country_flag = fotr_diplomacy_page2
+				clr_country_flag = fotr_diplomacy_page3
+				clr_country_flag = fotr_diplomacy_page4
+			}
+			fotr_diplomacy_page1_button_click = {
+				set_country_flag = fotr_diplomacy_page1
+				clr_country_flag = fotr_diplomacy_page2
+				clr_country_flag = fotr_diplomacy_page3
+				clr_country_flag = fotr_diplomacy_page4
+			}
+			fotr_diplomacy_page2_button_click = {
+				set_country_flag = fotr_diplomacy_page2
+				clr_country_flag = fotr_diplomacy_page1
+				clr_country_flag = fotr_diplomacy_page3
+				clr_country_flag = fotr_diplomacy_page4
+			}
+			fotr_diplomacy_page3_button_click = {
+				set_country_flag = fotr_diplomacy_page3
+				clr_country_flag = fotr_diplomacy_page1
+				clr_country_flag = fotr_diplomacy_page2
+				clr_country_flag = fotr_diplomacy_page4
+			}
+			fotr_diplomacy_page4_button_click = {
+				set_country_flag = fotr_diplomacy_page4
+				clr_country_flag = fotr_diplomacy_page1
+				clr_country_flag = fotr_diplomacy_page2
+				clr_country_flag = fotr_diplomacy_page3
+			}
+		}
+	}
+	fotr_diplomacy_page1 = {
+		context_type = player_context
+		window_name = "fotr_diplomacy_page1"
+		parent_window_token = "fotr_diplomacy_window"
+
+		properties = {
+		    leader_ger = {
+		        image = "[GFX_GERMAN_LEADER]"
+		    }
+		    leader_eng = {
+		        image = "[GFX_BRITISH_LEADER]"
+		    }
+		    flag_eng = {
+		        image = "[GFX_BRITISH_FLAG]"
+		    }
+		    flag_ger = {
+		        image = "[GFX_GERMAN_FLAG]"
+		    }
+		}
+		visible = {
+			has_country_flag = fotr_diplomacy_page1	
+		}
+		effects = {
+		}
+	}
+	fotr_diplomacy_page2 = {
+		context_type = player_context
+		window_name = "fotr_diplomacy_page2"
+		parent_window_token = "fotr_diplomacy_window"
+
+		properties = {
+			
+		}
+		visible = {
+			has_country_flag = fotr_diplomacy_view	
+			has_country_flag = fotr_diplomacy_page2	
+		}
+		effects = {
+		}
+	}
+	fotr_diplomacy_page3 = {
+		context_type = player_context
+		window_name = "fotr_diplomacy_page3"
+		parent_window_token = "fotr_diplomacy_window"
+
+		properties = {
+			
+		}
+		visible = {
+			has_country_flag = fotr_diplomacy_view	
+			has_country_flag = fotr_diplomacy_page3	
+		}
+		effects = {
+		}
+	}
+	fotr_diplomacy_page4 = {
+		context_type = player_context
+		window_name = "fotr_diplomacy_page4"
+		parent_window_token = "fotr_diplomacy_window"
+
+		properties = {
+			
+		}
+		visible = {
+			has_country_flag = fotr_diplomacy_view	
+			has_country_flag = fotr_diplomacy_page4	
+		}
+		effects = {
+		}
+	}
+
+
+	
+}

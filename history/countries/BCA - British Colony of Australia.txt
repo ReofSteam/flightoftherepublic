@@ -1,9 +1,9 @@
-﻿capital = 126
+﻿capital = 522
 
-set_oob = "ENG_1936"
+set_oob = "BCA_1936"
 
 
-load_oob = "ENG_Motorized"
+load_oob = "BCA_Motorized"
 set_cosmetic_tag = BCA_ENG
 
 set_research_slots = 4

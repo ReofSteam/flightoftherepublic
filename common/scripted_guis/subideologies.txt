@@ -14,6 +14,7 @@ scripted_gui = {
 		}
 		effects = {
 			subideologies_button_click = {
+				clr_country_flag = fotr_diplomacy_view
 				if = {
 					limit = {
 						has_country_flag = subideologies_hasideology					

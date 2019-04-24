@@ -16,6 +16,300 @@ defined_text = {
 	}
 }
 
+# DIPLOMACY #
+defined_text = {
+	name = PAGE1_LABEL
+	text = {
+		localization_key = "label_page1"
+	}
+}
+defined_text = {
+	name = PAGE1_BIGLABEL
+	text = {
+		localization_key = "page1_confrontation_label"
+	}
+}
+defined_text = {
+	name = BRITISH_LEADER
+	text = {
+		localization_key = "[ENG.GetLeader]"
+	}
+}
+defined_text = {
+	name = GERMAN_LEADER
+	text = {
+		localization_key = "[GER.GetLeader]"
+	}
+}
+defined_text = {
+	name = PAGE2_LABEL
+	text = {
+		localization_key = "label_page2"
+	}
+}
+defined_text = {
+	name = PAGE3_LABEL
+	text = {
+		localization_key = "label_page3"
+	}
+}
+defined_text = {
+	name = PAGE4_LABEL
+	text = {
+		localization_key = "label_page4"
+	}
+}
+
+# GERMAN LEADER #
+
+
+defined_text = {
+	name = GFX_GERMAN_LEADER
+	text = {
+		trigger = {
+			GER = {
+				has_country_leader = {
+				    name = "Viktoria Luise von Preußen"
+				    ruling_only = yes
+				}
+			}
+		}
+		localization_key = "GFX_Victoria_Louise_GER"
+	}
+	text = {
+		localization_key = "GFX_leader_unknown"
+	}
+}
+
+# BRITISH LEADER #
+
+defined_text = {
+	name = GFX_BRITISH_LEADER
+	text = {
+		trigger = {
+			ENG = {
+				has_country_leader = {
+				    name = "Edward VIII"
+				    ruling_only = yes
+				}
+			}
+		}
+		localization_key = "GFX_Edward_VIII_ENG"
+	}
+	text = {
+		localization_key = "GFX_leader_unknown"
+	}
+}
+
+defined_text = {
+	name = GFX_BRITISH_FLAG
+	text = {
+		trigger = {
+			ENG = {
+				has_government = fascism
+			}
+		}
+		localization_key = "GFX_British_Flag_Fascism"
+	}
+	text = {
+		trigger = {
+			ENG = {
+				has_government = democratic
+			}
+		}
+		localization_key = "GFX_British_Flag_Democratic"
+	}
+	text = {
+		trigger = {
+			ENG = {
+				has_government = neutrality
+			}
+		}
+		localization_key = "GFX_British_Flag_Neutrality"
+	}
+	text = {
+		trigger = {
+			ENG = {
+				has_government = communism
+			}
+		}
+		localization_key = "GFX_British_Flag_Communism"
+	}
+}
+
+defined_text = {
+	name = GFX_GERMAN_FLAG
+	text = {
+		trigger = {
+			GER = {
+				has_government = fascism
+			}
+		}
+		localization_key = "GFX_German_Flag_Fascism"
+	}
+	text = {
+		trigger = {
+			GER = {
+				has_government = democratic
+			}
+		}
+		localization_key = "GFX_German_Flag_Democratic"
+	}
+	text = {
+		trigger = {
+			GER = {
+				has_government = neutrality
+			}
+		}
+		localization_key = "GFX_German_Flag_Neutrality"
+	}
+	text = {
+		trigger = {
+			has_government = communism
+			GER = {
+				has_government = communism
+			}
+		}
+		localization_key = "GFX_German_Flag_Communism"
+	}
+}
+
+
+# SWEDEN #
+
+defined_text = {
+	name = SWE_SHOWED_DOMINANCE
+	text = {
+		trigger = {
+			SWE = {
+				SWE_has_showed_dominance = no
+			}
+			SWE = {
+				num_of_controlled_states < NOR.num_of_controlled_states
+				num_divisions > NOR.num_divisions
+				has_opinion = {
+				    target = NOR
+					value > 49
+				}
+			}	
+		}
+		localization_key = "SWE_has_showed_dominance_notA1"
+	}
+	text = {
+		trigger = {
+			SWE = {
+				SWE_has_showed_dominance = no
+			}
+			SWE = {
+				num_of_controlled_states < NOR.num_of_controlled_states
+				num_divisions > NOR.num_divisions
+				has_opinion = {
+				    target = NOR
+					value < 49
+				}
+			}	
+		}
+		localization_key = "SWE_has_showed_dominance_notA2"
+	}
+	text = {
+		trigger = {
+			SWE = {
+				SWE_has_showed_dominance = no
+			}
+			SWE = {
+				num_of_controlled_states < NOR.num_of_controlled_states
+				num_divisions < NOR.num_divisions
+				has_opinion = {
+				    target = NOR
+					value < 49
+				}
+			}	
+		}
+		localization_key = "SWE_has_showed_dominance_notA3"
+	}
+	text = {
+		trigger = {
+			SWE = {
+				SWE_has_showed_dominance = no
+			}
+			SWE = {
+				num_of_controlled_states > NOR.num_of_controlled_states
+				num_divisions < NOR.num_divisions
+				has_opinion = {
+				    target = NOR
+					value > 49
+				}
+			}	
+		}
+		localization_key = "SWE_has_showed_dominance_notB1"
+	}
+	text = {
+		trigger = {
+			SWE = {
+				SWE_has_showed_dominance = no
+			}
+			SWE = {
+				num_of_controlled_states > NOR.num_of_controlled_states
+				num_divisions < NOR.num_divisions
+				has_opinion = {
+				    target = NOR
+					value < 49
+				}
+			}	
+		}
+		localization_key = "SWE_has_showed_dominance_notB2"
+	}
+	text = {
+		trigger = {
+			SWE = {
+				SWE_has_showed_dominance = no
+			}
+			SWE = {
+				num_of_controlled_states > NOR.num_of_controlled_states
+				num_divisions > NOR.num_divisions
+				has_opinion = {
+				    target = NOR
+				    value < 49
+				}
+			}
+		}
+		localization_key = "SWE_has_showed_dominance_notC1"
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {	
+					SWE = {
+						num_of_controlled_states > NOR.num_of_controlled_states
+						num_divisions > NOR.num_divisions
+						has_opinion = {
+						    target = NOR
+						    value > 49
+						}
+					}
+				}
+				SWE = {
+					SWE_has_showed_dominance = yes
+				}
+			}
+		}
+		localization_key = "SWE_has_showed_dominance"
+	}
+	text = {
+		trigger = {
+			SWE = {
+				num_of_controlled_states > NOR.num_of_controlled_states
+				num_divisions > NOR.num_divisions
+				has_opinion = {
+				    target = NOR
+				    value > 49
+				}
+			}
+		}
+		localization_key = "SWE_has_showed_dominance_error"
+	}
+}
+
 defined_text = {
 	name = SUBIDEOLOGIES_COUNTRY
 	text = {

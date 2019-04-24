@@ -1,0 +1,13 @@
+SWE_has_showed_dominance = {
+	num_of_controlled_states > NOR.num_of_controlled_states
+	NOR = {
+		is_puppet_of = SWE
+	}
+	num_divisions > NOR.num_divisions
+	SWE = {
+		has_opinion = {
+			target = NOR
+			value > 49 #This means over 50.. *because Paradox lol*
+		}
+	}
+}
