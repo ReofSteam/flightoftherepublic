@@ -6,8 +6,11 @@
 
 
  #decisions#
- SWE_decisions:0 "Swedish Decisions"
- SWE_integrate_norway:0 "Integrate Norway"
+ SWE_decisions:0 "Svenska Riket"
+ SWE_decisions_desc:0 "Has the Swedish Empire reached its peak?\nHasn't the people of Sweden seen enough violence?\nThe answer is no!\n\n§YMed folket för fosterlandet!§W"
+ SWE_integrate_norway:0 "Integrate §YNorway§W"
+ SWE_withdraw:0 "Withdraw from §Y[SEA.GetName]§W"
+ SWE_withdraw_desc:0 "We have spent too much effort and too much money of the tax payers. We can't even afford to even travel to §Y[SEA.GetName]§g! Why should we make the Swedish people spend money on something we can't afford?"
  SWE_has_showed_dominance:0 "§Y[NOR.GetName]§W has the will to be integrated\n"
  SWE_has_showed_dominance_notA1:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §G(currently: [?opinion@NOR])§W\n- §YGain more states §R(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §G(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
  SWE_has_showed_dominance_notA2:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §R(currently: [?opinion@NOR])§W\n- §YGain more states §R(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §G(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
@@ -16,6 +19,7 @@
  SWE_has_showed_dominance_notB2:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §R(currently: [?opinion@NOR])§W\n- §YGain more states §G(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §R(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
  SWE_has_showed_dominance_notC1:0 "§Y[NOR.GetName]§W doesn't wanna be integrated\n\n§RTry to§W:\n- §YIncrease relations §R(currently: [?opinion@NOR])§W\n- §YGain more states §G(currently: [?SWE.num_of_controlled_states]/[?NOR.num_of_controlled_states])§W\n- §YRecruit more troops §G(currently: [?SWE.num_divisions]/[?NOR.num_divisions])§W"
  SWE_has_showed_dominance_error:0 "An error has occured"
+ nya_sverige_colony_power_add:0 "§Y[SEA.GetName]§W is getting closer to independence ([?nya_sverige_colony_power]/6)\n"
 
  #Diplomacy Tab
  label_page1:0 "Great\nConfrontation"

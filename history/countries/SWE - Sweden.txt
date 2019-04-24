@@ -1,13 +1,7 @@
 ﻿capital = 141	
 
 oob = "SWE_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SWE_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SWE_1936_naval_legacy"
-	}
-}
+set_naval_oob = "SWE_1936_naval_legacy"
 
 puppet = NOR
 puppet = SEA
@@ -28,7 +22,10 @@ SEA = {
 	set_cosmetic_tag = SEA_SWE #Union of Sweden-Norway
 }
 set_cosmetic_tag = SWE_SWENOR #Union of Sweden-Norway
-
+set_variable = {
+    var = nya_sverige_colony_power
+    value = 0
+}
 set_research_slots = 3
 
 add_ideas = {

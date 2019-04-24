@@ -2502,18 +2502,18 @@
 
  #FRS - French State
 
- FRA_fascism:2 "the Kingdom of France"
- FRA_fascism_DEF:2 "the Kingdom of France"
- FRA_democratic:0 "French State"
- FRA_democratic_DEF:0 "the French State"
- FRA_neutrality:0 "Kingdom of France"
- FRA_neutrality_DEF:0 "Kingdom of France"
- FRA_communism:0 "French Commune"
- FRA_communism_DEF:0 "the French Commune"
- FRA_fascism_ADJ:2 "French"
- FRA_democratic_ADJ:0 "French"
- FRA_neutrality_ADJ:0 "French"
- FRA_communism_ADJ:0 "French"
+ FRS_fascism:2 "the Kingdom of France"
+ FRS_fascism_DEF:2 "the Kingdom of France"
+ FRS_democratic:0 "French State"
+ FRS_democratic_DEF:0 "the French State"
+ FRS_neutrality:0 "Kingdom of France"
+ FRS_neutrality_DEF:0 "Kingdom of France"
+ FRS_communism:0 "French Commune"
+ FRS_communism_DEF:0 "the French Commune"
+ FRS_fascism_ADJ:2 "French"
+ FRS_democratic_ADJ:0 "French"
+ FRS_neutrality_ADJ:0 "French"
+ FRS_communism_ADJ:0 "French"
  
  
  #Patagonia 
