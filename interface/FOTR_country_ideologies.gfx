@@ -32,7 +32,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_ENG_fascism_group"
 		texturefile = "gfx/politicalparties/irl.dds"
-	
+	}
 	spriteType = {
 		name = "GFX_ideology_CHI_democratic_group"
 		texturefile = "gfx/politicalparties/kmt.dds"

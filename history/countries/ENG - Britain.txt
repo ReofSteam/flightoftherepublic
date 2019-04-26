@@ -62,6 +62,7 @@ puppet = NMB
 puppet = NAT
 puppet = COG
 puppet = BCA
+puppet = FRS
 		
 create_faction = seven_seas_pact
 add_to_faction = ENG

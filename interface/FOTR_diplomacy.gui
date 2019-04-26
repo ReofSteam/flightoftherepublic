@@ -167,7 +167,6 @@ guiTypes = {
 			spriteType = "GFX_pol_leader_frame"
 			position = { x = 580 y = 250 }		
 			alwaystransparent = yes
-			size = { width= 100 height=25 }
 		}
 
 		instantTextboxType = {

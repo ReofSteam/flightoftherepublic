@@ -3,7 +3,7 @@ state={
 	name="STATE_804"
 	manpower = 139250
 	
-	state_category = desert
+	state_category = pastoral
 	history={
 		owner = NMB
 		add_core_of = SAF

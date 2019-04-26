@@ -3,7 +3,7 @@ state={
 	name="STATE_803"
 	manpower = 11301
 	
-	state_category = desert
+	state_category = pastoral
 	history={
 		owner = SEA
 		add_core_of = SEA

@@ -604,11 +604,15 @@ BCA = {
 }
 FCA = {
 	color = rgb { 61 158 137 }
-	color_ui = rgb { 61 158 137 }
+	color_ui = rgb { 78 192 164 }
 }
 PTG = {
 	color = rgb { 12 82 140 }
-	color_ui = rgb { 12 82 140 }
+	color_ui = rgb { 29 116 167 }
+}
+FRS = {
+	color = rgb { 122 159 219 }
+	color_ui = rgb { 139 193 246 } #17 34 27
 }
 
 #CIVIL WAR
