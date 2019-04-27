@@ -33,6 +33,7 @@ scripted_gui = {
 	}
 	fotr_diplomacy_window = {
 		context_type = player_context
+		parent_window_token = top_bar
 		window_name = "fotr_diplomacy_window"
 
 		properties = {
@@ -95,10 +96,13 @@ scripted_gui = {
 		        image = "[GFX_BRITISH_LEADER]"
 		    }
 		    flag_eng = {
-		        image = "[GFX_BRITISH_FLAG]"
+                image = "[ENG.GetFlag]"
 		    }
 		    flag_ger = {
-		        image = "[GFX_GERMAN_FLAG]"
+                image = "[GER.GetFlag]"
+		    }
+		    page1_confrontation = {
+		    	image = "GFX_fotr_germanbritish"
 		    }
 		}
 		visible = {

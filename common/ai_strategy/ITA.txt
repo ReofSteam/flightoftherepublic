@@ -1,0 +1,414 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+italian_unification_lombardy = {
+	enable = {
+		tag = ITA
+		country_exists = LOM
+		NOT = {
+			is_in_faction_with = LOM
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = LOM
+			NOT = {
+				country_exists = LOM
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "LOM"			
+		value = 100
+	}
+}
+italian_unification_papal = {
+	enable = {
+		tag = ITA
+		country_exists = PAP
+		NOT = {
+			is_in_faction_with = PAP
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = PAP
+			NOT = {
+				country_exists = PAP
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "PAP"			
+		value = 100
+	}
+}
+italian_unification_rome = {
+	enable = {
+		tag = ITA
+		country_exists = ROR
+		NOT = {
+			is_in_faction_with = ROR
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = ROR
+			NOT = {
+				country_exists = ROR
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ROR"			
+		value = 100
+	}
+}
+italian_unification_volunteer = {
+	enable = {
+		tag = ITA
+		country_exists = VOL
+		NOT = {
+			is_in_faction_with = VOL
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = VOL
+			NOT = {
+				country_exists = VOL
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "VOL"			
+		value = 100
+	}
+}
+italian_anger_lombardy = {
+	enable = {
+		tag = ITA
+		country_exists = LOM
+		NOT = {
+			is_in_faction_with = LOM
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = LOM
+			NOT = {
+				country_exists = LOM
+			}
+			date > 1938.1.1
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LOM"
+		value = 200
+	}
+}
+italian_anger_papal = {
+	enable = {
+		tag = ITA
+		country_exists = PAP
+		NOT = {
+			is_in_faction_with = PAP
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = PAP
+			NOT = {
+				country_exists = PAP
+			}
+			date > 1938.1.1
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "PAP"			
+		value = 200
+	}
+}
+italian_anger_rome = {
+	enable = {
+		tag = ITA
+		country_exists = ROR
+		NOT = {
+			is_in_faction_with = ROR
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = ROR
+			NOT = {
+				country_exists = ROR
+			}
+			date > 1938.1.1
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "ROR"			
+		value = 200
+	}
+}
+italian_anger_volunteer = {
+	enable = {
+		tag = ITA
+		country_exists = VOL
+		NOT = {
+			is_in_faction_with = VOL
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = VOL
+			NOT = {
+				country_exists = VOL
+			}
+			date > 1938.1.1
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "VOL"			
+		value = 200
+	}
+}
+
+ITA_template_design_1 = {
+	enable = {
+	
+		original_tag = ITA
+		date < 1940.1.1				
+	}
+	abort = { 
+		date > 1940.1.1
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 10
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = 40
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 10
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = -50
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = paratroopers
+		value = -50
+	}
+}
+
+
+ITA_template_design_2 = {
+	enable = {
+	
+		original_tag = ITA
+		date > 1940.1.1				
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = 30
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = -20
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 40
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = 10
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = paratroopers
+		value = -50
+	}
+	
+	ai_strategy = {
+		type = template_prio
+		id = mechanized
+		value = -20
+	}
+}
+
+
+# extra scaryness around italy, this together with sufficient enemy superiority will make ai avoid transports around its coast
+italy_be_careful_transporting_through_the_med = {
+	enable = {
+		tag = ITA
+		date < 1942.1.1
+		has_war = yes
+		enemies_naval_strength_ratio > 1
+	}
+	abort = {
+		OR = {
+			date > 1942.1.1
+			has_war = no
+			enemies_naval_strength_ratio < 1
+		}
+	}
+	
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 68
+		value = 50
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 169
+		value = 50
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 29
+		value = 50
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 168
+		value = 50
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 69
+		value = 50
+	}
+}
+
+dont_take_claims_on_yug = {
+	enable = {
+		tag = ITA
+		country_exists = YUG
+		is_historical_focus_on = yes
+		date < 1940.1.1
+		has_war = no
+	}
+
+	abort = {
+		OR = {
+			NOT = { country_exists = YUG }
+			date > 1940.1.1
+			has_war = yes
+		}
+	}
+	
+	ai_strategy = {
+		type = ignore_claim
+		id = "YUG"			
+		value = 1
+	}		
+}
+
+ITA_share_borders_with_GER_against_SOV = {
+	enable = {
+		tag = ITA
+		is_in_faction_with = GER
+		has_war_with = SOV
+		
+		GER_should_split_SOV_front_with_ITA = yes
+	}
+
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "CRO"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "ROM"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "HUN"
+		value = 100
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "SLO"
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "GER"
+		value = 100
+	}
+}

@@ -313,8 +313,8 @@ guiTypes = {
 				position = { x = 59 y = 91 }
 				Orientation = "UPPER_LEFT"
 				allwaystransparent = yes
-			}			
-			
+			}		
+            # EDITED BY Dynamic HoI4 News Event Headers Kit
 			instantTextBoxType = {
 				name = "Title"
 				position = { x = 30 y = 18 }
@@ -325,6 +325,8 @@ guiTypes = {
 				maxHeight = 800
 				format = centre
 			}
+            # END
+
 			
 			buttonType = {
 				name = "btn_minimize"

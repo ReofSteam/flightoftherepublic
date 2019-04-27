@@ -13,6 +13,10 @@ spriteTypes = {
 		name = "GFX_fotr_empty"
 		texturefile = "gfx/interface/diplomacy/fotr_empty_background.dds"
 	}
+	spriteType = {
+		name = "GFX_fotr_germanbritish"
+		texturefile = "gfx/interface/diplomacy/fotr_germanbritish.dds"
+	}
 
 	spriteType = {
 		name = "GFX_Victoria_Louise_GER"

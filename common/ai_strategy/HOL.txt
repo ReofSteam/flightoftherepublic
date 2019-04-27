@@ -1,0 +1,36 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+german_ally = {
+	enable = {
+		tag = HOL
+		is_in_faction_with = GER
+		country_exists = GER
+	}
+	abort = {
+		NOT = { country_exists = GER }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "GER"			
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"			
+		value = 100
+	}	
+}

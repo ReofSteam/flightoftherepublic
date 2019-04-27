@@ -1,0 +1,41 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+lombardy_ally = {
+	enable = {
+		tag = AUS
+		is_in_faction_with = LOM
+		country_exists = LOM
+	}
+	abort = {
+		NOT = { country_exists = LOM }
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "LOM"			
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "LOM"			
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "LOM"			
+		value = 100
+	}	
+}

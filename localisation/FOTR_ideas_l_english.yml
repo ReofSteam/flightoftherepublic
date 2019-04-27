@@ -27,3 +27,12 @@
  label_page3:0 "The Winter\nRevolution"
  label_page4:0 "Heart of\nAmerica"
  page1_confrontation_label:0 "The Great\n[ENG.GetAdjective]-[GER.GetAdjective]\nConfrontation"
+
+ #Events
+ sov_news_header:0 "\n£sov_news\n\n\n\n\n\n\n\n\n\n\n"
+ eng_news_header:0 "\n£eng_news\n\n\n\n\n\n\n\n\n\n\n"
+ usa_news_header:0 "\n£usa_news\n\n\n\n\n\n\n\n\n\n\n"
+ chi_news_header:0 "\n£chi_news\n\n\n\n\n\n\n\n\n\n\n"
+ ger_news_header:0 "\n£ger_news\n\n\n\n\n\n\n\n\n\n\n"
+ default_news_header:0 "\n£default_news\n\n\n\n\n\n\n\n\n\n\n"
+ examples.0.t:0 "[This.GetNewspaperHeader]Second Glorious Revolution"

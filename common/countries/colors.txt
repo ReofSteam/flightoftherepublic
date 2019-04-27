@@ -230,8 +230,8 @@ SAF = {
 	color_ui = rgb { 112 80 99 }
 }
 SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 0 108 53 }
+	color_ui = rgb { 17 142 80 } #17 34 27
 }
 SIA = {
 	color = rgb { 171 190 152 }
@@ -291,8 +291,8 @@ HAI = {
 	color_ui = rgb { 174 113 113 }
 }
 YEM = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 96 62 66 }
+	color_ui = rgb { 113 96 93 } #17 34 27
 }
 OMA = {
 	color = rgb { 155 101 107 }
@@ -613,6 +613,10 @@ PTG = {
 FRS = {
 	color = rgb { 122 159 219 }
 	color_ui = rgb { 139 193 246 } #17 34 27
+}
+SOM = {
+	color = rgb { 97 137 95 }
+	color_ui = rgb { 114 171 122} #17 34 27
 }
 
 #CIVIL WAR

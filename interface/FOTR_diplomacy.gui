@@ -120,6 +120,7 @@ guiTypes = {
 			spriteType ="GFX_tiled_bg"
 			position = { x=20 y=115}
 		}
+		fullscreen = yes
 			
 		buttonType = {
 			name = "fotr_diplomacy_page1_active_button"
@@ -138,74 +139,74 @@ guiTypes = {
 			maxHeight = 50
 			format = center
 		}
-		instantTextboxType = {
-			name = "page1_confrontation_label"
-			position = { x = 500 y = 130 }
-			font = "hoi_36header"
-			text = "[PAGE1_BIGLABEL]"
-			maxWidth = 527
-			maxHeight = 50
-			format = center
+		iconType = {
+			name = "page1_confrontation"
+			position = { x = 340 y = 170}
+			scale = 0.5
 		}
+
+
+		iconType = {
+			name = "flag_eng"
+			position = { x = 825 y = 515 }
+			quadTextureSprite = "GFX_shield_medium"
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType = {
+			name = "flag_ger"
+			position = { x = 623 y = 515 }
+			quadTextureSprite = "GFX_shield_medium"
+			Orientation = "UPPER_LEFT"
+		}	
 		iconType = {
 			name = "leader_eng"
+			position = { x = 788 y = 257 }
+		}
+		iconType = {
+			name = "leader_ger"
 			position = { x = 588 y = 257 }
 		}
 		iconType = {
-			name = "flag_eng"
-			position = { x = 623 y = 516 }
-		}	
-		iconType = {
-			name = "flag_frame_eng"
+			name = "flag_frame1"
 			position = { x = 602 y = 508 }
 			spriteType = "GFX_fotr_flag_frame"
 			alwaystransparent = yes
-		}		
-		
+		}
 		iconType = {
-			name = "leader_frame_eng"
+			name = "leader_frame1"
 			spriteType = "GFX_pol_leader_frame"
 			position = { x = 580 y = 250 }		
 			alwaystransparent = yes
 		}
 
 		instantTextboxType = {
-			name = "leader_name_eng"
+			name = "leader_name1"
 			position = { x = 588 y = 477 }
 			font = "hoi_18mbs"
-			text = "[BRITISH_LEADER]"
+			text = "[GERMAN_LEADER]"
 			maxWidth = 155
 			maxHeight = 20
 			format = center
 			vertical_alignment = center
 		}
-		iconType = {
-			name = "leader_ger"
-			position = { x = 788 y = 257 }
-		}
 		
 		iconType = {
-			name = "leader_frame_ger"
+			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
 			position = { x = 780 y = 250 }		
 			allwaystransparent = yes
 		}
-
 		iconType = {
-			name = "flag_ger"
-			position = { x = 824 y = 516 }
-		}
-		iconType = {
-			name = "flag_frame_ger"
+			name = "flag_frame2"
 			position = { x = 804 y = 508 }
 			spriteType = "GFX_fotr_flag_frame"
 			allwaystransparent = yes
 		}		
 		instantTextboxType = {
-			name = "leader_name_ger"
+			name = "leader_name2"
 			position = { x = 788 y = 477 }
 			font = "hoi_18mbs"
-			text = "[GERMAN_LEADER]"
+			text = "[BRITISH_LEADER]"
 			maxWidth = 155
 			maxHeight = 20
 			format = center

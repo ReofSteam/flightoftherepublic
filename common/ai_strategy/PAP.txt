@@ -1,0 +1,64 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+papal_italian_unification_roman = {
+	enable = {
+		tag = PAP
+		country_exists = ROR
+		NOT = {
+			is_in_faction_with = ROR
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = ROR
+			NOT = {
+				country_exists = ROR
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ROR"			
+		value = 100
+	}
+}
+papal_italian_anger_roman = {
+	enable = {
+		tag = PAP
+		country_exists = ROR
+		NOT = {
+			is_in_faction_with = ROR
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = ROR
+			NOT = {
+				country_exists = ROR
+			}
+			date > 1938.1.1
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "ROR"			
+		value = 200
+	}
+}

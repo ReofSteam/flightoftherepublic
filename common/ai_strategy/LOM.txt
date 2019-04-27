@@ -1,0 +1,235 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+# building_target
+
+austrian_ally = {
+	enable = {
+		tag = LOM
+		is_in_faction_with = AUS
+		country_exists = AUS
+	}
+	abort = {
+		NOT = { country_exists = AUS }
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "AUS"			
+		value = 1
+	}	
+	ai_strategy = {
+		type = befriend
+		id = "AUS"			
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"			
+		value = 100
+	}	
+}
+lombardy_italian_unification_sicily = {
+	enable = {
+		tag = LOM
+		country_exists = ITA
+		NOT = {
+			is_in_faction_with = ITA
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = ITA
+			NOT = {
+				country_exists = ITA
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ITA"			
+		value = 100
+	}
+}
+lombardy_italian_unification_papal = {
+	enable = {
+		tag = LOM
+		country_exists = PAP
+		NOT = {
+			is_in_faction_with = PAP
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = PAP
+			NOT = {
+				country_exists = PAP
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "PAP"			
+		value = 100
+	}
+}
+lombardy_italian_unification_rome = {
+	enable = {
+		tag = LOM
+		country_exists = ROR
+		NOT = {
+			is_in_faction_with = ROR
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = ROR
+			NOT = {
+				country_exists = ROR
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ROR"			
+		value = 100
+	}
+}
+lombardy_italian_unification_volunteer = {
+	enable = {
+		tag = LOM
+		country_exists = VOL
+		NOT = {
+			is_in_faction_with = VOL
+		}
+		date > 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = VOL
+			NOT = {
+				country_exists = VOL
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "VOL"			
+		value = 100
+	}
+}
+lombardy_italian_anger_sicily = {
+	enable = {
+		tag = LOM
+		country_exists = ITA
+		NOT = {
+			is_in_faction_with = ITA
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = ITA
+			NOT = {
+				country_exists = ITA
+			}
+			date > 1938.1.1
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 200
+	}
+}
+lombardy_italian_anger_papal = {
+	enable = {
+		tag = LOM
+		country_exists = PAP
+		NOT = {
+			is_in_faction_with = PAP
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = PAP
+			NOT = {
+				country_exists = PAP
+			}
+			date > 1938.1.1
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "PAP"			
+		value = 200
+	}
+}
+lombardy_italian_anger_rome = {
+	enable = {
+		tag = LOM
+		country_exists = ROR
+		NOT = {
+			is_in_faction_with = ROR
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = ROR
+			NOT = {
+				country_exists = ROR
+			}
+			date > 1938.1.1
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "ROR"			
+		value = 200
+	}
+}
+lombardy_italian_anger_volunteer = {
+	enable = {
+		tag = LOM
+		country_exists = VOL
+		NOT = {
+			is_in_faction_with = VOL
+		}
+		date < 1938.1.1
+	}
+	abort = {
+		OR =  {
+			is_in_faction_with = VOL
+			NOT = {
+				country_exists = VOL
+			}
+			date > 1938.1.1
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "VOL"			
+		value = 200
+	}
+}

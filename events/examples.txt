@@ -1,0 +1,14 @@
+add_namespace = examples
+
+news_event = {
+	id = examples.0
+	title = examples.0.t
+	desc = "There is people who call for the Second Glorious Revolution, while the American Federal government claims that there will be no such thing and any revolution will be put down by either them or the British. The government hopes for the best and urges everyone to stay home and try to calm down any revolutionaries in your neighbourhood as they see them as just being done with life."
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "We'll do our best, [USA.GetLeader]!"
+	}
+}

@@ -37,11 +37,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "subideologies_ui_window"
 		size = { width= 100%% height=100%% }
-		position = { x=-606 y=42%%}	
-		show_position = { x = 0 y = 42%% }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
+		position = {  x = 0 y = 42%% }
 
 
 
@@ -52,18 +48,18 @@ guiTypes = {
 
 		iconType ={
 			name ="production_header_bg"
-			spriteType = "GFX_header_bg"
-			position = { x= 5 y = 07 }
+			spriteType = "GFX_category_header"
+			position = { x = 12 y = 20 }
 			Orientation = "UPPER_LEFT"
 		}	
 		background = {
 			name = "Background"		
-			spriteType ="GFX_tiled_bg"
+			quadTextureSprite ="GFX_tiled_window_1b_border"
 		}	
 		instantTextboxType = {
 			name = "label_country"
-			position = {x = 20 y = 13}
-			font = "hoi_24header"
+			position = { x = 70 y = 30 }
+			font = "hoi_20b"
 			text = "[SUBIDEOLOGIES_COUNTRY]"
 			maxWidth = 527
 			maxHeight = 0
@@ -72,11 +68,11 @@ guiTypes = {
 		
 		buttonType = {
 			name = "subideologies_window_close_button"
-			position = { x = -44 y = 9 }
+			position = { x = 25 y = 24 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
-			Orientation = "UPPER_RIGHT"
+			Orientation = "UPPER_LEFT"
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
 			scale = 1.1
@@ -88,7 +84,7 @@ guiTypes = {
 				name = "Background"		
 				spriteType ="GFX_tiled_bg"
 			}
-			position = { x = 20 y = 55 }	
+			position = { x = 15 y = 65 }	
 			size = { width= 510 height=100 }		
 			
 			iconType ={
@@ -115,7 +111,7 @@ guiTypes = {
 				name = "Background"		
 				spriteType ="GFX_tiled_bg"
 			}
-			position = { x = 20 y = 160 }	
+			position = { x = 15 y = 170 }	
 			size = { width= 510 height=100 }		
 			
 			iconType ={
@@ -142,7 +138,7 @@ guiTypes = {
 				name = "Background"		
 				spriteType ="GFX_tiled_bg"
 			}
-			position = { x = 20 y = 265 }
+			position = { x = 15 y = 275 }
 			size = { width= 510 height=100 }		
 			
 			iconType ={
@@ -169,7 +165,7 @@ guiTypes = {
 				name = "Background"		
 				spriteType ="GFX_tiled_bg"
 			}
-			position = { x = 20 y = 370 }
+			position = { x = 15 y = 380 }
 			size = { width= 510 height=100 }		
 			
 			iconType ={

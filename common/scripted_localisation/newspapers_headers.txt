@@ -1,0 +1,96 @@
+defined_text = { # Country
+	name = GetNewspaperHeader
+	text = {
+		trigger = {
+			has_government = communism
+			OR = {
+				tag = SOV
+				tag = DEN
+				tag = MON
+				tag = ELS
+				tag = TAN
+				is_puppet_of = SOV
+				is_puppet_of = DEN
+				is_puppet_of = MON
+				is_puppet_of = ELS
+				is_puppet_of = TAN
+				has_government = communism
+			}
+		
+		}
+		localization_key = sov_news_header
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+				tag = GEA
+				tag = AST
+				tag = ZUL
+				tag = ALG
+				is_puppet_of = GER
+				is_puppet_of = GEA
+				is_puppet_of = AST
+				is_puppet_of = ZUL
+				is_puppet_of = ALG
+				AND = {
+					tag = HOL
+					is_in_faction_with = GER
+				}
+				AND = {
+					tag = FRA
+					is_in_faction_with = GER
+				}
+				AND = {
+					tag = UKR
+					is_in_faction_with = GER
+				}
+				AND = {
+					tag = POL
+					is_in_faction_with = GER
+				}
+			}
+		
+		}
+		localization_key = ger_news_header
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = CHI
+				is_puppet_of = CHI
+			}
+		
+		}
+		localization_key = chi_news_header
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = NRM
+				tag = CAN
+				is_puppet_of = CAN
+				is_puppet_of = NRM
+				is_puppet_of = ENG
+			}
+			NOT = {
+				tag = USA
+			}
+		}
+		localization_key = eng_news_header
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = USA
+				is_puppet_of = USA
+			}
+		}
+		localization_key = usa_news_header
+	}
+    #keep this one without triggers and at the end as a fallback
+	text = {
+		localization_key = default_news_header
+	}
+}

@@ -1,172 +1,171 @@
 focus_tree = {
-id = 'siberansoviet'
-country = {
-factor=0
-modifier = {
-add = 10
-tag = SOV
-}
-}
-default = no
-#Custom focuses start here
-#Focus for The Revolution Live On ! 
-		focus = { 
-		id = therevolutionliveon 
-		icon = GFX_focus_yug_pan_slavic_congress 
+	id = 'siberansoviet'
+	country = {
+		factor=0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	#Focus for The Revolution Live On ! 
+	focus = {
+		id = FOTR_SOV_therevolutionliveon 
+		icon = GFX_focus_YUG_pan_slavic_congress 
 		ai_will_do = { factor = 10} 
- x =3 
- y =0 
- mutually_exclusive = { } 
- prerequisite = { } 
- cost = 5  
-  available_if_capitulated = yes  
- completion_reward = { 
-  
- country_event = { 
- days = 1  
- id = sov.1  
- } 
- } 
- }#Focus for The First 5 Years Plan 
-		focus = { 
-		id = thefirst5yearsplan 
+	 	x = 4 
+	 	y =	0 
+	 	mutually_exclusive = { } 
+	 	prerequisite = { } 
+	 	cost = 5  
+		available_if_capitulated = yes  
+	 	completion_reward = { 
+			country_event = { 
+	 			days = 1  
+	 			id = fotr_sov.0
+	 		} 
+	 	} 
+	}
+	focus = {
+		id = FOTR_SOV_thefirst5yearsplan 
 		icon = GFX_goal_generic_soviet_construction 
 		ai_will_do = { factor = 10} 
- x =2 
- y =1 
- mutually_exclusive = { } 
- prerequisite = { focus = therevolutionliveon} 
- cost = 10  
-  available_if_capitulated = yes  
- completion_reward = { 
- add_ideas = SOV_5years	 
- add_political_power 100 
- } 
- }#Focus for The Revolution Within  
-		focus = { 
-		id = therevolutionwithin 
+	 	x = 1 
+	 	y = 1 
+		mutually_exclusive = { } 
+	 	prerequisite = { focus = FOTR_SOV_therevolutionliveon} 
+	 	cost = 10  
+		available_if_capitulated = yes  
+	 	completion_reward = { 
+	 		add_ideas = SOV_5years	 
+	 		add_political_power 100 
+	 	} 
+	}
+	focus = {
+		id = FOTR_SOV_therevolutionwithin 
 		icon = GFX_focus_generic_soviet_politics 
 		ai_will_do = { factor = 10} 
- x =4 
- y =1 
- mutually_exclusive = { } 
- prerequisite = { focus = therevolutionliveon} 
- cost = 10  
-  available_if_capitulated = yes  
- completion_reward = { 
- add_stability 0.5 
- } 
- }#Focus for The Port of Vladivostok 
-		focus = { 
-		id = theportofvladivostok 
+	 	x = 7 
+	 	y = 1 
+	 	mutually_exclusive = { } 
+	 	prerequisite = { focus = FOTR_SOV_therevolutionliveon} 
+	 	cost = 10  
+		available_if_capitulated = yes  
+	 	completion_reward = { 
+	 		add_stability = 0.05 
+	 	} 
+	}
+	focus = {
+		id = FOTR_SOV_theportofvladivostok 
 		icon = GFX_goal_generic_construction 
 		ai_will_do = { factor = 10} 
- x =1 
- y =2 
- mutually_exclusive = { } 
- prerequisite = { focus = thefirst5yearsplan} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Expedition To The Far North 
-		focus = { 
-		id = expeditiontothefarnorth 
+	 	x = 0 
+	 	y = 2 
+	 	mutually_exclusive = { } 
+	 	prerequisite = { focus = FOTR_SOV_thefirst5yearsplan} 
+	 	cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_expeditiontothefarnorth 
 		icon = GFX_goal_generic_construction2 
 		ai_will_do = { factor = 10} 
- x =2 
- y =2 
- mutually_exclusive = { } 
- prerequisite = { focus = thefirst5yearsplan} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Enforce Secularism  
-		focus = { 
-		id = enforcesecularism 
+	 	x = 2 
+	 	y = 2 
+	 	mutually_exclusive = { } 
+	 	prerequisite = { focus = FOTR_SOV_thefirst5yearsplan} 
+	 	cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_enforcesecularism 
 		icon = GFX_goal_tfv_generic_tech_sharing 
 		ai_will_do = { factor = 10} 
- x =3 
- y =2 
- mutually_exclusive = { } 
- prerequisite = { focus = therevolutionwithin} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Anti-Illiterate Campaign 
-		focus = { 
-		id = antiilliteratecampaign 
+		x =	5 
+		y =2 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_therevolutionwithin} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+
+	focus = {
+		id = FOTR_SOV_antiilliteratecampaign 
 		icon = GFX_goal_generic_intelligence_exchange 
 		ai_will_do = { factor = 10} 
- x =4 
- y =2 
- mutually_exclusive = { } 
- prerequisite = { focus = therevolutionwithin} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Secure Our Agricultural 
-		focus = { 
-		id = secureouragricultural 
+		x = 9
+		y = 2
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_therevolutionwithin} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_secureouragricultural 
 		icon = GFX_focus_prc_agrarian_socialism 
 		ai_will_do = { factor = 10} 
- x =5 
- y =2 
- mutually_exclusive = { } 
- prerequisite = { focus = therevolutionwithin} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Trading With China 
-		focus = { 
-		id = tradingwithchina 
+		x =7 
+		y =2 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_therevolutionwithin} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_tradingwithchina 
 		icon = GFX_focus_prc_social_democracy 
 		ai_will_do = { factor = 10} 
- x =1 
- y =3 
- mutually_exclusive = { } 
- prerequisite = { focus = theportofvladivostok} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Siberian Railway 
-		focus = { 
-		id = siberianrailway 
+		x =0
+		y =3 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_theportofvladivostok} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_siberianrailway 
 		icon = GFX_goal_generic_construct_infrastructure 
 		ai_will_do = { factor = 10} 
- x =2 
- y =3 
- mutually_exclusive = { } 
- prerequisite = { focus = expeditiontothefarnorth} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for The Far-Eastern University 
-		focus = { 
-		id = thefareasternuniversity 
+		x =2 
+		y =3 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_expeditiontothefarnorth} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_thefareasternuniversity 
 		icon = GFX_focus_research2 
 		ai_will_do = { factor = 10} 
- x =4 
- y =3 
- mutually_exclusive = { } 
- prerequisite = { focus = enforcesecularism} 
-  prerequisite = { focus =antiilliteratecampaign} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Establish Commune Farm 
-		focus = { 
-		id = establishcommunefarm 
+		x =6
+		y =3 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_enforcesecularism} 
+		prerequisite = { focus = FOTR_SOV_antiilliteratecampaign} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_establishcommunefarm 
 		icon = GFX_focus_generic_treaty 
 		ai_will_do = { factor = 10} 
- x =5 
- y =3 
- mutually_exclusive = { } 
- prerequisite = { focus = secureouragricultural} 
- cost = 10  
-  available_if_capitulated = yes  
- }#Focus for Light of The Far-East 
-		focus = { 
-		id = lightofthefareast 
+		x =8 
+		y =3 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_secureouragricultural}
+ 		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_lightofthefareast 
 		icon = GFX_focus_ger_great_red_menace 
 		ai_will_do = { factor = 10} 
- x =4 
- y =4 
- mutually_exclusive = { } 
- prerequisite = { focus = establishcommunefarm} 
-  prerequisite = { focus =thefareasternuniversity} 
- cost = 10  
-  available_if_capitulated = yes  
- }#End of focuses 
+		x =7 
+		y =4 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_establishcommunefarm} 
+		prerequisite = { focus = FOTR_SOV_thefareasternuniversity} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
 }

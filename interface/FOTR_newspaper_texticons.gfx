@@ -1,0 +1,39 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_default_news"
+		texturefile = "gfx/interface/newspaper_headers/default_news.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_chi_news"
+		texturefile = "gfx/interface/newspaper_headers/chi_news.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_usa_news"
+		texturefile = "gfx/interface/newspaper_headers/usa_news.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ger_news"
+		texturefile = "gfx/interface/newspaper_headers/ger_news.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_eng_news"
+		texturefile = "gfx/interface/newspaper_headers/eng_news.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sov_news"
+		texturefile = "gfx/interface/newspaper_headers/sov_news.dds"
+		legacy_lazy_load = no
+	}
+}
+
+
+
+
+
+
+
