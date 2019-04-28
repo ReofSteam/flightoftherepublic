@@ -2,7 +2,7 @@
 
 oob = "LOM_1936"
 
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
@@ -75,12 +75,23 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Benito Mussolini"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "gfx/leaders/LOM/LOM_Benito_Mussolini.dds"
+	name = "Felice I d'Asburgo-Lorena"
+	desc = "POLITICS_FELICE_I_DESC"
+	picture = "gfx/leaders/LOM/LOM_Felice_Asburgo_Lorena.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
 		
 	}
 }
+
+#create_country_leader = {
+#	name = "Benito Mussolini"
+#	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+#	picture = "gfx/leaders/LOM/LOM_Benito_Mussolini.dds"
+#	expire = "1965.1.1"
+#	ideology = fascism_ideology
+#	traits = {
+#		
+#	}
+#}
