@@ -2,20 +2,23 @@
 state={
 	id=507
 	name="STATE_507" # Magallanes
-	manpower = 68693
+	manpower = 138693
 	
-	state_category = pastoral
+	state_category = rural
 
 	history={
 		owner = PTG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			12954 = { naval_base = 2 }
 		}
 		add_core_of = PTG
-		add_core_of = ARG
+		victory_points = {
+			12954 5
+		}
 	}
 
 	provinces={
-		2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 
+		2161 5118 5159 5169 5201 5209 5215 8198 8218 8913 10961 12954 
 	}
 }
