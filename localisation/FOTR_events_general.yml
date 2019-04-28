@@ -1,6 +1,6 @@
 ﻿l_english:
- examples.0.t:0 "[This.GetNewspaperHeader]Second Glorious Revolution"
- examples.0.d:0 "With thunderous explosion that shut down the entire chamber of the House of Lords, (un)forturnately only killed 2 peers. URF cells have launched what they called the "Second Glorious Revolution" seizing governments in many places and exchanging gunfire with the police at every major street junctions. Edward VII is safely escorted to Scottland and the British Army is mobilised to place martial laws on all remaining British holding. However there are reports that the Golden Fleet-Beyond-the-Seas has assembled and now on-route to carry the pretender, Prince Albert to London to take the crown"
- examples.0.o1:0 "Interesting development" #Generic
- examples.0.o2:0 "The Hours of Freedom struck" #CAN, FRA, GER
- examples.0.o3:0 "Traitors!" #ENG, Colonies, America
+examples.0.t:0 "[This.GetNewspaperHeader]Second Glorious Revolution"
+examples.0.d:0 "With thunderous explosion that shut down the entire chamber of the House of Lords, (un)forturnately only killed 2 peers. URF cells have launched what they called the "Second Glorious Revolution" seizing governments in many places and exchanging gunfire with the police at every major street junctions. Edward VII is safely escorted to Scottland and the British Army is mobilised to place martial laws on all remaining British holding. However there are reports that the Golden Fleet-Beyond-the-Seas has assembled and now on-route to carry the pretender, Prince Albert to London to take the crown"
+examples.0.o1:0 "Interesting development" #Generic
+examples.0.o2:0 "The Hours of Freedom struck" #CAN, FRA, GER
+examples.0.o3:0 "Traitors!" #ENG, Colonies, America
