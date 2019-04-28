@@ -98,8 +98,8 @@ DEN = {
 	color_ui = rgb { 199 151 121 }
 }
 BUL = {
-	color = rgb { 51 155 0 }
-	color_ui = rgb { 210 147 217 }
+	color = rgb { 119 153 62 }
+	color_ui = rgb { 128 161 109 }#17 34 27
 }
 FIN = {
 	color = rgb { 205 212 228 }

@@ -9,7 +9,7 @@ state={
 		victory_points = {
 			9602 3
 		}
-		owner = BUL
+		owner = YUG
 		buildings = {
 			infrastructure = 4
 
@@ -21,7 +21,7 @@ state={
 	}
 
 	provinces={
-		 11832 11857 11868
+		11857 11868
 	}
 	manpower=1533000
 	buildings_max_level_factor=1.000

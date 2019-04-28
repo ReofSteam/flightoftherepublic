@@ -720,3 +720,17 @@
  SWE_norunified_communism:0 "People's Republics of Osholm" #Oslo + Stockholm = Osholm
  SWE_norunified_communism_DEF:0 "the People's Republics of Osholm"
  SWE_norunified_communism_ADJ:0 "Osholmian"
+
+ #Great Bulgaromanian Commonwealth
+ BULROM_fascism:0 "Great Bulgaromanian Empire"
+ BULROM_fascism_DEF:0 "Great Bulgaromanian Empire"
+ BULROM_fascism_ADJ:0 "Bulgaromanian"
+ BULROM_neutrality:0 "Bulgaro-Romania"
+ BULROM_neutrality_DEF:0 "Bulgaro-Romania"
+ BULROM_neutrality_ADJ:0 "Bulgaromanian"
+ BULROM_democratic:0 "Great Bulgaromanian Republic"
+ BULROM_democratic_DEF:0 "Great Bulgaromanian Republic"
+ BULROM_democratic_ADJ:0 "Bulgaromanian"
+ BULROM_communism:0 "Great Bulgaromanian Union"
+ BULROM_communism_DEF:0 "Great Bulgaromanian Union"
+ BULROM_communism_ADJ:0 "Bulgaromanian"
