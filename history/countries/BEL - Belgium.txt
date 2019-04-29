@@ -20,6 +20,7 @@ set_technology = {
 }
 
 puppet = BEA #Belgian Africa
+puppet = BRH #Belgian Rhodesia
 
 1939.1.1 = {
 	add_ideas = {

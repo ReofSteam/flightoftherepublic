@@ -68,7 +68,7 @@ create_faction = seven_seas_pact
 add_to_faction = ENG
 add_to_faction = SWE
 add_to_faction = COR
-add_to_faction = CAN
+add_to_faction = BEL
 
 
 

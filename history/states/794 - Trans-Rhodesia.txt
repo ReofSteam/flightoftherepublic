@@ -5,7 +5,7 @@ state={
 	
 	state_category = city
 	history={
-		owner = POR
+		owner = BRH
 		add_core_of = MZB
 	}
 
