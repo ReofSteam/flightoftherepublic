@@ -9,6 +9,8 @@ state={
 	history={
 		victory_points = {
 			6677 10
+		}
+		victory_points = {	
 			9614 15
 		}
 		owner = BUL
