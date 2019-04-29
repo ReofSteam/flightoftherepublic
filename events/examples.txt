@@ -31,15 +31,13 @@ news_event = {
 	option = {
 		name = examples.0.o2
 		trigger = {
-			NOT = {	
-				OR = {
-					tag = FRA
-					tag = GER
-					tag = CAN
-					is_puppet_of = CAN
-					is_puppet_of = GER
-					is_puppet_of = FRA
-				}
+			OR = {
+				tag = FRA
+				tag = GER
+				tag = CAN
+				is_puppet_of = CAN
+				is_puppet_of = GER
+				is_puppet_of = FRA
 			}
 		}
 	}
@@ -47,13 +45,11 @@ news_event = {
 	option = {
 		name = examples.0.o3
 		trigger = {
-			NOT = {	
-				OR = {
-					tag = ENG
-					tag = USA
-					is_puppet_of = ENG
-					is_puppet_of = USA
-				}
+			OR = {
+				tag = ENG
+				tag = USA
+				is_puppet_of = ENG
+				is_puppet_of = USA
 			}
 		}
 	}
