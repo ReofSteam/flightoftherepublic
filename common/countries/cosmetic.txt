@@ -241,10 +241,10 @@ NAT_ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 BCA_ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 179 14 18 }
+	color_ui = rgb { 179 14 18 }
 }
 NZL_FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 38 88 191 }
+	color_ui = rgb { 38 88 191 }
 }

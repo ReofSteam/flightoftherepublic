@@ -51,11 +51,15 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 100
 set_stability = 0.75
+
+
+puppet = PIN
+
 
 create_country_leader = {
 	name = "Duarte II de Bragança"

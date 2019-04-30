@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 179 14 18 }
+	color_ui = rgb { 179 14 18 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -554,6 +554,10 @@ POR = {
 	color = rgb { 0 147 175 }
 	color_ui = rgb { 0 147 175 }
 }
+PIN = {
+	color = rgb { 72 158 175 }
+	color_ui = rgb { 72 158 175 }
+}
 SPR = {
 	color = rgb { 252 2 109 }
 	color_ui = rgb { 252 2 109 }
@@ -599,8 +603,8 @@ DZG = {
 	color_ui = rgb { 140 29 42 }
 }
 BCA = {
-	color = rgb { 158 60 98 }
-	color_ui = rgb { 158 60 98 }
+	color = rgb { 179 14 18 }
+	color_ui = rgb { 179 14 18 }
 }
 FCA = {
 	color = rgb { 61 158 137 }

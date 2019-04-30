@@ -1,0 +1,61 @@
+﻿capital = 673 #Makassar
+
+#oob = "INS_1936"
+
+set_research_slots = 2
+
+# Starting tech
+# clone of Holland
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+	fuel_silos = 1
+}
+
+set_convoys = 25
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 10
+		}
+		
+		communism = {
+			popularity = 30
+		}
+		neutrality = {
+			popularity = 50
+		}
+	}
+	ruling_party = neutrality
+}
+
+
+create_country_leader = {
+	name = "Raúl de Antas Manso Preto Mendes Cruz"
+	desc = ""
+	expire = "1953.3.1"
+	ideology = neutrality_ideology
+	traits = {
+		
+	}
+}
+
+#set_cosmetic_tag = INS_HOL # Netherlands East Indies
+
+
