@@ -172,9 +172,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Michel Joseph Sauvage"
+	name = "Governor-General Christian de Castries"
 	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
-	picture = "GFX_NZL_michael_joseph_savage"
+	picture = "gfx/leaders/NZL/Christian_de_Castries_NZL.tga"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
