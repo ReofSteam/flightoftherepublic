@@ -29,4 +29,10 @@ spriteTypes = {
 		name = "GFX_idea_presidental_republic"
 		texturefile = "gfx/interface/ideas/presidental_republic.dds"
 	}
+	
+#United States of the Pacific	
+	spriteType = {
+		name = "GFX_USB_homeofthefree"
+		texturefile = "gfx/interface/ideas/USB_homeofthefree.dds"
+	}
 }

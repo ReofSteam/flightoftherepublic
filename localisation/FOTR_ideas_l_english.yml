@@ -4,7 +4,10 @@
  socialist_republic:0 "Socialist Republic"
  memories_of_the_slavery:0 "Memories of the Slavery"
 
-
+ #########Nations
+ ##United States of the Pacific
+ USB_homeofthefree:0 "Home of the Free"
+ USB_homeofthefree_desc:0 "In 1814, the United States of America came to an end with its defeat in the North American War, Liberty was replaced once more by British Tyranny in the entire realm of Northern America. But the fire of Liberty never  truly died for in the west it sparked one more, built by the brave people of the old world and repected  by the great statesman of Europe at the Congress of Frankfurt in 1916 and our glorious victory over the invading British foes across the northern border. In 1936, lets us celebrate the 20th Anniversary of our beloved Republic"
  #decisions#
  SWE_decisions:0 "Svenska Riket"
  SWE_decisions_desc:0 "Has the Swedish Empire reached its peak?\nHasn't the people of Sweden seen enough violence?\nThe answer is no!\n\n§YMed folket för fosterlandet!§W"

@@ -70,7 +70,7 @@ add_ideas = {
 	civilian_economy
 	limited_conscription
 	free_trade
-	home_of_the_free
+	USB_homeofthefree
 	neutrality_idea
 }
 
