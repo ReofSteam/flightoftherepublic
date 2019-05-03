@@ -3,7 +3,7 @@ ideas = {
 country = {
 		USB_homeofthefree = {
 			
-			picture = USB_homeofthefree
+			picture = GFX_USB_homeofthefree
 			
 			allowed = {
 				always = no

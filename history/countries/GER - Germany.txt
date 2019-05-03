@@ -80,9 +80,11 @@ puppet = ALG #Deutsch-Algerien
 
 add_ideas = {
 	presidental_republic
+	GER_bastionofliberalism
+	GER_thegermanicarmy
+	GER_theteutoniclegion
 	limited_exports
 	limited_conscription
-	partial_economic_mobilisation
 }
 
 create_country_leader = {

@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-		sour_loser = {
+		GER_bastionofliberalism = {
 			
 			allowed = {
 				always = no
@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
 		
-		general_staff = {
+		GER_thegermanicarmy = {
 			
 			allowed = {
 				original_tag = GER
@@ -39,24 +39,17 @@ ideas = {
 			}
 		}
 
-		triumphant_will = {
+		GER_theteutoniclegion = {
 			
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
 
-			allowed_civil_war = {
-				has_government = fascism
-			}
-			
 			modifier = {
-				political_power_gain = 1
-				drift_defence_factor = 0.5
+				political_power_gain = -0.25
 			}
-			rule = {
-				can_create_factions = yes
-			}
+
 		}
 		
 		GER_air_innovations_2_idea = {
