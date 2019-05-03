@@ -29,6 +29,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/newspaper_headers/sov_news.dds"
 		legacy_lazy_load = no
 	}
+
+	# FACTION #
+	spriteType = {
+		name = "GFX_faction_eng"
+		texturefile = "gfx/interface/factions/fotr_continetialallies.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_faction_ger"
+		texturefile = "gfx/interface/factions/fotr_sevenseas.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_faction_default"
+		texturefile = "gfx/interface/factions/fotr_default.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_faction_none"
+		texturefile = "gfx/interface/factions/fotr_no_faction.dds"
+		legacy_lazy_load = no
+	}
 }
 
 

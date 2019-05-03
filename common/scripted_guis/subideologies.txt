@@ -10,11 +10,37 @@ scripted_gui = {
 		}
 
 		properties = {
-			
+			faction_icon = {
+				image = "[ROOT.GetFactionIcon]"
+			}
 		}
 		effects = {
 			subideologies_button_click = {
 				clr_country_flag = fotr_diplomacy_view
+				clear_array = fotr_faction_members
+				every_country = {
+					if = {
+						limit = {
+							is_faction_leader = yes
+						}
+						add_to_array = {
+							fotr_faction_members = this
+						}
+						every_country = {
+							limit = {
+								is_in_faction_with = PREV
+							}
+							add_to_array = {
+								fotr_faction_members = this
+							}
+						}
+					}
+				}
+				for_each_scope_loop = {
+				    array = fotr_faction_members
+				    
+				    log = "FOTR Member [?this.GetName]"
+				}
 				if = {
 					limit = {
 						has_country_flag = subideologies_hasideology					
