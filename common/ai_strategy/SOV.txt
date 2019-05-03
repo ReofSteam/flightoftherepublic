@@ -811,13 +811,7 @@ SOV_beware_japanese_ambush = {
 		GER = { is_ai = yes }
 		OR = {
 			GER = {
-				OR = {
-					focus_progress = {
-						focus = GER_ussr_war_goal
-						progress > 0.2
-					}
-					is_justifying_wargoal_against = SOV
-				}
+				is_justifying_wargoal_against = SOV
 			}
 			has_war_with = GER
 		}

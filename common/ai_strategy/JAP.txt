@@ -1098,10 +1098,6 @@ jap_early_part_beware_allies = {
 	enable = {
 		tag = JAP
 		USA = { is_in_faction = no }
-		focus_progress = {
-			focus = JAP_secure_the_philippines
-			progress > 0
-		}
 		PHI = {	is_subject_of = USA }
 		NOT = { has_war_together_with = ENG }
 	}

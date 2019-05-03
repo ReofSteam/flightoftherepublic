@@ -50,7 +50,7 @@ create_country_leader = {
 	name = "Raúl de Antas Manso Preto Mendes Cruz"
 	desc = ""
 	expire = "1953.3.1"
-	ideology = neutrality_ideology
+	ideology = despotism
 	traits = {
 		
 	}

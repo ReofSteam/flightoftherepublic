@@ -1404,7 +1404,6 @@ ideas = {
 							tag = MAN
 						}
 					}
-					has_completed_focus = FOTR_SOV_tradingwithchina
 					NOT = {
 						has_war_with = SOV
 					}

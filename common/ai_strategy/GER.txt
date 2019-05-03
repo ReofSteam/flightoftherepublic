@@ -1543,10 +1543,6 @@ GER_share_borders_with_ITA_against_SOV = {
 		is_in_faction_with = ITA
 		OR = {
 			has_war_with = SOV
-			focus_progress = {
-				focus = GER_ussr_war_goal
-				progress > 0.01
-			}
 		}
 		
 		GER_should_split_SOV_front_with_ITA = yes

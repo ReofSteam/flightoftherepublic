@@ -1,0 +1,35 @@
+defined_text = { # Country
+	name = GetFactionIcon
+	text = {
+		trigger = {
+			OR = {
+				tag = ENG
+				is_in_faction_with = ENG
+				is_puppet_of = ENG
+			}
+			is_in_faction = yes
+		}
+		localization_key = eng_faction_icon
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+				is_in_faction_with = GER
+				is_puppet_of = GER
+			}
+			is_in_faction = yes
+		}
+		localization_key = ger_faction_icon
+	}
+	text = {
+		trigger = {
+			is_in_faction = yes
+		}
+		localization_key = default_faction_icon
+	}
+    #keep this one without triggers and at the end as a fallback
+	text = {
+		localization_key = no_faction_icon
+	}
+}
