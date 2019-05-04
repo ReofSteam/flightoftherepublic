@@ -22,6 +22,13 @@ guiTypes = {
 			position = { x = 16 y = 8 }
 		}
 
+		iconType = {
+			name = "faction_icon"
+			position = { x = 150 y = -135 }
+			scale = 0.5
+			pdx_tooltip = "fotr_faction"
+		}
+
 		instantTextboxType = {
 			name = "subideologies_button_text"
 			position = { x = 45 y = 15 }

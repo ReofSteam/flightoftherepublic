@@ -1,6 +1,6 @@
 ideas = {
 
-country = {
+	country = {
 		USB_homeofthefree = {
 			
 			picture = GFX_USB_homeofthefree
@@ -14,6 +14,7 @@ country = {
 				drift_defence_factor = 0.5
 			}
 		}
+	}
 		
 	# MILITARY
 

@@ -17,7 +17,7 @@
 ROM_be_nice_to_hitler = {
 	enable = {
 		tag = ROM
-		is_in_faction = GER
+		is_in_faction_with = GER
 	}
 	abort={
 		is_in_faction = yes

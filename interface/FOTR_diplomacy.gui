@@ -120,7 +120,6 @@ guiTypes = {
 			spriteType ="GFX_tiled_bg"
 			position = { x=20 y=115}
 		}
-		fullscreen = yes
 			
 		buttonType = {
 			name = "fotr_diplomacy_page1_active_button"

@@ -1,0 +1,56 @@
+defined_text = { # Country
+	name = GetFactionIcon
+	text = {
+		trigger = {
+			OR = {
+				tag = ENG
+				is_in_faction_with = ENG
+				is_puppet_of = ENG
+			}
+			is_in_faction = yes
+		}
+		localization_key = "GFX_faction_eng"
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+				is_in_faction_with = GER
+				is_puppet_of = GER
+			}
+			is_in_faction = yes
+		}
+		localization_key = "GFX_faction_ger"
+	}
+	text = {
+		trigger = {
+			is_in_faction = yes
+		}
+		localization_key = "GFX_faction_default"
+	}
+    #keep this one without triggers and at the end as a fallback
+	text = {
+		localization_key = "GFX_faction_none"
+	}
+}
+defined_text = { # Country
+	name = FOTR_faction
+	text = {
+		trigger = {
+			is_in_faction = yes
+			is_faction_leader = no
+		}
+		localization_key = "fotr_in_faction"
+	}
+	text = {
+		trigger = {
+			is_in_faction = yes
+			is_faction_leader = yes
+		}
+		localization_key = "fotr_leader_faction"
+	}
+    #keep this one without triggers and at the end as a fallback
+	text = {
+		localization_key = "fotr_no_faction"
+	}
+}

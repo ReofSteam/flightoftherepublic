@@ -51,3 +51,9 @@
  examples.0.o1:0 "Interesting development" #Generic
  examples.0.o2:0 "The Hours of Freedom struck" #CAN, FRA, GER
  examples.0.o3:0 "Traitors!" #ENG, Colonies, America
+
+ #Factions#
+ fotr_faction:0 "[FOTR_faction]"
+ fotr_in_faction:0 "§Y[ROOT.GetName]§! is in §Y[ROOT.GetFactionName]§!\nFaction members ([?num_faction_members]):\n[?this.GetName]"
+ fotr_leader_faction:0 "§Y[ROOT.GetName]§! is the leader of §Y[ROOT.GetFactionName]§!\nFaction members ([?num_faction_members]):\n[?this.GetName]]"
+ fotr_no_faction:0 "§Y[ROOT.GetName]§! isn't in a §Yfaction§!"
