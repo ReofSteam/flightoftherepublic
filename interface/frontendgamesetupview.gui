@@ -600,7 +600,7 @@ guiTypes = {
 	containerWindowType = {
 		name ="gamesetup_interesting_countries_window"
 		size = { width=1225 height=717 }
-		position = { x = -50 y = -182 }
+		position = { x = 0 y = 0}
 		Orientation = center
 		origo = center
 		clipping = no
