@@ -29,44 +29,9 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_British_Flag_Fascism"
-		texturefile = "gfx/flags/ENG_fascism.tga"
+		name = "GFX_FOTR_large_flag_frame"
+		texturefile = "gfx//interface//FOTR_flag_frame_large.dds"
+		noOfFrames = 2
 	}
-
-	spriteType = {
-		name = "GFX_British_Flag_Democratic"
-		texturefile = "gfx/flags/ENG_democratic.tga"
-	}
-
-	spriteType = {
-		name = "GFX_British_Flag_Neutrality"
-		texturefile = "gfx/flags/ENG_neutrality.tga"
-	}
-
-	spriteType = {
-		name = "GFX_British_Flag_Communism"
-		texturefile = "gfx/flags/ENG_communism.tga"
-	}
-
-	spriteType = {
-		name = "GFX_German_Flag_Fascism"
-		texturefile = "gfx/flags/GER_fascism.tga"
-	}
-
-	spriteType = {
-		name = "GFX_German_Flag_Democratic"
-		texturefile = "gfx/flags/GER_democratic.tga"
-	}
-
-	spriteType = {
-		name = "GFX_German_Flag_Neutrality"
-		texturefile = "gfx/flags/GER_neutrality.tga"
-	}
-
-	spriteType = {
-		name = "GFX_German_Flag_Communism"
-		texturefile = "gfx/flags/GER_communism.tga"
-	}
-
 
 }
