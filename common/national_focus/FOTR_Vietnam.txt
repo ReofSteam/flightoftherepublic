@@ -1,0 +1,171 @@
+focus_tree = {
+	id = 'siberansoviet'
+	country = {
+		factor=0
+		modifier = {
+			add = 10
+			tag = VIN
+		}
+	}
+	default = no
+	#Focus for The Revolution Live On ! 
+	focus = {
+		id = FOTR_SOV_therevolutionliveon 
+		icon = GFX_focus_YUG_pan_slavic_congress 
+		ai_will_do = { factor = 10} 
+	 	x = 4 
+	 	y =	0 
+	 	mutually_exclusive = { } 
+	 	prerequisite = { } 
+	 	cost = 5  
+		available_if_capitulated = yes  
+	 	completion_reward = { 
+			country_event = { 
+	 			days = 1  
+	 			id = fotr_sov.0
+	 		} 
+	 	} 
+	}
+	focus = {
+		id = FOTR_SOV_thefirst5yearsplan 
+		icon = GFX_goal_generic_soviet_construction 
+		ai_will_do = { factor = 10} 
+	 	x = 1 
+	 	y = 1 
+		mutually_exclusive = { } 
+	 	prerequisite = { focus = FOTR_SOV_therevolutionliveon} 
+	 	cost = 10  
+		available_if_capitulated = yes  
+	 	completion_reward = { 
+	 		add_ideas = SOV_5years	 
+	 		add_political_power 100 
+	 	} 
+	}
+	focus = {
+		id = FOTR_SOV_therevolutionwithin 
+		icon = GFX_focus_generic_soviet_politics 
+		ai_will_do = { factor = 10} 
+	 	x = 7 
+	 	y = 1 
+	 	mutually_exclusive = { } 
+	 	prerequisite = { focus = FOTR_SOV_therevolutionliveon} 
+	 	cost = 10  
+		available_if_capitulated = yes  
+	 	completion_reward = { 
+	 		add_stability = 0.05 
+	 	} 
+	}
+	focus = {
+		id = FOTR_SOV_theportofvladivostok 
+		icon = GFX_goal_generic_construction 
+		ai_will_do = { factor = 10} 
+	 	x = 0 
+	 	y = 2 
+	 	mutually_exclusive = { } 
+	 	prerequisite = { focus = FOTR_SOV_thefirst5yearsplan} 
+	 	cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_expeditiontothefarnorth 
+		icon = GFX_goal_generic_construction2 
+		ai_will_do = { factor = 10} 
+	 	x = 2 
+	 	y = 2 
+	 	mutually_exclusive = { } 
+	 	prerequisite = { focus = FOTR_SOV_thefirst5yearsplan} 
+	 	cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_enforcesecularism 
+		icon = GFX_goal_tfv_generic_tech_sharing 
+		ai_will_do = { factor = 10} 
+		x =	5 
+		y =2 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_therevolutionwithin} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+
+	focus = {
+		id = FOTR_SOV_antiilliteratecampaign 
+		icon = GFX_goal_generic_intelligence_exchange 
+		ai_will_do = { factor = 10} 
+		x = 9
+		y = 2
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_therevolutionwithin} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_secureouragricultural 
+		icon = GFX_focus_prc_agrarian_socialism 
+		ai_will_do = { factor = 10} 
+		x =7 
+		y =2 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_therevolutionwithin} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_tradingwithchina 
+		icon = GFX_focus_prc_social_democracy 
+		ai_will_do = { factor = 10} 
+		x =0
+		y =3 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_theportofvladivostok} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_siberianrailway 
+		icon = GFX_goal_generic_construct_infrastructure 
+		ai_will_do = { factor = 10} 
+		x =2 
+		y =3 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_expeditiontothefarnorth} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_thefareasternuniversity 
+		icon = GFX_focus_research2 
+		ai_will_do = { factor = 10} 
+		x =6
+		y =3 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_enforcesecularism} 
+		prerequisite = { focus = FOTR_SOV_antiilliteratecampaign} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_establishcommunefarm 
+		icon = GFX_focus_generic_treaty 
+		ai_will_do = { factor = 10} 
+		x =8 
+		y =3 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_secureouragricultural}
+ 		cost = 10  
+		available_if_capitulated = yes  
+	}
+	focus = {
+		id = FOTR_SOV_lightofthefareast 
+		icon = GFX_focus_ger_great_red_menace 
+		ai_will_do = { factor = 10} 
+		x =7 
+		y =4 
+		mutually_exclusive = { } 
+		prerequisite = { focus = FOTR_SOV_establishcommunefarm} 
+		prerequisite = { focus = FOTR_SOV_thefareasternuniversity} 
+		cost = 10  
+		available_if_capitulated = yes  
+	}
+}

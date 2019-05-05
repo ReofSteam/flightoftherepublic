@@ -39,7 +39,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"ITA"={
+		"CAN"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -55,17 +55,19 @@ bookmarks = {
 			focuses = {
 			}			
 		}
-		"SOV"={
+		"RUS"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = democratic
 			ideas = {
 			}
 			focuses = {
 			}	
 		}
 
-		"---"={
+		"HOL"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+
 		}
 		
 		"VOL"={
@@ -82,7 +84,7 @@ bookmarks = {
 		"CSA"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = neutrality
 			ideas = {
 				
 			}
@@ -102,10 +104,10 @@ bookmarks = {
 			}
 		}		
 
-		"CAN"={
+		"SOV"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = communism
 			ideas = {
 			}
 			focuses = {
@@ -120,7 +122,51 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		
+		"ELS"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USB"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"POR"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
