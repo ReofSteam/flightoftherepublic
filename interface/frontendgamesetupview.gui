@@ -599,12 +599,12 @@ guiTypes = {
 	
 	containerWindowType = {
 		name ="gamesetup_interesting_countries_window"
-		size = { width=1225 height=717 }
-		position = { x = 0 y = 0}
+		size = { width=1225 height=1440 }
+		position = { x = 0 y = 17%%}
 		Orientation = center
 		origo = center
 		clipping = no
-		moveable = no
+		moveable = yes
 		
 		instantTextBoxType = {
 			name = "title"
@@ -633,11 +633,11 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "select_button"
-			position = { x = -24 y = -65 }
+			position = { x = -70 y = -67 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
 			buttonFont = "hoi_18mbs"
-			Orientation = "CENTER_DOWN"
+			Orientation = "CENTER"
 			clicksound = click_default
 			oversound = ui_menu_over
 			shortcut = "RETURN"
@@ -661,17 +661,17 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries_mini"
-			position = { x = 65 y = 125 }
+			position = { x = 402 y = 245 }
 			size = { width = -15 height = 120}
 			
 			gridboxType = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 53 height = 40 }
+				slotsize = { width = 360 height = 35 }
 				add_horizontal = yes
-				max_slots_vertical = 7
-				max_slots_horizontal = 22
+				max_slots_vertical = 8
+				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
 		}			
@@ -868,14 +868,14 @@ guiTypes = {
 		iconType = {
 			name = "minor_country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 464 y = 661 }
+			position = { x = 364 y = 551 }
 			scale=0.696
 		}
 		
 		iconType = {
 			name ="minor_portrait_overlay"
 			spriteType = "GFX_minor_portrait_overlay"
-			position = { x= 455 y = 650 }
+			position = { x= 355 y = 540 }
 			rotation=0.04
 		}
 		
