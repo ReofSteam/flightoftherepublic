@@ -1,0 +1,434 @@
+technologies = {
+    
+    artifact_tech_1 = {
+
+        allow = {
+            OR = {
+                has_country_flag = artifact_cross_of_victory
+                has_country_flag = artifact_throne_of_san_marino
+                has_country_flag = artifact_heaven_will_sword
+                has_country_flag = artifact_sword_of_carolina
+                has_country_flag = artifact_sword_of_washington
+                has_country_flag = artifact_consitution_of_america
+                has_country_flag = artifact_flag_of_usa
+                has_country_flag = artifact_german_wunderwuffen
+                has_country_flag = artifact_super_bomber
+                has_country_flag = artifact_super_tank
+                has_country_flag = artifact_time_travelling_leopard_ii
+                has_country_flag = artifact_declaration_of_independence
+                has_country_flag = artifact_walking_gun
+            }
+        }
+        path = {
+            leads_to_tech = artifact_cross_of_victory
+        }
+        path = {
+            leads_to_tech = artifact_throne_of_san_marino
+        }
+        path = {
+            leads_to_tech = artifact_heaven_will_sword
+        }
+        path = {
+            leads_to_tech = artifact_sword_of_carolina
+        }
+        path = {
+            leads_to_tech = artifact_sword_of_washington
+        }
+        path = {
+            leads_to_tech = artifact_consitution_of_america
+        }
+        path = {
+            leads_to_tech = artifact_flag_of_usa
+        }
+        path = {
+            leads_to_tech = artifact_german_wunderwuffen
+        }
+        path = {
+            leads_to_tech = artifact_super_bomber
+        }
+        path = {
+            leads_to_tech = artifact_super_tank
+        }
+        path = {
+            leads_to_tech = artifact_time_travelling_leopard_ii
+        }
+        path = {
+            leads_to_tech = artifact_declaration_of_independence
+        }
+        path = {
+            leads_to_tech = artifact_walking_gun
+        }
+
+        doctrine = yes
+        research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+        folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 8
+                y = -2
+            }
+        }
+        categories = {
+            artifact_tech
+        }
+    }
+
+	artifact_cross_of_victory = {
+		allow = {
+			has_country_flag = artifact_cross_of_victory
+		}
+        allow_branch = {
+            has_country_flag = artifact_cross_of_victory
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -4
+                y = 2
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_throne_of_san_marino = {
+		allow = {
+			has_country_flag = artifact_throne_of_san_marino
+		}
+        allow_branch = {
+            has_country_flag = artifact_throne_of_san_marino
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0
+                y = 2 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_heaven_will_sword = {
+		allow = {
+			has_country_flag = artifact_heaven_will_sword
+		}
+        allow_branch = {
+            has_country_flag = artifact_heaven_will_sword
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 4 
+                y = 2
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_sword_of_carolina = {
+		allow = {
+			has_country_flag = artifact_sword_of_carolina
+		}
+        allow_branch = {
+            has_country_flag = artifact_sword_of_carolina
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 8
+                y = 2 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_sword_of_washington = {
+		allow = {
+			has_country_flag = artifact_sword_of_washington
+		}
+        allow_branch = {
+            has_country_flag = artifact_sword_of_washington
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 12 
+                y = 2 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_consitution_of_america = {
+		allow = {
+			has_country_flag = artifact_consitution_of_america
+		}
+        allow_branch = {
+            has_country_flag = artifact_consitution_of_america
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 16 
+                y = 2 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_flag_of_usa = {
+		allow = {
+			has_country_flag = artifact_flag_of_usa
+		}
+        allow_branch = {
+            has_country_flag = artifact_flag_of_usa
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 20 
+                y = 2 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_german_wunderwuffen = {
+		allow = {
+			has_country_flag = artifact_german_wunderwuffen
+		}
+        allow_branch = {
+            has_country_flag = artifact_german_wunderwuffen
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = -1 
+                y = 4 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_super_bomber = {
+		allow = {
+			has_country_flag = artifact_super_bomber
+		}
+        allow_branch = {
+            has_country_flag = artifact_super_bomber
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 3 
+                y = 4 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_super_tank = {
+		allow = {
+			has_country_flag = artifact_super_tank
+		}
+        allow_branch = {
+            has_country_flag = artifact_super_tank
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 7 
+                y = 4 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+
+	artifact_time_travelling_leopard_ii = {
+		allow = {
+			has_country_flag = artifact_leopard
+		}
+        allow_branch = {
+            has_country_flag = artifact_leopard
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 11 
+                y = 4 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+	artifact_declaration_of_independence = {
+		allow = {
+			has_country_flag = artifact_declaration_of_independence
+		}
+        allow_branch = {
+            has_country_flag = artifact_declaration_of_independence
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 15 
+                y = 4 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+
+	artifact_walking_gun = {
+		allow = {
+			has_country_flag = artifact_walking_gun
+		}
+        allow_branch = {
+            has_country_flag = artifact_walking_gun
+        }
+
+		doctrine = yes
+		research_cost = 1
+        start_year = 1936
+        show_effect_as_desc = yes
+
+		folder = {
+            name = artifact_folder # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 19
+                y = 4 
+            }
+        }
+        categories = {
+			artifact_tech
+		}
+	}
+
+}

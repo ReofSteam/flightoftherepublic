@@ -209,7 +209,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V"
+	name = "Gustaf I"
 	desc = "POLITICS_GUSTAF_V_DESC"
 	picture = "NOR_Gustaf_V.dds"
 	expire = "1965.1.1"

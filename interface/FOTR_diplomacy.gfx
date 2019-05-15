@@ -34,4 +34,10 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	spriteType = {
+	    name = "GFX_artifact_folder_tab"
+	    textureFile = "gfx//interface//techtree//techtree_infantry_tab.dds"
+	    noOfFrames = 2        
+	}
+
 }

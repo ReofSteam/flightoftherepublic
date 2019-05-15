@@ -81,9 +81,9 @@ add_ideas = {
 ## DIPLOMACY ##
 
 create_country_leader = {
-	name = "Albert Lebrun"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/FRA/Albert_Lebrun_FRA.tga"
+	name = "Bertrand Fagalde"
+	desc = "POLITICS_BERTRAND_FAGALDE_DESC"
+	picture = "gfx/leaders/FRS/FRS_Bertrand_Fagalde.tga"
 	expire = "1965.1.1"
 	ideology = conservatism 
 	traits = {

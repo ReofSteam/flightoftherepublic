@@ -1,0 +1,15 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+
+	SpriteType = {
+		name = "GFX_goal_generic_voting"
+		texturefile = "gfx/interface/goals/generic_voting_elections.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_oops_communism"
+		texturefile = "gfx/interface/goals/generic_oops_communism.dds"			
+	}	
+
+}

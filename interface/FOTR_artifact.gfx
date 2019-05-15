@@ -1,0 +1,63 @@
+spriteTypes = {
+	###########################################
+	# Artifact   							  #
+	# For tags: GFX_<tag>_<technology>_medium #
+	# Else just: GFX_<technology>_medium      #
+	###########################################
+	spriteType = {
+	    name = "GFX_artifact_tech_1_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_tech_1.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_cross_of_victory_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_cross_of_victory.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_throne_of_san_marino_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_throne_of_san_marino.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_heaven_will_sword_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_heaven_will_sword.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_sword_of_carolina_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_sword_of_carolina.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_sword_of_washington_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_sword_of_washington.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_consitution_of_america_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_consitution_of_america.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_flag_of_usa_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_flag_of_usa.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_german_wunderwuffen_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_german_wunderwuffen.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_super_bomber_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_super_bomber.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_super_tank_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_super_tank.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_time_travelling_leopard_ii_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_time_travelling_leopard_ii.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_declaration_of_independence_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_declaration_of_independence.dds"
+	}
+	spriteType = {
+	    name = "GFX_artifact_walking_gun_medium"
+	    texturefile = "gfx/interface/technologies/FOTR/artifact_walking_gun.dds"
+	}
+}

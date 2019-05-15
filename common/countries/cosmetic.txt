@@ -1,7 +1,7 @@
 
 MAL_UK = {
-    color = rgb { 201 56 93 }
-    color_ui = rgb { 255 73 121 }
+    color = rgb { 179 14 18 }
+	color_ui = rgb { 179 14 18 }
 }
 
 RAJ_UK = {
@@ -213,13 +213,13 @@ USA_CSA = {
 }
 
 LBA_ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 179 14 18 }
+	color_ui = rgb { 179 14 18 }
 }
 
 NMB_ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 179 14 18 }
+	color_ui = rgb { 179 14 18 }
 }
 
 SAF_HOL = {
@@ -237,8 +237,8 @@ ZUL_GER = {
 	color_ui = rgb { 138 155 116 }
 }
 NAT_ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 179 14 18 }
+	color_ui = rgb { 179 14 18 }
 }
 BCA_ENG = {
 	color = rgb { 179 14 18 }

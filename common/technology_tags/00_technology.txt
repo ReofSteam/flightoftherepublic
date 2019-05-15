@@ -85,6 +85,7 @@ technology_categories = {
 	asw_tech
 	naval_minesweeping
 	naval_minelaying
+	artifact_tech
 }
 
 technology_folders = {
@@ -109,6 +110,7 @@ technology_folders = {
 	air_doctrine_folder
 	electronics_folder
 	#secret_weapons_folder
+	artifact_folder
 }
 
  
