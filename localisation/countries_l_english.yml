@@ -63,8 +63,8 @@
  SWE_communism_ADJ:0 "Swedish"
  FRA_fascism:2 "the Kingdom of France"
  FRA_fascism_DEF:2 "the Kingdom of France"
- FRA_democratic:0 "French Republic"
- FRA_democratic_DEF:0 "the French Republic"
+ FRA_democratic:0 "Champagne Republican Government"
+ FRA_democratic_DEF:0 "the Champagne Republican Government"
  FRA_neutrality:0 "Kingdom of France"
  FRA_neutrality_DEF:0 "Kingdom of France"
  FRA_communism:0 "French Commune"
@@ -2461,6 +2461,16 @@
  DZG_communism:0 "Free Commune of Danzig"
  DZG_communism_DEF:0 "Free Commune of Danzig"
  DZG_communism_ADJ:0 "German"
+ 
+ #LUZ-Luzon Crownland
+ LUZ_neutrality:0 "Crownland of Luzon"
+ 
+ #FCP - Paris
+ FCP_communism:0 "Free City of Paris"
+ #GAS - Gascony
+ GAS_democratic:0 "Republic of Gascony"
+ #MAR-Marseille
+ MAR_neutrality:0 "Marseille Military Governorate"
 
  #NFL - Newfoundland
  NFL_fascism:0 "Dominion of Newfoundland"
