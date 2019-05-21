@@ -1,0 +1,186 @@
+ideas = {
+	country = {
+		FOTR_SEA_taxes_neutrality = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				is_puppet_of = SWE
+				OVERLORD = {
+					has_government = neutrality
+				}
+			}
+
+			picture = GFX_idea_neutrality_idea
+			
+			modifier = {
+				neutrality_drift = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.01
+			}
+		}
+		FOTR_SEA_taxes_democratic = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				is_puppet_of = SWE
+				OVERLORD = {
+					has_government = democratic
+				}
+			}
+
+			picture = GFX_idea_neutrality_idea
+			
+			modifier = {
+				democratic_drift = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.01
+			}
+		}
+		FOTR_SEA_taxes_communism = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				is_puppet_of = SWE
+				OVERLORD = {
+					has_government = communism
+				}
+			}
+
+			picture = GFX_idea_neutrality_idea
+			
+			modifier = {
+				communism_drift = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.01
+			}
+		}
+		FOTR_SEA_taxes_fascism = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				is_puppet_of = SWE
+				OVERLORD = {
+					has_government = fascism
+				}
+			}
+
+			picture = GFX_idea_neutrality_idea
+			
+			modifier = {
+				fascism_drift = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.01
+			}
+		}
+
+		
+		FOTR_SEA_no_taxes_neutrality = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					is_puppet_of = SWE
+				}
+			}
+
+			picture = GFX_idea_neutrality_idea
+			
+			modifier = {
+				neutrality_drift = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.01
+			}
+		}
+		FOTR_SEA_no_taxes_democratic = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					is_puppet_of = SWE
+				}
+			}
+
+			picture = GFX_idea_neutrality_idea
+			
+			modifier = {
+				democratic_drift = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.01
+			}
+		}
+		FOTR_SEA_no_taxes_communism = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					is_puppet_of = SWE
+				}
+			}
+
+			picture = GFX_idea_neutrality_idea
+			
+			modifier = {
+				communism_drift = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.01
+			}
+		}
+		FOTR_SEA_no_taxes_fascism = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					is_puppet_of = SWE
+				}
+			}
+
+			picture = GFX_idea_neutrality_idea
+			
+			modifier = {
+				fascism_drift = 0.05
+				political_power_gain = -0.05
+				stability_factor = 0.01
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+add_namespace = FOTR_SEA
+
+country_event = {
+	id = FOTR_SEA.0 #For New Sweden/Nordnamibia
+	title = FOTR_SEA.0.t #Sweden demands we implement taxes!
+	desc = FOTR_SEA.0.d
+
+	is_triggered_only = yes
+
+	immediately = {
+		set_country_flag = FOTR_SEA_viewed
+	}
+
+	option = {
+		name = FOTR_SEA.0.o1 #Do as they wish
+		set_country_flag = SEA_implement_taxes
+	}
+	option = {
+		name = FOTR_SEA.0.o2 #Why should we fund the royals?
+		set_country_flag = SEA_refuse_taxes
+	}
+}
+country_event = {
+	id = FOTR_SEA.1 #For Sweden
+	title = FOTR_SEA.1.t #[SEA.GetNameDef] refuses to implement the taxes!
+	desc = FOTR_SEA.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = FOTR_SEA.1.o1
+	}
+	option = {
+		name = FOTR_SEA.1.o2
+	}
+}
+country_event = {
+	id = FOTR_SEA.2 #For Sweden
+	title = FOTR_SEA.2.t #[SEA.GetNameDef] implements the taxes!
+	desc = FOTR_SEA.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = FOTR_SEA.2.o1
+	}
+	option = {
+		name = FOTR_SEA.2.o2
+	}
+}

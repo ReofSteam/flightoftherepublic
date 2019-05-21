@@ -1,0 +1,578 @@
+focus_tree = {
+	id = FOTR_SEA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SEA
+			original_tag = SEA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 70 y = 1100 }
+	focus = {
+		id = FOTR_SEA_resist_taxes
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 0
+		available = {
+			has_country_flag = SEA_refuse_taxes
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_government = neutrality
+				}
+				add_ideas = FOTR_SEA_no_taxes_neutrality
+			}
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				add_ideas = FOTR_SEA_no_taxes_democratic
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				add_ideas = FOTR_SEA_no_taxes_communism
+			}
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				add_ideas = FOTR_SEA_no_taxes_fascism
+			}
+			SWE = {
+				country_event = {
+					id = FOTR_SEA.1
+				}
+			}
+		}
+	}
+	focus = {
+		id = FOTR_SEA_implement_taxes
+		icon = GFX_goal_SWE_taxes
+		cost = 10
+		x = 11
+		y = 0
+		available = {
+			has_country_flag = SEA_implement_taxes
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_government = neutrality
+				}
+				add_ideas = FOTR_SEA_taxes_neutrality
+			}
+			if = {
+				limit = {
+					has_government = democratic
+				}
+				add_ideas = FOTR_SEA_taxes_democratic
+			}
+			if = {
+				limit = {
+					has_government = communism
+				}
+				add_ideas = FOTR_SEA_taxes_communism
+			}
+			if = {
+				limit = {
+					has_government = fascism
+				}
+				add_ideas = FOTR_SEA_taxes_fascism
+			}
+			SWE = {
+				country_event = {
+					id = FOTR_SEA.2
+				}
+			}
+		}
+	}
+	focus = {
+		id = FOTR_SEA_army_of_our_own
+		icon = GFX_focus_generic_military_mission
+		cost = 10
+		x = 5
+		y = 5
+		available = {
+			OR = {
+				NOT = {
+					is_puppet_of = SWE
+				}
+				has_country_flag = SEA_Rickard_Cured
+			}
+		}
+	}
+	focus = {
+		id = FOTR_SEA_our_own_navy
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 1
+		y = 5
+		available = {
+			OR = {
+				NOT = {
+					is_puppet_of = SWE
+				}
+				has_country_flag = SEA_Rickard_Cured
+			}
+		}
+
+	}
+	focus = {
+		id = FOTR_SEA_our_own_airforce
+		icon = GFX_focus_generic_air_defense
+		cost = 10
+		x = 9
+		y = 5
+		available = {
+			OR = {
+				NOT = {
+					is_puppet_of = SWE
+				}
+				has_country_flag = SEA_Rickard_Cured
+			}
+		}
+
+	}
+	focus = {
+		id = FOTR_SEA_large_navy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_our_own_navy
+		}
+		mutually_exclusive = {
+			focus = FOTR_SEA_small_navy
+		}
+		x = 0
+		y = 6
+
+	}
+	focus = {
+		id = FOTR_SEA_own_king
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_resist_taxes
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = FOTR_SEA_restrict_press
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_own_king
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = FOTR_SEA_small_navy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_our_own_navy
+		}
+		mutually_exclusive = {
+			focus = FOTR_SEA_large_navy
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = FOTR_SEA_thru_revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_resist_taxes
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = FOTR_SEA_thru_diplomacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_resist_taxes
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = FOTR_SEA_republic
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_resist_taxes
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = FOTR_SEA_rickard_governor
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_implement_taxes
+		}
+		mutually_exclusive = {
+			focus = FOTR_SEA_direct_rule
+			focus = FOTR_SEA_gustaf_namibia
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = FOTR_SEA_establish_nordnamibia
+		icon = GFX_goal_SEA_declare_nordnamibia
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_thru_diplomacy
+			focus = FOTR_SEA_thru_revolution
+			focus = FOTR_SEA_republic
+			focus = FOTR_SEA_own_king
+			focus = FOTR_SEA_rickard_governor
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = FOTR_SEA_oops_absoloute_monarchy
+		icon = GFX_goal_generic_oops_monarchism
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_restrict_press
+		}
+		prerequisite = {
+			focus = FOTR_SEA_establish_nordnamibia
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = FOTR_SEA_united_namibia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_establish_nordnamibia
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = FOTR_SEA_invite_VR
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_united_namibia
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = FOTR_SEA_study_other_army
+		icon = GFX_focus_generic_military_academy
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_army_of_our_own
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = FOTR_SEA_go_to_therapy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_rickard_governor
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = FOTR_SEA_ideological_decision
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_republic
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = FOTR_SEA_oops_communism
+		icon = GFX_goal_generic_oops_communism
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_go_to_therapy
+			focus = FOTR_SEA_ideological_decision
+		}
+		prerequisite = {
+			focus = FOTR_SEA_establish_nordnamibia
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = FOTR_SEA_join_soviet
+		icon = GFX_focus_generic_join_comintern
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_oops_communism
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = FOTR_SEA_foundation
+		icon = GFX_focus_generic_self_management
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_army_of_our_own
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = FOTR_SEA_african_democracy
+		icon = GFX_goal_generic_voting
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_go_to_therapy
+			focus = FOTR_SEA_ideological_decision
+		}
+		prerequisite = {
+			focus = FOTR_SEA_establish_nordnamibia
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = FOTR_SEA_join_continental
+		icon = GFX_goal_GER_son_of_heaven
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_african_democracy
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = FOTR_SEA_bombers
+		icon = GFX_goal_generic_air_bomber
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_our_own_airforce
+		}
+		mutually_exclusive = {
+			focus = FOTR_SEA_fighters
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = FOTR_SEA_thanksimcured
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_go_to_therapy
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = FOTR_SEA_fighters
+		icon = GFX_goal_generic_air_fighter
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_our_own_airforce
+		}
+		mutually_exclusive = {
+			focus = FOTR_SEA_bombers
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = FOTR_SEA_direct_rule
+		icon = GFX_goal_SWE_stockholm
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_implement_taxes
+		}
+		mutually_exclusive = {
+			focus = FOTR_SEA_rickard_governor
+			focus = FOTR_SEA_gustaf_namibia
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = FOTR_SEA_gustaf_namibia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_implement_taxes
+		}
+		mutually_exclusive = {
+			focus = FOTR_SEA_direct_rule
+			focus = FOTR_SEA_rickard_governor
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = FOTR_SEA_stability_reaches_new_sweden
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_gustaf_namibia
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = FOTR_SEA_dominion_of_nordnamibia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_stability_reaches_new_sweden
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = FOTR_SEA_propose_a_faction
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_dominion_of_nordnamibia
+			focus = FOTR_SEA_thanksimcured
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = FOTR_SEA_join_seven_sea
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_oops_absoloute_monarchy
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = FOTR_SEA_colony_of_new_sweden
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_stability_reaches_new_sweden
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = FOTR_SEA_royal_guard
+		icon = GFX_focus_generic_home_defense
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_foundation
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = FOTR_SEA_republican_army
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_foundation
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = FOTR_SEA_red_army
+		icon = GFX_focus_generic_join_comintern
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_foundation
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = FOTR_SEA_study_third_international_army
+		icon = GFX_focus_generic_join_comintern
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_study_other_army
+		}
+		x = 0
+		y = 7
+
+	}
+	focus = {
+		id = FOTR_SEA_study_continental_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_study_other_army
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = FOTR_SEA_study_seven_sea_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = FOTR_SEA_study_other_army
+		}
+		x = 4
+		y = 7
+
+	}
+}

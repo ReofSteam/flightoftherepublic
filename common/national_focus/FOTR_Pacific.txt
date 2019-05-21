@@ -1,5 +1,5 @@
 focus_tree = {
-	id = 'placeholder'
+	id = FOTR_USB
 	country = {
 		factor=0
 		modifier = {
@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = FOTR_SOV_therevolutionliveon 
+		id = FOTR_USB_TEMP 
 		icon = GFX_focus_YUG_pan_slavic_congress 
 		ai_will_do = { factor = 10} 
 	 	x = 4 
@@ -19,10 +19,6 @@ focus_tree = {
 	 	cost = 5  
 		available_if_capitulated = yes  
 	 	completion_reward = { 
-			country_event = { 
-	 			days = 1  
-	 			id = fotr_sov.0
-	 		} 
 	 	} 
 	}
 }

@@ -8,8 +8,39 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
-		name = "GFX_goal_oops_communism"
+		name = "GFX_goal_generic_oops_communism"
 		texturefile = "gfx/interface/goals/generic_oops_communism.dds"			
 	}	
 
+	SpriteType = {
+		name = "GFX_goal_generic_oops_monarchism"
+		texturefile = "gfx/interface/goals/generic_oops_monarchism.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_generic_control_church"
+		texturefile = "gfx/interface/goals/generic_control_church.dds"			
+	}	
+
+	### Sweden & New Sweden/Nordnamibia ###
+	
+	SpriteType = {
+		name = "GFX_goal_SEA_declare_nordnamibia"
+		texturefile = "gfx/interface/goals/SEA_declare_nordnamibia.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_SWE_taxes"
+		texturefile = "gfx/interface/goals/SWE_taxes.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_SWE_stockholm"
+		texturefile = "gfx/interface/goals/SWE_stockholm.dds"			
+	}	
+
+	### Holy Roman Republic ###
+	
+	SpriteType = {
+		name = "GFX_goal_GER_son_of_heaven"
+		texturefile = "gfx/interface/goals/GER_son_of_heaven.dds"			
+	}	
 }

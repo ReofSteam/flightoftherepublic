@@ -1,5 +1,5 @@
 focus_tree = {
-	id = 'placeholder'
+	id = FOTR_POL
 	country = {
 		factor=0
 		modifier = {
@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = FOTR_SOV_therevolutionliveon 
+		id = FOTR_POL_TEMP 
 		icon = GFX_focus_YUG_pan_slavic_congress 
 		ai_will_do = { factor = 10} 
 	 	x = 4 
