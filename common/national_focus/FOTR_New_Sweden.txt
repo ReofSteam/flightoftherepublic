@@ -191,7 +191,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_thru_revolution
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SEA_independence_revolution
 		cost = 10
 		prerequisite = {
 			focus = FOTR_SEA_resist_taxes
@@ -202,7 +202,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_thru_diplomacy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SEA_independence_revolution
 		cost = 10
 		prerequisite = {
 			focus = FOTR_SEA_resist_taxes

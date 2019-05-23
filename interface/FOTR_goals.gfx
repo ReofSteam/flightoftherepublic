@@ -29,6 +29,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SEA_declare_nordnamibia.dds"			
 	}	
 	SpriteType = {
+		name = "GFX_goal_SEA_independence_diplomacy"
+		texturefile = "gfx/interface/goals/SEA_independence_diplomacy.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_SEA_independence_revolution"
+		texturefile = "gfx/interface/goals/SEA_independence_revolution.dds"			
+	}	
+	SpriteType = {
 		name = "GFX_goal_SWE_taxes"
 		texturefile = "gfx/interface/goals/SWE_taxes.dds"			
 	}	
