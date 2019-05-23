@@ -41,6 +41,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SWE_taxes.dds"			
 	}	
 	SpriteType = {
+		name = "GFX_goal_SWE_no_taxes"
+		texturefile = "gfx/interface/goals/SWE_no_taxes.dds"			
+	}	
+	SpriteType = {
 		name = "GFX_goal_SWE_stockholm"
 		texturefile = "gfx/interface/goals/SWE_stockholm.dds"			
 	}	

@@ -12,7 +12,7 @@ focus_tree = {
 	continuous_focus_position = { x = 70 y = 1100 }
 	focus = {
 		id = FOTR_SEA_resist_taxes
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SWE_no_taxes
 		cost = 10
 		x = 4
 		y = 0
@@ -202,7 +202,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_thru_diplomacy
-		icon = GFX_goal_SEA_independence_revolution
+		icon = GFX_goal_SEA_independence_diplomacy
 		cost = 10
 		prerequisite = {
 			focus = FOTR_SEA_resist_taxes
