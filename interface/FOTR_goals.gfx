@@ -23,7 +23,22 @@ spriteTypes = {
 	}	
 
 	### Sweden & New Sweden/Nordnamibia ###
-	
+	SpriteType = {
+		name = "GFX_goal_SEA_desert_king"
+		texturefile = "gfx/interface/goals/SEA_desert_king.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_SEA_join_germany"
+		texturefile = "gfx/interface/goals/SEA_join_germany.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_SEA_gustaf"
+		texturefile = "gfx/interface/goals/SEA_gustaf.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_SEA_rickard_sandler"
+		texturefile = "gfx/interface/goals/SEA_rickard_sandler.dds"			
+	}	
 	SpriteType = {
 		name = "GFX_goal_SEA_declare_nordnamibia"
 		texturefile = "gfx/interface/goals/SEA_declare_nordnamibia.dds"			

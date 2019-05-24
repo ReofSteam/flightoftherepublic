@@ -54,6 +54,8 @@
 
  #Factions#
  fotr_faction:0 "[FOTR_faction]"
- fotr_in_faction:0 "§Y[ROOT.GetName]§! is in §Y[ROOT.GetFactionName]§!\nFaction members ([?num_faction_members]):\n[?this.GetName]"
- fotr_leader_faction:0 "§Y[ROOT.GetName]§! is the leader of §Y[ROOT.GetFactionName]§!\nFaction members ([?num_faction_members]):\n[?this.GetName]]"
+ fotr_in_faction:0 "§Y[ROOT.GetName]§! is in §Y[ROOT.GetFactionName]§! ([?num_faction_members])"
+ fotr_in_faction_puppet:0 "We are in the §Y[ROOT.GetFactionName]§! ([?num_faction_members]), due to our master (§Y[?OVERLORD.GetName]§!)"
+ fotr_leader_faction:0 "§Y[ROOT.GetName]§! is the leader of §Y[ROOT.GetFactionName]§!"
  fotr_no_faction:0 "§Y[ROOT.GetName]§! isn't in a §Yfaction§!"
+ fotr_actual_faction:0 "§Y[?ROOT.GetFactionName]§!"

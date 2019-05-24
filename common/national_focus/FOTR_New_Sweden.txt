@@ -94,7 +94,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_army_of_our_own
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_goal_SEA_independence_revolution
 		cost = 10
 		x = 5
 		y = 5
@@ -155,7 +155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_own_king
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SEA_desert_king
 		cost = 10
 		prerequisite = {
 			focus = FOTR_SEA_resist_taxes
@@ -224,7 +224,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_rickard_governor
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SEA_rickard_sandler
 		cost = 10
 		prerequisite = {
 			focus = FOTR_SEA_implement_taxes
@@ -375,7 +375,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_join_continental
-		icon = GFX_goal_GER_son_of_heaven
+		icon = GFX_goal_SEA_join_germany
 		cost = 10
 		prerequisite = {
 			focus = FOTR_SEA_african_democracy
@@ -440,7 +440,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_gustaf_namibia
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SEA_gustaf
 		cost = 10
 		prerequisite = {
 			focus = FOTR_SEA_implement_taxes

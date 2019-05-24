@@ -30,6 +30,18 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
+			name = "faction_text"
+			position = { x = -89 y = -125 }
+			font = "hoi_18mbs"
+			maxWidth = 193
+			maxHeight = 20
+			fixedsize = yes
+			text = "fotr_actual_faction"
+			#alwaystransparent = yes
+			format = center
+		}
+
+		instantTextboxType = {
 			name = "subideologies_button_text"
 			position = { x = 45 y = 15 }
 			font = "hoi_16mbs"

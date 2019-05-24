@@ -162,7 +162,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 9 y = 34 }
+				position = { x = 9 y = 46 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
@@ -171,7 +171,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 103 y = -45 }
+				position = { x = 103 y = -25000 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 193
@@ -191,7 +191,7 @@ guiTypes = {
 						
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 170 y = 242 }
+			position = { x = 170 y = -25000 }
 			size = { width = 255 height = 60 }
 			clipping = no
 

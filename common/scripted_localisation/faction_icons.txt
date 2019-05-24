@@ -39,8 +39,17 @@ defined_text = { # Country
 		trigger = {
 			is_in_faction = yes
 			is_faction_leader = no
+			is_puppet = no
 		}
 		localization_key = "fotr_in_faction"
+	}
+	text = {
+		trigger = {
+			is_in_faction = yes
+			is_faction_leader = no
+			is_puppet = yes
+		}
+		localization_key = "fotr_in_faction_puppet"
 	}
 	text = {
 		trigger = {
@@ -52,5 +61,11 @@ defined_text = { # Country
     #keep this one without triggers and at the end as a fallback
 	text = {
 		localization_key = "fotr_no_faction"
+	}
+}
+defined_text = { # Country
+	name = GetFactionLeader
+	text = {
+		localization_key = "fotr_faction_leader"
 	}
 }
