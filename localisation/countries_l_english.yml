@@ -195,14 +195,14 @@
  ITA_neutrality_ADJ:0 "Italian"
  ITA_communism_ADJ:0 "Italian"
  ROR_democratic:0 "Roman Republic"
- ROM_fascism:0 "Legionary Romania"
- ROM_fascism_DEF:0 "Legionary Romania"
- ROM_democratic:0 "Romania"
- ROM_democratic_DEF:0 "Romania"
- ROM_neutrality:0 "Kingdom of Romania"
- ROM_neutrality_DEF:0 "the Kingdom of Romania"
- ROM_communism:0 "Romanian People's Republic"
- ROM_communism_DEF:0 "the Romanian People's Republic"
+ ROM_fascism:0 "Autonomous Republic of Bessarabia""
+ ROM_fascism_DEF:0 "Autonomous Republic of Bessarabia""
+ ROM_democratic:0 "Autonomous Republic of Bessarabia"
+ ROM_democratic_DEF:0 "Bessarabia"
+ ROM_neutrality:0 "Autonomous Principality of Bessarabia"
+ ROM_neutrality_DEF:0 "the Principality of Bessarabia"
+ ROM_communism:0 "Bessarabian People's Republic"
+ ROM_communism_DEF:0 "the Bessarabian People's Republic"
  ROM_fascism_ADJ:0 "Romanian"
  ROM_democratic_ADJ:0 "Romanian"
  ROM_neutrality_ADJ:0 "Romanian"
@@ -2563,6 +2563,12 @@
  
  #FGC - Franco-German Corps
  FGC_neutrality:0 "Franco-German Army Corps"
+ 
+ #Navarre - NAV
+ NAV_fascism:0 "Kingdom of Lower Navarre"
+ 
+ #OPA - Outer Paris
+ OPA_communism:0 "Outer Paris Authority"
  
  #Patagonia 
  PTG_fascism:0 "Dominion of Patagonia"
