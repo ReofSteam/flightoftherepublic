@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SEA = {
+				country_event = {
+					id = FOTR_SEA.0
+					days = 10
+				}
+			}
+		}
+	}
+}

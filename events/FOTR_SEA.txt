@@ -12,12 +12,12 @@ country_event = {
 	}
 
 	option = {
-		name = FOTR_SEA.0.o1 #Do as they wish
-		set_country_flag = SEA_implement_taxes
-	}
-	option = {
 		name = FOTR_SEA.0.o2 #Why should we fund the royals?
 		set_country_flag = SEA_refuse_taxes
+	}
+	option = {
+		name = FOTR_SEA.0.o1 #Do as they wish
+		set_country_flag = SEA_implement_taxes
 	}
 }
 country_event = {

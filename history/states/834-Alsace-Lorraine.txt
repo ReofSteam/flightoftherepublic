@@ -1,0 +1,21 @@
+
+state={
+	id=834
+	name="STATE_834" # Lorraine
+	manpower = 1517500
+	
+	state_category = city
+	
+	resources={
+		steel=28 # was: 48
+	}
+
+	history={
+		owner = GER
+		add_core_of = GER
+	}
+
+	provinces={
+		698 3646 3666 6698 9642 9658
+	}
+}

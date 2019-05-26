@@ -823,5 +823,12 @@
  STATE_822:0 "Capital Region"
  STATE_823:0 "Southern Moldavia"
  STATE_824:0 "Córdoba"
- 
- 
+ STATE_825:0 "STATE_825"
+ STATE_826:0 "STATE_826"
+ STATE_827:0 "STATE_827"
+ STATE_828:0 "Monaco"
+ STATE_829:0 "Ardeche"
+ STATE_830:0 "Franche-Comte"
+ STATE_831:0 "Saone-et-Loire"
+ STATE_832:0 "Nievre"
+ STATE_833:0 "Bordeaux"

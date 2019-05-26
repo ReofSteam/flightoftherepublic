@@ -1,0 +1,22 @@
+state={
+	id=831
+	name="STATE_831"
+	provinces={
+		648 817 3652 11628 
+	}
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			3652 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+
+	}
+	state_category=large_town
+	manpower=525000
+	buildings_max_level_factor=1.000
+}

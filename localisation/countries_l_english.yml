@@ -2464,9 +2464,7 @@
  
  #LUZ-Luzon Crownland
  LUZ_neutrality:0 "Crownland of Luzon"
- 
- #FCP - Paris
- FCP_communism:0 "Free City of Paris"
+
  #GAS - Gascony
  GAS_democratic:0 "Republic of Gascony"
  #MAR-Marseille
@@ -2564,3 +2562,30 @@
  PTG_neutrality_ADJ:0 "Patagonian"
  PTG_communism_ADJ:0 "Patagonian"
 
+ #PRS - Paris
+ PRS_communism:0 "Free Proletarian City of Paris"
+ PRS_communism_DEF:0 "the Free Proletarian City of Paris"
+ PRS_communism_ADJ:0 "Paris"
+ PRS_democratic:0 "Inner Paris Republic"
+ PRS_democratic_DEF:0 "the Inner Paris Republic"
+ PRS_democratic_ADJ:0 "Paris"
+ PRS_fascism:0 "Inner Paris Autority"
+ PRS_fascism_DEF:0 "the Inner Paris Autority"
+ PRS_fascism_ADJ:0 "Paris"
+ PRS_neutrality:0 "Inner Paris Autority"
+ PRS_neutrality_DEF:0 "the Inner Paris Autority"
+ PRS_neutrality_ADJ:0 "Paris"
+
+ #FCP - Paris
+ FCP_communism:0 "Paris Commune"
+ FCP_communism_DEF:0 "the Paris Commune"
+ FCP_communism_ADJ:0 "Paris"
+ FCP_democratic:0 "Outer Paris Republic"
+ FCP_democratic_DEF:0 "the Outer Paris Republic"
+ FCP_democratic_ADJ:0 "Paris"
+ FCP_fascism:0 "Outer Paris Autority"
+ FCP_fascism_DEF:0 "the Outer Paris Autority"
+ FCP_fascism_ADJ:0 "Paris"
+ FCP_neutrality:0 "Outer Paris Autority"
+ FCP_neutrality_DEF:0 "the Outer Paris Autority"
+ FCP_neutrality_ADJ:0 "Paris"

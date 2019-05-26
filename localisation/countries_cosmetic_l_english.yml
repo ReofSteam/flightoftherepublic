@@ -628,8 +628,8 @@
  SEA_subject_DEF:0 "the $OVERLORDADJ$ Africa"
  SEA_subject_ADJ:0 "$OVERLORDADJ$"
 
- SEA_SWE_subject:1 "Nya Sverige"
- SEA_SWE_subject_DEF:1 "Nya Sverige"
+ SEA_SWE_subject:1 "New Sweden"
+ SEA_SWE_subject_DEF:1 "New Sweden"
  SEA_SWE_subject_ADJ:1 "$OVERLORDADJ$"
 
  RAJ_SWE_subject:1 "Nya Lappland"

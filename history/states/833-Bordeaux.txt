@@ -1,0 +1,29 @@
+state={
+	id=833
+	name="STATE_833"
+	provinces={
+		9737 
+	}
+	history={
+		owner = GAS
+		add_core_of = GAS
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+			dockyard = 1
+			9737 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+		}
+		victory_points = {
+			9737 20
+		}
+		
+
+	}
+	state_category = city
+	manpower=256400
+	buildings_max_level_factor=1.000
+}

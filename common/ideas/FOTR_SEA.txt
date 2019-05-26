@@ -20,7 +20,7 @@ ideas = {
 			modifier = {
 				neutrality_drift = 0.05
 				political_power_gain = -0.05
-				stability_factor = 0.01
+				stability_factor = -0.01
 			}
 		}
 		FOTR_SEA_taxes_democratic = {
@@ -43,7 +43,7 @@ ideas = {
 			modifier = {
 				democratic_drift = 0.05
 				political_power_gain = -0.05
-				stability_factor = 0.01
+				stability_factor = -0.01
 			}
 		}
 		FOTR_SEA_taxes_communism = {
@@ -66,7 +66,7 @@ ideas = {
 			modifier = {
 				communism_drift = 0.05
 				political_power_gain = -0.05
-				stability_factor = 0.01
+				stability_factor = -0.01
 			}
 		}
 		FOTR_SEA_taxes_fascism = {
@@ -89,7 +89,7 @@ ideas = {
 			modifier = {
 				fascism_drift = 0.05
 				political_power_gain = -0.05
-				stability_factor = 0.01
+				stability_factor = -0.01
 			}
 		}
 

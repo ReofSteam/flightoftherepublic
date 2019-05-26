@@ -20,6 +20,7 @@ focus_tree = {
 			has_country_flag = SEA_refuse_taxes
 		}
 		completion_reward = {
+			clr_country_flag = SEA_refuse_taxes
 			if = {
 				limit = {
 					has_government = neutrality
@@ -221,6 +222,79 @@ focus_tree = {
 		x = 7
 		y = 1
 
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = FOTR_SEA_no_taxes_neutrality
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_no_taxes_neutrality
+				    add_idea = FOTR_SEA_no_taxes_democratic
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_no_taxes_fascism
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_no_taxes_fascism
+				    add_idea = FOTR_SEA_no_taxes_democratic
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_no_taxes_communism
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_no_taxes_communism
+				    add_idea = FOTR_SEA_no_taxes_democratic
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_taxes_democratic
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_taxes_democratic
+				    add_idea = FOTR_SEA_no_taxes_democratic
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_taxes_neutrality
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_taxes_neutrality
+				    add_idea = FOTR_SEA_no_taxes_democratic
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_taxes_communism
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_taxes_communism
+				    add_idea = FOTR_SEA_no_taxes_democratic
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_taxes_fascism
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_taxes_fascism
+				    add_idea = FOTR_SEA_no_taxes_democratic
+				}
+			}
+			else = {
+				effect_tooltip = {
+					swap_ideas = {
+					    remove_idea = FOTR_SEA_no_taxes_neutrality
+					    add_idea = FOTR_SEA_no_taxes_democratic
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = FOTR_SEA_rickard_governor
@@ -332,8 +406,102 @@ focus_tree = {
 		prerequisite = {
 			focus = FOTR_SEA_establish_nordnamibia
 		}
+		available = {
+			hidden_trigger = {
+				NOT = { has_country_flag = FOTR_SEA_african_democracy_tt }
+			}
+		}
 		x = 6
 		y = 3
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = FOTR_SEA_no_taxes_neutrality
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_no_taxes_neutrality
+				    add_idea = FOTR_SEA_no_taxes_communism
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_no_taxes_fascism
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_no_taxes_fascism
+				    add_idea = FOTR_SEA_no_taxes_communism
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_no_taxes_democratic
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_no_taxes_democratic
+				    add_idea = FOTR_SEA_no_taxes_communism
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_taxes_democratic
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_taxes_democratic
+				    add_idea = FOTR_SEA_no_taxes_communism
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_taxes_neutrality
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_taxes_neutrality
+				    add_idea = FOTR_SEA_no_taxes_communism
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_taxes_communism
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_taxes_communism
+				    add_idea = FOTR_SEA_no_taxes_communism
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = FOTR_SEA_taxes_fascism
+				}
+				swap_ideas = {
+				    remove_idea = FOTR_SEA_taxes_fascism
+				    add_idea = FOTR_SEA_no_taxes_communism
+				}
+			}
+			else = {
+				effect_tooltip = {
+					if = {
+						limit = {
+							NOT = {
+								has_completed_focus = FOTR_SEA_republic
+							}
+						}
+						swap_ideas = {
+						    remove_idea = FOTR_SEA_no_taxes_neutrality
+						    add_idea = FOTR_SEA_no_taxes_communism
+						}
+						else = {
+							swap_ideas = {
+							    remove_idea = FOTR_SEA_no_taxes_democratic
+							    add_idea = FOTR_SEA_no_taxes_communism
+							}
+
+						}
+					}
+				}
+			}
+			set_country_flag = FOTR_SEA_oops_communism_tt
+		}
 
 	}
 	focus = {
@@ -369,9 +537,16 @@ focus_tree = {
 		prerequisite = {
 			focus = FOTR_SEA_establish_nordnamibia
 		}
+		available = {
+			hidden_trigger = {
+				not = { has_country_flag = FOTR_SEA_oops_communism_tt }
+			}
+		}
 		x = 8
 		y = 3
-
+		completion_reward = {
+			set_country_flag = FOTR_SEA_african_democracy_tt
+		}
 	}
 	focus = {
 		id = FOTR_SEA_join_continental
@@ -477,7 +652,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FOTR_SEA_propose_a_faction
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SEA_independence_revolution
 		cost = 10
 		prerequisite = {
 			focus = FOTR_SEA_dominion_of_nordnamibia
