@@ -1,6 +1,6 @@
 ﻿capital = 825
 
-oob = "FRA_1936"
+oob = "ORL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FRA_1936_naval_mtg"
@@ -59,19 +59,19 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 30
+			popularity = 8
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 60
 		}
 		
 		communism = {
-			popularity = 69
+			popularity = 30
 		}
 	}
 	
-	ruling_party = communism 
+	ruling_party = fascism 
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes

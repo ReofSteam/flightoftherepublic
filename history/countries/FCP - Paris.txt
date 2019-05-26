@@ -1,6 +1,6 @@
 ﻿capital = 826
 
-oob = "FRA_1936"
+oob = "FCP_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FRA_1936_naval_mtg"
@@ -93,11 +93,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maurice Thorez"
+	name = "Oscar Frossard"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "GFX_portrait_fra_maurice_thorez"
+	picture = "GFX/leaders/FCP/Frossard_FCP.tga"
 	expire = "1965.1.1"
-	ideology = 	stalinism
+	ideology = 	marxism
 	traits = {
 		
 	}

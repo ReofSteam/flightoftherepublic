@@ -195,14 +195,14 @@
  ITA_neutrality_ADJ:0 "Italian"
  ITA_communism_ADJ:0 "Italian"
  ROR_democratic:0 "Roman Republic"
- ROM_fascism:0 "Legionary Romania"
- ROM_fascism_DEF:0 "Legionary Romania"
- ROM_democratic:0 "Romania"
- ROM_democratic_DEF:0 "Romania"
- ROM_neutrality:0 "Kingdom of Romania"
- ROM_neutrality_DEF:0 "the Kingdom of Romania"
- ROM_communism:0 "Romanian People's Republic"
- ROM_communism_DEF:0 "the Romanian People's Republic"
+ ROM_fascism:0 "Autonomous Republic of Bessarabia""
+ ROM_fascism_DEF:0 "Autonomous Republic of Bessarabia""
+ ROM_democratic:0 "Autonomous Republic of Bessarabia"
+ ROM_democratic_DEF:0 "Bessarabia"
+ ROM_neutrality:0 "Autonomous Principality of Bessarabia"
+ ROM_neutrality_DEF:0 "the Principality of Bessarabia"
+ ROM_communism:0 "Bessarabian People's Republic"
+ ROM_communism_DEF:0 "the Bessarabian People's Republic"
  ROM_fascism_ADJ:0 "Romanian"
  ROM_democratic_ADJ:0 "Romanian"
  ROM_neutrality_ADJ:0 "Romanian"
@@ -916,18 +916,18 @@
  RAJ_democratic_ADJ:1 "Indian"
  RAJ_neutrality_ADJ:1 "Indian"
  RAJ_communism_ADJ:1 "Indian"
- CRO_fascism:0 "Independent State of Croatia"
- CRO_fascism_DEF:0 "the Independent State of Croatia"
- CRO_democratic:0 "Republic of Croatia"
- CRO_democratic_DEF:0 "the Republic of Croatia"
- CRO_neutrality:0 "Kingdom of Croatia"
- CRO_neutrality_DEF:0 "the Kingdom of Croatia"
- CRO_communism:0 "SR Croatia"
- CRO_communism_DEF:0 "SR Croatia"
- CRO_fascism_ADJ:0 "Croatian"
- CRO_democratic_ADJ:0 "Croatian"
- CRO_neutrality_ADJ:0 "Croatian"
- CRO_communism_ADJ:0 "Croatian"
+ CRO_fascism:0 "Kingdom of Illyria"
+ CRO_fascism_DEF:0 "the Independent State of Illyria"
+ CRO_democratic:0 "Republic of Illyria"
+ CRO_democratic_DEF:0 "the Republic of Illyria"
+ CRO_neutrality:0 "Kingdom of Illyria"
+ CRO_neutrality_DEF:0 "the Kingdom of Illyria"
+ CRO_communism:0 "SR Illyria"
+ CRO_communism_DEF:0 "SR Illyria"
+ CRO_fascism_ADJ:0 "Illyrian"
+ CRO_democratic_ADJ:0 "Illyrian"
+ CRO_neutrality_ADJ:0 "Illyrian"
+ CRO_communism_ADJ:0 "Illyrian"
  GXC_fascism:0 "Third Guangxi Clique"
  GXC_fascism_DEF:0 "the Third Guangxi Clique"
  GXC_democratic:0 "Guangxi Independent Republic"
@@ -2279,12 +2279,12 @@
  GLR_communism_ADJ:0 "American"
 
  #Alabama
- ALA_fascism:0 "AlabamaRepublic"
- ALA_fascism_DEF:0 "the AlabamaRepublic"
+ ALA_fascism:0 "Alabama Republic"
+ ALA_fascism_DEF:0 "the Alabama Republic"
  ALA_democratic:0 "AlabamaFederation"
  ALA_democratic_DEF:0 "the AlabamaFederation"
- ALA_neutrality:1 "AlabamaRepublic"
- ALA_neutrality_DEF:1 "the AlabamaRepublic"
+ ALA_neutrality:1 "Alabama Republic"
+ ALA_neutrality_DEF:1 "the Alabama Republic"
  ALA_communism:0 "Alabama"
  ALA_communism_DEF:0 "the Commonwealth of Alabama"
  ALA_fascism_ADJ:0 "Alabaman"
@@ -2293,12 +2293,12 @@
  ALA_communism_ADJ:0 "Alabaman"
 
  #East Florida
- FLR_fascism:0 "East FloridaRepublic"
- FLR_fascism_DEF:0 "the East FloridaRepublic"
- FLR_democratic:0 "East FloridaFederation"
- FLR_democratic_DEF:0 "the East FloridaFederation"
- FLR_neutrality:1 "East FloridaRepublic"
- FLR_neutrality_DEF:1 "the East FloridaRepublic"
+ FLR_fascism:0 "East Florida Republic"
+ FLR_fascism_DEF:0 "the East Florida Republic"
+ FLR_democratic:0 "East Florida Republic"
+ FLR_democratic_DEF:0 "the East Florida Republic"
+ FLR_neutrality:1 "East Florida Republic"
+ FLR_neutrality_DEF:1 "the East Florida Republic"
  FLR_communism:0 "Commonwealth of East Florida"
  FLR_communism_DEF:0 "the Commonwealth of East Florida"
  FLR_fascism_ADJ:0 "East Floridan"
@@ -2307,12 +2307,12 @@
  FLR_communism_ADJ:0 "East Floridan"
 
  #West Florida
- LUS_fascism:0 "West FloridaRepublic"
- LUS_fascism_DEF:0 "the West FloridaRepublic"
- LUS_democratic:0 "West FloridaFederation"
- LUS_democratic_DEF:0 "the West FloridaFederation"
- LUS_neutrality:1 "West FloridaRepublic"
- LUS_neutrality_DEF:1 "the West FloridaRepublic"
+ LUS_fascism:0 "West Florida Republic"
+ LUS_fascism_DEF:0 "the West Florida Republic"
+ LUS_democratic:0 "West Florida Republic"
+ LUS_democratic_DEF:0 "the West Florida Republic"
+ LUS_neutrality:1 "West Florida Republic"
+ LUS_neutrality_DEF:1 "the West Florida Republic"
  LUS_communism:0 "Commonwealth of West Florida"
  LUS_communism_DEF:0 "the Commonwealth of West Florida"
  LUS_fascism_ADJ:0 "West Floridan"
@@ -2320,11 +2320,11 @@
  LUS_neutrality_ADJ:0 "West Floridan"
  LUS_communism_ADJ:0 "West Floridan"
 
- #Mississippi Florida
+ #Mississippi 
  MSS_fascism:0 "Mississippi Republic"
  MSS_fascism_DEF:0 "the Mississippi Republic"
- MSS_democratic:0 "Mississippi Federation"
- MSS_democratic_DEF:0 "the Mississippi Federation"
+ MSS_democratic:0 "Mississippi Republic"
+ MSS_democratic_DEF:0 "the Mississippi Republic"
  MSS_neutrality:1 "Mississippi Republic"
  MSS_neutrality_DEF:1 "the Mississippi Republic"
  MSS_communism:0 "Commonwealth of Mississippi"
@@ -2464,11 +2464,12 @@
  
  #LUZ-Luzon Crownland
  LUZ_neutrality:0 "Crownland of Luzon"
-
  #GAS - Gascony
  GAS_democratic:0 "Republic of Gascony"
  #MAR-Marseille
  MAR_neutrality:0 "Marseille Military Governorate"
+ MAR_democratic:0 "Marseille Republican Government"
+
 
  #NFL - Newfoundland
  NFL_fascism:0 "Dominion of Newfoundland"
@@ -2547,6 +2548,23 @@
  FRS_democratic_ADJ:0 "French"
  FRS_neutrality_ADJ:0 "French"
  FRS_communism_ADJ:0 "French"
+ 
+ #ORL - Orleans
+ ORL_democratic:0 "Orleans Republican Government"
+ ORL_neutrality:0 "Duchy of Orleans"
+ ORL_fascism:0 "Duchy of Orleans"
+ 
+ #SAV - Savoy
+ SAV_neutrality:0 "Duchy of Savoy"
+ 
+ #FGC - Franco-German Corps
+ FGC_neutrality:0 "Franco-German Army Corps"
+ 
+ #Navarre - NAV
+ NAV_fascism:0 "Kingdom of Lower Navarre"
+ 
+ #OPA - Outer Paris
+ OPA_communism:0 "Outer Paris Authority"
  
  #Patagonia 
  PTG_fascism:0 "Dominion of Patagonia"

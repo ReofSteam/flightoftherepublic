@@ -618,6 +618,32 @@ FRS = {
 	color = rgb { 122 159 219 }
 	color_ui = rgb { 139 193 246 } #17 34 27
 }
+
+FCP = {
+	color = rgb { 181 5 5 }
+	color_ui = rgb { 181 5 5 }
+}
+
+MAR = {
+	color = rgb { 219 0 73 }
+	color_ui = rgb { 219 0 73 }
+}
+
+FGC = {
+	color = rgb { 163 75 8 }
+	color_ui = rgb { 163 75 8 }
+}
+
+SAV = {
+	color = rgb { 64 117 97 }
+	color_ui = rgb { 64 117 97 }
+}
+
+ORL = {
+	color = rgb { 4 0 66 }
+	color_ui = rgb { 4 0 66 }
+}
+
 SOM = {
 	color = rgb { 97 137 95 }
 	color_ui = rgb { 114 171 122} #17 34 27

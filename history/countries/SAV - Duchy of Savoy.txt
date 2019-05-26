@@ -1,13 +1,7 @@
-﻿capital = 827
+﻿capital = 725
 
-oob = "GAS_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "FRA_1936_naval_mtg"
-	else = {
-		set_naval_oob = "FRA_1936_naval_legacy"
-	}
-}
+oob = "SAV_1936"
+set_naval_oob = "FRA_1936_naval_legacy"
 set_technology = {	
 	early_submarine = 1	
 	basic_submarine = 1	
@@ -59,7 +53,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 69
+			popularity = 29
 		}
 
 		fascism = {
@@ -67,28 +61,28 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 30
+			popularity = 10
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
 	limited_conscription
 }
+
+## DIPLOMACY ##
+
 create_country_leader = {
-	name = "Albert Lebrun"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/FRA/Albert_Lebrun_FRA.tga"
+	name = "Viceroy-Prince Umberto di Savoia "
+	desc = "POLITICS_BERTRAND_FAGALDE_DESC"
+	picture = "gfx/leaders/ITA/Umberto_ITA.tga"
 	expire = "1965.1.1"
-	ideology = conservatism 
+	ideology = centrism
 	traits = {
 		stout_defender
 	}
